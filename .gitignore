@@ -1,0 +1,84 @@
+# Local infrastructure (PostgreSQL binaries and data, logs)
+.devtools/
+logs/
+.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.claude/
+
+# Web & build outputs
+node_modules/
+/web/node_modules/
+.next/
+/web/.next/
+out/
+/web/out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Large audio, video, renders, and binary files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+*.mp4
+*.webm
+*.mov
+*.avi
+*.hdr
+*.blend
+*.blend1
+*.zip
+*.tar.*
+*.7z
+*.exe
+
+# Large Film & 3D projects, design renders, and animation frames
+Auralis_Film/
+Aurals_Brand_Film/
+Physical*/
+production/
+demos/
+design/
+
+# Large IEM data caches, raw dumps, market feeds, reports
+data/iem/raw/
+data/iem/images/
+data/iem/market/
+data/iem/reports/
+data/iem/processed/
+data/iem/backups/
+data/iem-images/
+
+# Multi-output tool: build artefacts
+tools/multi-output/.venv/
+tools/multi-output/build/
+tools/multi-output/dist/
+tools/multi-output/*.spec
+tools/multi-output/build.log

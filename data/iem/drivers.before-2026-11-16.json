@@ -1,0 +1,3899 @@
+{
+ "method": "auralis.iem.drivers.build_index — stated configurations or single-technology prose from saved retailer listings; every source must agree on the technologies inside.",
+ "generated_on": "2026-11-16",
+ "items": {
+  "64-audio-solo": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "single planar magnetic driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-solo-planar-magnetic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-u12t": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 12
+   },
+   "evidence": "stated",
+   "quote": "12 balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-u12t-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-u18s": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": null
+   },
+   "evidence": "prose",
+   "quote": "balanced armature",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-u18s-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-u18t": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 18
+   },
+   "evidence": "stated",
+   "quote": "18 balanced armature",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-u18t-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-u4s": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver, two balanced-armature drivers",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-u4s-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-u6t": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": null
+   },
+   "evidence": "prose",
+   "quote": "balanced armature",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-u6t-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "64-audio-volur": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers; balanced armature",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/64-audio-volur-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "7hz-g1": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/7hz-g1-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/7hz-g1-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/7hz-g1",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-legato": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "Dual Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/7hz-legato-dual-dynamic-drivers-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/7hz-legato",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/7hz-legato-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-salnotes-dioko": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "planar diaphragm driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-x-crinacle-salnotes-dioko",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/7hz-x-crinacle-salnotes-dioko-planar-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "7hz-salnotes-zero": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-salnotes-zero",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/7hz-salnotes-zero-wired-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/7hz-salnotes-zero-wired-iem-audiocular-d07-slim-dac-amp",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "7hz-sonus": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 1
+   },
+   "evidence": "stated",
+   "quote": "single balanced armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-sonus",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-timeless": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-timeless",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://headphonezone.in/products/7hz-timeless",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "7hz-timeless-ii": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-timeless-ii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-x-crinacle-diablo": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/7hz-x-crinacle-diablo-14-5mm-planar-magnetic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/7hz-crinacle-diablo-planar-magnetic-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/7hz-x-crinacle-diablo",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-x-crinacle-zero-2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-x-crinacle-zero-2",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "7hz-x-crinacle-zero-3": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/7hz-x-crinacle-zero-3",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "aful-cantor": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 14
+   },
+   "evidence": "stated",
+   "quote": "14 balanced armature",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/aful-cantor-stary-night-flagship-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "aful-explorer": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+2BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/aful-explorer-1dd-2ba-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/aful-explorer-triple-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "aful-performer-5": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; balanced armature",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/aful-performer-5-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "apevoix-grit": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "4 balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/apevoix-grit",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "audeze-lcd-5": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/audeze-lcd-5",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "audeze-lcd-gx": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/audeze-lcd-gx",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "audeze-lcd-mx4": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/audeze-lcd-mx4",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "audio-technica-ath-msr7b": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/audio-technica-ath-msr7b",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bgvp-dm8": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "8BA",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/bgvp-dm8-in-ear-monitors-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "blon-bl-03": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/blon-bl-03",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "blon-x-z-jojo": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/blon-x-z-jojo-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-pi7": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 1
+   },
+   "evidence": "prose",
+   "quote": "balanced armature",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/bowers-wilkins-pi7",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-pi7-s2": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": null
+   },
+   "evidence": "prose",
+   "quote": "Balanced Armature",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/bowers-wilkins-pi7-s2",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://ooberpad.com/products/bowers-wilkins-b-w-pi7-s2-in-ear-true-wireless-earbuds",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-px7-s2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 x 40mm dynamic",
+   "sources": [
+    {
+     "url": "https://ooberpad.com/products/bowers-wilkins-px7-s2-headphones",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-px7-s2e": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/bowers-wilkins-px7-s2e",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-px7-s3": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 x 40mm dynamic",
+   "sources": [
+    {
+     "url": "https://ooberpad.com/products/bowers-wilkins-b-w-px7-s3-over-ear-noise-cancelling-wireless-headphones",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "bowers-wilkins-px8": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 x 40mm dynamic",
+   "sources": [
+    {
+     "url": "https://ooberpad.com/products/bowers-wilkins-px8-headphones",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "campfire-audio-dorado-2020": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; balanced armature",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/campfire-audio-dorado-2020",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "cca-c10": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "4BA+1DD",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/cca-c10",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "cca-cra": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "DRIVER : CRA+ is equipped with a new dynamic driver, which combines multiple out",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/cca-cra-wired-iem-demo-unit",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/cca-cra-plus-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "cca-hydro": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 8,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 dynamic drivers and 8 balanced armatures",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/cca-hydro",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "crinear-daybreak": {
+   "category": "planar",
+   "counts": {
+    "planar": 2
+   },
+   "evidence": "stated",
+   "quote": "dual micro-planar",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/crinear-daybreak",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "crinear-nightfall": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "dual dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/crinear-nightfall",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "dan-clark-audio-stealth": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/dan-clark-audio-stealth",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "dunu-dk3001bd": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; balanced armatures; planar drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/dunu-dk3001bd",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "dunu-sa6-est": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 6,
+    "electrostatic": 2
+   },
+   "evidence": "stated",
+   "quote": "6 balanced armatures and 2 electrostatic drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/dunu-sa6-est",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "dunu-titan-s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/dunu-titan-s-wired-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/dunu-titan-s",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "dunu-titan-s2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/dunu-titan-s2",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/dunu-titan-s2-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "dunu-vulkan": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers; balanced armature",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/dunu-vulkan-dk-x6-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "epz-p40": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": 2,
+    "piezo": 1,
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "2 dynamic drivers + 1 planar magnetic driver + 1 PZT",
+   "sources": [
+    {
+     "url": "https://apos.audio/products/epz-p40-iems",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "epz-p50": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1,
+    "planar": 2
+   },
+   "evidence": "stated",
+   "quote": "1 dynamic driver + 2 balanced armature drivers + 2 planar magnetic drivers",
+   "sources": [
+    {
+     "url": "https://apos.audio/products/epz-p50-iems",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "fiio-fa1": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 1
+   },
+   "evidence": "stated",
+   "quote": "1x Balanced Armature Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/fiio-fa1",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "fiio-fa19": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 10
+   },
+   "evidence": "stated",
+   "quote": "10 balanced armature",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/fiio-fa19-10-balanced-armature-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "fiio-fa7": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "quad balanced armature",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/fiio-fa7",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "fiio-fa9": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers; balanced armature",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/fiio-fa9",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "fiio-fd7": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/fiio-fd7",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "fiio-fh15": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 dynamic, 3 BA",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/fiio-fh15-in-ear-monitor-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/fiio-fh15-in-ear-monitor",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "fiio-fh5s": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 Dynamic + 2 BA",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/fiio-fh5s",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "fiio-fx15": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "electrostatic": null
+   },
+   "evidence": "stated",
+   "quote": "Drivers: Knowles balanced armature*1 10mm DLC dynamic driver*1 Sonion electrosta",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/fiio-fx15-in-ear-electrostatic-monitor-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/fiio-fx15-in-ear-monitor",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "final-audio-a4000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver : 6mm dynamic driver f-CORE DU Connector",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/final-audio-a4000-earphone-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "final-audio-a8000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-a8000",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-b3": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 2
+   },
+   "evidence": "stated",
+   "quote": "2 Balanced Armature Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-b3",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-e1000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1x Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-e1000",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-e2000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1x Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-e2000",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-e3000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1x Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-e3000",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-e4000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1x Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-e4000",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-e500": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-e500",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "final-audio-vr3000": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/final-vr3000",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/final-audio-vr3000-earphones-for-gaming-with-mic-control-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "fosi-audio-i5": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/fosi-audio-i5-97mm-planar-magnetic-open-back-headphones",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "harmonicdyne-black-hole": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/harmonicdyne-black-hole",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "hiby-yacht-10": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/hiby-yacht10",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "hidizs-mp145": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/hidizs-mp145-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/hidizs-mp145",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "hidizs-ms3": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 2
+   },
+   "evidence": "stated",
+   "quote": "two balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/hidizs-ms3",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "hifiman-arya-stealth-magnet-version": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-arya-stealth-magnet-version",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hifiman-edition-xs": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-edition-xs",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hifiman-he1000se": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-he1000se",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hifiman-he400se": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-he400se",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hifiman-sundara": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-sundara",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hifiman-susvara": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/hifiman-susvara",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hisenior-cano-cristales": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 8,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD + 8BA",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/hisenior-cano-cristales-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "hisenior-mega-5-est-bass": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1,
+    "electrostatic": 2
+   },
+   "evidence": "stated",
+   "quote": "1DD+2BA+2EST",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/hisenior-mega5est-bass-1dd-2ba-2est-tribrid-drivers-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "intuaura-reference-2019": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/intuaura-reference-2019-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "io-audio-sogno": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 6,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD+6BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/i-o-audio-sogno-hybrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "io-audio-volare": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "electrostatic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers; balanced armatures; electrostatic drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/io-audio-volare-hybrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "jabra-elite-25e": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVERS",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/jabra-elite-25e",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "jbl-quantum-100": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/jbl-quantum-100-wired-over-ear-gaming-headset-with-a-detachable-mic",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "jbl-quantum-400": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic drivers",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/jbl-quantum-400-usb-wired-over-ear-gaming-headphones-with-game-chat-balance-dial",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "jbl-quantum-one": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic drivers",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/jbl-quantum-one-wired-over-ear-usb-active-noise-cancelling-gaming-headset-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/jbl-quantum-one-usb-wired-over-ear-professional-gaming-headset-with-head-tracking-enhanced-quantumsphere-360",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "juzear-61t": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 6,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "one dynamic driver and six balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/juzear-butterfly-61t-hybrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "juzear-81t": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 8,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+8BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/juzear-dragonfly-81t-1dd-8ba-hybrid-drivers-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "juzear-x-koto-nebula": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1,
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 3BA + 1Planar",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/juzear-x-koto-nebula-1dd-3ba-1planar-hybrid-drivers-iems",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/juzear-x-koto-nebula-tribrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "juzear-x-vivir-digital-fiesta": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+ 3BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/juzear-x-vivir-digital-fiesta-1dd-3ba-hybrid-iem-with-dual-cables",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/juzear-x-vivir-digital-fiesta-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "juzear-x-z-reviews-defiant": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 dynamic driver and 3 balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/juzear-x-z-reviews-defiant-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kbear-lark": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 1,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1BA+1DD",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kbear-lark-wired-earphones-1ba-1dddemo-unit",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kbear-rosefinch": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kbear-rosefinch-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kbear-stellar": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "DRIVER : This KBEAR Stellar earphone uses the 15.4mm bigger dynamic driver that ",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kbear-stellar-wired-earbuds",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/kbear-stellar-wired-earphone-demo-unit",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kefine-delci": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kefine-delci",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/kefine-delci-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kefine-delci-ae": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver: 10mm DLC+PU composite diaphragm dynamic driver Impedance",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kefine-delci-ae-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kefine-klanar": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "Planar Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kefine-klanar",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kefine-klean": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kefine-klean-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/kefine-klean-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/kefine-klean",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kefine-klean-sv": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver Type : 10mm DLC Dynamic Driver Impedance",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kefine-klean-sv-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kefine-loric": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kefine-loric-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kefine-quatio": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD + 2BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kefine-quatio",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/kefine-quatio-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/kefine-quatio-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kinera-celest-gumiho": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 1
+   },
+   "evidence": "stated",
+   "quote": "1BA",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/kinera-celest-gumiho-iem",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kinera-celest-wyvern-abyss": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kinera-celest-wyvern-abyss-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kinera-celest-wyvern-qing": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/celest-wyvern-qing-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kinera-freya": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "3BA + 1 Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/kinera-freya-quad-driver-hybrid-in-ear-monitor-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kinera-sif": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver Unit: The Kinera Sif is equipped with a 10mm SPM diaphragm dynamic driver",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/kinera-sif-dynamic-driver-iem-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-aether": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "planar driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-aether",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/kiwi-ears-aether-15-3mm-planar-magnetic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/kiwi-ears-astral-1dd-6ba-hybrid-iem",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-airoso": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 4BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kiwi-ears-airoso-1dd-4ba-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kiwi-ears-aventus": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "two dynamic drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-aventus",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-belle": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-belle",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-cadenza": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "DRIVERS: 10mm Beryllium Dynamic Driver Sensitivity",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/kiwi-ears-cadenza-in-ear-monitors-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/kiwi-ears-cadenza-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-cadenza-ii": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kiwi-ears-cadenza-ii-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-cadenza-ii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-canta": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": 1,
+    "planar": 2
+   },
+   "evidence": "stated",
+   "quote": "one dynamic driver and two planar drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kiwi-ears-canta-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kiwi-ears-ellipse": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-ellipse",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-ke4": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD+2BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kiwi-ear-ke4-hybrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kiwi-ears-orchestra": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "8 balanced armature driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-orchestra",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/kiwi-ears-orchestra-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-orchestra-lite": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "8 balanced armature driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kiwi-ears-orchestra-lite",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/kiwi-ears-orchestra-lite-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kiwi-ears-quartet": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD + 2BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kiwi-ears-quartet-hybrid-iem-2dd-2ba-in-ear-monitors",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kiwi-ears-quintet": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1,
+    "piezo": 1,
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 2BA + 1 Planar + 1 PZT",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/kiwi-ears-quintet-in-ear-monitor",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-am16": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 16
+   },
+   "evidence": "stated",
+   "quote": "16 BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-am16",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-as10": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 5
+   },
+   "evidence": "stated",
+   "quote": "Five Balanced Armatures",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-as10",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-as16-pro-x": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "eight BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-as16-pro-x",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-ast": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 12
+   },
+   "evidence": "stated",
+   "quote": "12 balanced armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-ast",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-asx": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 10
+   },
+   "evidence": "stated",
+   "quote": "10 Balanced Armatures",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-asx",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-axas": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-axas",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-castor": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-castor",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/kz-castor-iem-audiocular-d07-slim-dac-amp",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-castor-pro": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kz-castor-pro-iem-with-mic",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-d-fi": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-d-fi",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-edx-pro": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kz-edx-pro-wired-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/kz-edx-pro-wired-iem-with-mic-top-best-earphone",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/kz-edx-pro-iem-with-dual-cable-3-5mm-type-c-with-mic",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-gale": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kz-gale-super-linear-dynamic-driver-gaming-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/kz-gale",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-pisces": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "Dual Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-pisces",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-pr1-pro": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "PLANAR MAGNETIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kz-pr1-pro-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-vader-pro": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 3
+   },
+   "evidence": "stated",
+   "quote": "Triple Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-vader-pro",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-vibe-x": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-vibe-x",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-zex": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "electrostatic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers; balanced armature; electrostatic driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/kz-zex",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-zs10-pro": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "4BA+1DD",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/kz-zs10-pro",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "kz-zs10-pro-x": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+ 4BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/kz-zs10-pro-x-wired-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/kz-acoustics-zs10-pro-x-iem-with-mic",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-zsn-pro": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 1,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 X Dynamic + 1 X BA",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/kz-zsn-pro",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-zsn-pro-2": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver; Balanced Armature",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/kz-zsn-pro-2-iem-with-mic",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-zsn-pro-x": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 7,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "7x BA + 1x Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/kz-zsn-pro-x",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "kz-zst": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 1,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 BA + 1 DD",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/kz-zst",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "meze-liric": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "planar-magnetic",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/meze-liric",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-aria": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/moondrop-aria",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-aria-iems-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-aria-2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-aria2",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/moondrop-aria-2-iem-1",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-aria-2-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-aria-snow-edition": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "DRIVER : MOONDROP Aria Snow Edition has a 10mm dual-cavity dynamic driver unit w",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/moondrop-aria-snow-edition-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-blessing-2": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 DD + 4 BA",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/moondrop-blessing-2",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-blessing2-iems-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-chu": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver: 10mm high-performance dynamic driver Diaphragm material",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-chu-earphones",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-chu-2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver: 10mm High-performance Dynamic Driver Diaphragm",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-chu-2-iems",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-chu-ii-dsp": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-chu-ii-dsp",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-chu-iii": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-chu-iii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-cosmo": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "planar driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-cosmo",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-darksaber": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 8,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2 dynamic drivers + 8 balanced armatures",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-dark-saber",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-droplet": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 1
+   },
+   "evidence": "stated",
+   "quote": "Single Balanced Armature Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-droplet",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-droplet-in-ear-monitors-with-usb-c-connection-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-droplet-in-ear-monitors-with-usb-c-connection",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-edge": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-edge",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-harmon": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 3
+   },
+   "evidence": "stated",
+   "quote": "3DD",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/moondrop-harmon-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-horizon": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-horizon",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-illustrious": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-illustrious",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-jiu": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-jiu-in-ear-monitors-with-usb-c-connection",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-kadenz": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-kadenz-in-ear-monitors-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-kadenz-in-ear-monitors",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-kato": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver: 10mm-ULT dynamic driver Diaphragm",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-kato-iems-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-lan": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver: 10mm dual-cavity high-performance dynamic driver Coil",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-lan-earphones-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-lan-earphones",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-marigold": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-marigold",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-may": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": null,
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; planar drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/moondrop-may-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-para-ii": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "planar magnetic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-para-ii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-position": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-position",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-quark-2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-quark2",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/moondrop-quark-2-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-quarks": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-quarks",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://headphonezone.in/products/moondrop-quarks",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-quarks-dsp": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/moondrop-quarks-dsp-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-rays": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": null,
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; planar magnetic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-rays",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/moondrop-rays-hybrid-gaming-in-ear-monitor",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-solis-2": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "electrostatic": null,
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers; balanced armature; planar magnetic; electrostatic drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-solis-2",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-solis-2-iems-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/moondrop-solis-2-iems",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-starfield": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver Config: 10mm super aligned CNT array dynamic driver with dual chamber Cab",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/moondrop-starfield-iems-open-box",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "moondrop-stellaris": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "PLANAR MAGNETIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/moondrop-stellaris-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "moondrop-ultrasonic": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver; Balanced Armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/moondrop-ultrasonic",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/moondrop-ultrasonic-true-wireless-earbuds",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "nicehck-db2": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 1,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+1BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/nicehck-db2-1dd-1ba-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "nicehck-eb2s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/nicehck-eb2s-wired-earphone",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "nicehck-traceless": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/nicehck-traceless-wired-earphone",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "openaudio-siren": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1 dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/openaudio-siren",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "oppo-pm3": {
+   "category": "planar",
+   "counts": {
+    "planar": 3
+   },
+   "evidence": "stated",
+   "quote": "3 PLANAR MAGNETIC",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/oppo-pm3-closed-back-planar-magnetic-headphone-1",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "oriveti-bleqk-dynabird": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/oriveti-bleqk-dynabird-berylium-coated-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "pula-anvil-114": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "4BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/pula-anvil114-1dd-1bc-4ba-tribrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "pula-unicrom": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Driver : 10mm Beryllium-Plated Dynamic Driver Sound Tuning",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/pula-unicrom-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "rose-quietsea": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "10mm DD",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/rose-technics-quietsea-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "rose-star-city-5-pro": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+2BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/rose-technics-lightyear-star-city-5-pro-1dd-2ba-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-accentum": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-accentum",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-cx-400bt": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-cx-400bt",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-560s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-560s",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-569": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sennheiser-hd-569-closed-back-over-ear-headphones",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-569",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-599": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVERS",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sennheiser-hd-599-open-back-wired-headphone",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-599",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-600": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-hd-600",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-600",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-620s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-hd620s",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-650": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-hd-650",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-650",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-660s2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-hd-660s2-1",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-800-s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-800-s",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-hd-820": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sennheiser-hd-820-closed-back-wired-headphones",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-hd-820",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-ie-200": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-ie-200",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/sennheiser-ie-200-silver-edition-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/sennheiser-ie200-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-ie-300": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Single Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/sennheiser-ie-300",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://avstore.in/products/sennheiser-ie-300",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-ie-600": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Single dynamic driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-ie-600",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-ie-900": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "Single Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sennheiser-ie-901",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://headphonezone.in/products/sennheiser-ie-900",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sennheiser-momentum-true-wireless-3": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/sennheiser-momentum-true-wireless-3-with-adaptive-noise-cancellation-open-box",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://audio46.com/products/sennheiser-momentum-true-wireless-3-with-adaptive-noise-cancellation",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "sennheiser-momentum-true-wireless-4": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sennheiser-momentum-true-wireless-4-4th-gen-adaptive-anc-premium-earbuds",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-cadenza-12": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 11
+   },
+   "evidence": "stated",
+   "quote": "11 BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-cadenza-12",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/letshuoer-cadenza-12-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-cadenza-4": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 3
+   },
+   "evidence": "stated",
+   "quote": "three balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-cadenza4",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/letshuoer-cadenza-4-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-dx1": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-dx1",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "shuoer-mystic-8": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "eight balanced armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-mystic-8",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/letshuoer-mystic-8-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-s08": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-s08",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/letshuoer-s08-4th-gen-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/letshuoer-s08-planar-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-s12": {
+   "category": "planar",
+   "counts": {
+    "planar": 1
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/shuoer-s12",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "shuoer-s12-pro": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Magnetic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-s12-pro",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/letshuoer-s12-pro-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "shuoer-s15": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "Planar Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/letshuoer-s15",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "simgot-ea500-dsp": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/simgot-ea500-dsp-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "simgot-ea500lm": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/simgot-ea500-lm",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "simgot-eg280": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": 1,
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "1 DD + 1 Planar",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/simgot-eg280-1-dd-1-planar-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/simgot-eg280-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/simgot-eg280",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "simgot-em6l": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 4BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/simgot-em6l",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/simgot-em6l-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "simgot-et142": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "planar magnetic",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/simgot-et142",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "simgot-ew200": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/simgot-ew200-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://linsoul.com/products/simgot-ew200",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "simgot-ew300": {
+   "category": "hybrid",
+   "counts": {
+    "dynamic": 1,
+    "piezo": 1,
+    "planar": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+1Planar+1PZT",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/simgot-ew300",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "softears-studio-2": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 2
+   },
+   "evidence": "stated",
+   "quote": "Dual BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/softears-studio2-2ba-professional-in-ear-monitors",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "softears-studio-4": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 8
+   },
+   "evidence": "stated",
+   "quote": "eight balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/softears-studio-4-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sony-inzone-h3": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sony-inzone-h3-wired-gaming-headset",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://audio46.com/products/sony-inzone-h3-wired-gaming-headset",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "sony-linkbuds-s": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sony-wf-ls900n-linkbuds-s-true-wireless-earbuds",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sony-mdr-7506": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/sony-mdr-7506-wired-headphone",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sony-mdr-zx110": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic drivers",
+   "sources": [
+    {
+     "url": "https://audio46.com/products/sony-mdr-zx110-wired-on-ear-headphones",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "sony-wf-1000xm5": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "driver unit: The specially designed driver unit, Dynamic Driver X, is able to re",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sony-wf-1000xm5",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "sony-wh-1000xm5": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://avstore.in/products/sony-wh-1000xm5",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "symphonium-audio-meteor": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "FOUR BALANCED ARMATURE DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/symphonium-audio-meteor-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tanchjim-4u": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tanchjim-4u-dmt4-ultra-double-chamber-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tanchjim-bunny": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tanchjim-bunny-dual-chamber-dynamic-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/tanchjim-bunny-iem-with-mic-3-5mm",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tanchjim-ola": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tanchjim-ola-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tangzu-fudu-verse-ii": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 2,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+2BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/tangzu-fudu-verse-ii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "tangzu-wan-er-s-g": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "single dynamic driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/tangzu-waner-s-g",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://conceptkart.com/products/tangzu-waner-s-g-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tangzu-x-hbb-xuan-nv": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tangzu-x-hbb-xuan-nv-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "thieaudio-legacy-2": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null,
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; balanced armature; planar magnetic",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/thieaudio-legacy-2",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "thieaudio-legacy-4": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 2
+   },
+   "evidence": "stated",
+   "quote": "dual BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/thieaudio-legacy-4",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "thieaudio-oracle-mkii": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": null,
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver; balanced armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/thieaudio-oracle-mkii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "tin-hifi-p1-max": {
+   "category": "planar",
+   "counts": {
+    "planar": null
+   },
+   "evidence": "prose",
+   "quote": "PLANAR MAGNETIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tin-hifi-p1-max-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tin-hifi-t2-dlc": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tin-hifi-t2-dlc-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tripowin-olina-se": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tripowin-x-hbb-olina-se-wired-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "tripowin-x-0dibi-vivace": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/tripowin-x-0dibi-vivace-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "truthear-gate": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "dynamic driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/truthear-gate-iem-with-mic",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/truthear-gate-iem-audiocular-d07-slim-dac-amp",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "truthear-hexa": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "one dynamic driver and three balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/truthear-hexa-triple-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "truthear-nova": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 4,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD+4BA",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/truthear-nova-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://conceptkart.com/products/truthear-nova-hybrid-drivers-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "truthear-pure": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 3,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 3BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/truthear-pure-1dd-3ba-hybrid-driver-iem",
+     "retrieved_on": "2026-11-15"
+    },
+    {
+     "url": "https://theaudiostore.in/products/truthear-pure-triple-driver-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "truthear-x-crinacle-zero": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "DUAL DYNAMIC DRIVER",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/truthear-x-crinacle-zero-iem-red",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "twistura-d-minor": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://theaudiostore.in/products/twistura-d-minor-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "twistura-woodnote": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": null
+   },
+   "evidence": "prose",
+   "quote": "Dynamic Driver",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/twistura-woodnote",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "v-moda-crossfade-lp2": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "Dual Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://headphonezone.in/products/v-moda-crossfade-lp2",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "xenns-top-pro": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "Dual Dynamic Drivers",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/xenns-mangird-top-pro",
+     "retrieved_on": "2026-11-12"
+    },
+    {
+     "url": "https://theaudiostore.in/products/xenns-mangird-top-pro-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "yanyin-canon-ii": {
+   "category": "dynamic",
+   "counts": {
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/yanyin-canon-ii",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "yanyin-canon-pro": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 6,
+    "dynamic": 1
+   },
+   "evidence": "stated",
+   "quote": "1DD + 6BA",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/yanyin-canon-pro-1dd-6ba-hybrid-drivers-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  },
+  "ziigaat-arcanis": {
+   "category": "hybrid",
+   "counts": {
+    "balanced_armature": 5,
+    "dynamic": 2
+   },
+   "evidence": "stated",
+   "quote": "2DD+5BA",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/ziigaat-arcanis",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "ziigaat-cinno": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "4 balanced armature",
+   "sources": [
+    {
+     "url": "https://linsoul.com/products/ziigaat-cinno",
+     "retrieved_on": "2026-11-12"
+    }
+   ]
+  },
+  "ziigaat-estrella": {
+   "category": "balanced_armature",
+   "counts": {
+    "balanced_armature": 4
+   },
+   "evidence": "stated",
+   "quote": "four balanced armature drivers",
+   "sources": [
+    {
+     "url": "https://conceptkart.com/products/ziigaat-x-jays-audio-estrella-flagship-hybrid-iem",
+     "retrieved_on": "2026-11-15"
+    }
+   ]
+  }
+ }
+}

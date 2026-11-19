@@ -1,0 +1,174 @@
+{
+  "collection": "curated/moondrop-aria/1",
+  "iem_slug": "moondrop-aria",
+  "retrieved_at": "2026-10-24T00:00:00+00:00",
+  "note": "Gathered by hand on 2026-10-24. Every URL was fetched and returned HTTP 200 on that date, and every quote below was read from the page it is attributed to. Topic and stance are Auralis's reading of the quoted passage, not the reviewer's own labels. Short passages are quoted for commentary and comparison, with attribution and a link to the original; the reviews remain the work of their authors.",
+  "license_note": "Quoted for review and comparison, with attribution and a link to the original. Copyright remains with the publication.",
+  "sources": [
+    {
+      "kind": "publication",
+      "publication": "Prime Audio",
+      "author": "David Becker",
+      "title": "Moondrop Aria Review - Aim High",
+      "url": "https://primeaudio.org/moondrop-aria-review-aim-high/",
+      "published_on": "2021-04-12",
+      "excerpt": "Aria has good midrange clarity, resolution and detail retrieval.",
+      "claims": [
+        {
+          "topic": "bass",
+          "stance": "positive",
+          "quote": "The bass seems a tad tighter and has a faster decay than the Starfield but still has plenty of drive and gusto."
+        },
+        {
+          "topic": "vocals",
+          "stance": "mixed",
+          "quote": "While the midrange isn't what I would call full-bodied, it doesn't sound thin either but rather finds the middle ground."
+        },
+        {
+          "topic": "treble",
+          "stance": "mixed",
+          "quote": "Detail retrieval is good and while it's not the most precise or sparkly treble, it adds ample clarity and definition."
+        },
+        {
+          "topic": "detail",
+          "stance": "positive",
+          "quote": "Aria has good midrange clarity, resolution and detail retrieval."
+        },
+        {
+          "topic": "fit",
+          "stance": "positive",
+          "quote": "It has excellent build quality and comfort plus it just sounds darn good."
+        }
+      ]
+    },
+    {
+      "kind": "publication",
+      "publication": "Audio Reviews",
+      "author": "Kazi",
+      "title": "Moondrop Aria (2021) Review (2) - The Big \"Little\" Upgrade",
+      "url": "https://www.audioreviews.org/?p=39780",
+      "published_on": "2021-05-21",
+      "excerpt": "Treble lacks sparkle, rolls-off early.",
+      "claims": [
+        {
+          "topic": "bass",
+          "stance": "positive",
+          "quote": "The bass reaches all the way down to 20Hz and provides excellent rumble."
+        },
+        {
+          "topic": "vocals",
+          "stance": "negative",
+          "quote": "The male vocals sound somewhat distant, although they're perfectly intelligible."
+        },
+        {
+          "topic": "treble",
+          "stance": "negative",
+          "quote": "The treble rolls off fast post 11KHz and doesn't really offer a lot of sparkle or air."
+        },
+        {
+          "topic": "soundstage",
+          "stance": "mixed",
+          "quote": "Staging is good overall in terms of width/height, though stage depth is lacking vs the higher-tier IEMs."
+        },
+        {
+          "topic": "fit",
+          "stance": "positive",
+          "quote": "Due to its snug-fit and lightweight nature, the Aria has very good wearing comfort."
+        },
+        {
+          "topic": "build",
+          "stance": "negative",
+          "quote": "Stock cable forms kinks, gets tangled in pocket"
+        }
+      ]
+    },
+    {
+      "kind": "publication",
+      "publication": "Audio Solace",
+      "author": "Lynn Gray",
+      "title": "Moondrop Aria Review",
+      "url": "https://audiosolace.com/moondrop-aria-review/",
+      "published_on": "2021-07-09",
+      "excerpt": "Detail retrieval was admirable with a good deal of subtlety on offer.",
+      "claims": [
+        {
+          "topic": "bass",
+          "stance": "positive",
+          "quote": "Transient response was very impressive with believable attack and natural decay"
+        },
+        {
+          "topic": "vocals",
+          "stance": "mixed",
+          "quote": "Vocal performance was excellent with male soloists displaying good weight and character but set back a little"
+        },
+        {
+          "topic": "treble",
+          "stance": "positive",
+          "quote": "were especially clear and open with very good extension"
+        },
+        {
+          "topic": "detail",
+          "stance": "positive",
+          "quote": "Detail retrieval was admirable with a good deal of subtlety on offer"
+        },
+        {
+          "topic": "soundstage",
+          "stance": "positive",
+          "quote": "displayed impressive width with the image extending well beyond the ears"
+        }
+      ]
+    },
+    {
+      "kind": "publication",
+      "publication": "GSMArena",
+      "author": "Prasad",
+      "title": "Moondrop Aria vs Snow Edition comparison",
+      "url": "https://www.gsmarena.com/moondrop_aria_vs_snow_edition_comparison-news-55930.php",
+      "published_on": "2022-09-25",
+      "excerpt": "The treble has a good amount of sparkle and airiness without ever being sibilant or harsh.",
+      "claims": [
+        {
+          "topic": "bass",
+          "stance": "positive",
+          "quote": "The bass has a nice heft and rumble to it but never once gets overpowering or bloated."
+        },
+        {
+          "topic": "treble",
+          "stance": "positive",
+          "quote": "The treble has a good amount of sparkle and airiness without ever being sibilant or harsh."
+        },
+        {
+          "topic": "fit",
+          "stance": "positive",
+          "quote": "Both IEMs sit very well inside your ear and feel like they were custom-made for it."
+        }
+      ]
+    },
+    {
+      "kind": "publication",
+      "publication": "SoundGuys",
+      "author": "Jasper Lastoria",
+      "title": "Moondrop Aria review",
+      "url": "https://www.soundguys.com/moondrop-aria-review-90351/",
+      "published_on": "2024-12-06",
+      "excerpt": "Isolation won't blow anybody away, so if that's a high priority you might look elsewhere, or upgrade ear tips to memory foam.",
+      "claims": [
+        {
+          "topic": "bass",
+          "stance": "positive",
+          "quote": "This is a pretty dead on bass response."
+        },
+        {
+          "topic": "isolation",
+          "stance": "negative",
+          "quote": "Isolation won't blow anybody away, so if that's a high priority you might look elsewhere, or upgrade ear tips to memory foam."
+        },
+        {
+          "topic": "fit",
+          "stance": "mixed",
+          "quote": "It's comfortable for about 90 minutes, but the over-ear cabling feels a little annoying from go."
+        }
+      ]
+    }
+  ]
+}

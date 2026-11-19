@@ -1,0 +1,95 @@
+[project]
+name = "auralis"
+version = "0.1.0"
+description = "Auralis backend: API, job worker, and audio/acoustic analysis."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi>=0.141",
+    "uvicorn[standard]>=0.35",
+    "pydantic>=2.11",
+    "pydantic-settings>=2.10",
+    "sqlalchemy>=2.0.40",
+    "psycopg[binary]>=3.2",
+    "alembic>=1.16",
+    "yt-dlp[default]>=2026.8.19",
+    "av>=15",
+    "numpy>=2.1",
+    "scipy>=1.15",
+    "librosa>=1.0",
+    "scikit-learn>=1.7",
+    "soxr>=0.5",
+    "anthropic>=2.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4",
+    "pytest-cov>=6",
+    "httpx>=0.28",
+    "ruff>=0.13",
+    "mypy>=1.18",
+]
+
+[project.optional-dependencies]
+# Community research through reddrix. Opt-in on purpose: it installs
+# Playwright and fetches a browser binary, and the provider is disabled
+# unless AURALIS_REDDIT_PROVIDER says otherwise.
+reddit = ["reddrix>=1.2.19"]
+
+[project.scripts]
+auralis = "auralis.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/auralis"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N", "S", "PT", "C4"]
+ignore = [
+    "S101",   # assert is fine in tests and invariants
+    "RUF012", # SQLAlchemy/pydantic class attributes
+    "B008",   # FastAPI Depends() in defaults is idiomatic
+    "N818",   # domain exceptions read better without an Error suffix (NotFound, Conflict)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S", "N802", "E501"]
+"migrations/**" = ["E501"]
+# Statistical notation (σ, ρ, θ, −) is deliberate in the model's docstrings.
+"src/auralis/sound_profile/*.py" = ["RUF001", "RUF002", "RUF003"]
+"src/auralis/evaluation/*.py" = ["RUF001", "RUF002", "RUF003"]
+"src/auralis/tuning/*.py" = ["RUF001", "RUF002", "RUF003"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "src"
+packages = ["auralis"]
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["librosa.*", "yt_dlp.*", "av.*", "sklearn.*", "scipy.*", "soxr.*", "reddrix.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = [
+    "ignore::DeprecationWarning:starlette.*",
+    "ignore:Using `httpx`:DeprecationWarning",
+]
+addopts = "-ra --strict-markers"
+markers = [
+    "db: requires a PostgreSQL database (AURALIS_TEST_DATABASE_URL)",
+    "network: requires internet access (YouTube)",
+]

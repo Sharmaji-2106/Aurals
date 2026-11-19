@@ -1,0 +1,518 @@
+{
+  "generated_at": "2026-09-18T20:59:36+00:00",
+  "model_version": "sound-profile/3",
+  "dataset": {
+    "iems": 203,
+    "tracks": 288,
+    "libraries": 3
+  },
+  "reference_corpus": {
+    "slope_vs_pink_db_per_octave": -1.9,
+    "psd_slope_db_per_octave": -4.9,
+    "literature": "Pestana et al. (2013): roughly linear decay of about 5 dB/octave between 100 Hz and 4 kHz in number-one singles, 1950-2010."
+  },
+  "ci_by_size": [
+    {
+      "songs": 5,
+      "ci_width_db": {
+        "sub_bass": 20.02,
+        "mid_bass": 7.21,
+        "lower_mids": 5.04,
+        "mids": 1.21,
+        "upper_mids": 4.24,
+        "presence": 7.04,
+        "lower_treble": 8.48,
+        "upper_treble": 9.45,
+        "air": 12.58
+      }
+    },
+    {
+      "songs": 10,
+      "ci_width_db": {
+        "sub_bass": 8.38,
+        "mid_bass": 3.54,
+        "lower_mids": 2.45,
+        "mids": 0.69,
+        "upper_mids": 2.24,
+        "presence": 3.78,
+        "lower_treble": 2.58,
+        "upper_treble": 3.62,
+        "air": 5.85
+      }
+    },
+    {
+      "songs": 20,
+      "ci_width_db": {
+        "sub_bass": 6.3,
+        "mid_bass": 2.05,
+        "lower_mids": 1.98,
+        "mids": 0.42,
+        "upper_mids": 1.64,
+        "presence": 2.3,
+        "lower_treble": 2.42,
+        "upper_treble": 3.19,
+        "air": 4.52
+      }
+    },
+    {
+      "songs": 40,
+      "ci_width_db": {
+        "sub_bass": 4.32,
+        "mid_bass": 2.18,
+        "lower_mids": 1.19,
+        "mids": 0.36,
+        "upper_mids": 1.39,
+        "presence": 2.25,
+        "lower_treble": 2.23,
+        "upper_treble": 2.72,
+        "air": 3.37
+      }
+    },
+    {
+      "songs": 80,
+      "ci_width_db": {
+        "sub_bass": 2.88,
+        "mid_bass": 1.41,
+        "lower_mids": 1.02,
+        "mids": 0.27,
+        "upper_mids": 0.83,
+        "presence": 1.51,
+        "lower_treble": 1.73,
+        "upper_treble": 1.96,
+        "air": 2.38
+      }
+    }
+  ],
+  "split_half": [
+    {
+      "library": "Library A",
+      "songs": 106,
+      "half_correlation": 0.976,
+      "reliability": 0.988,
+      "per_band_sd_db": {
+        "sub_bass": 0.52,
+        "mid_bass": 0.27,
+        "lower_mids": 0.18,
+        "mids": 0.05,
+        "upper_mids": 0.18,
+        "presence": 0.4,
+        "lower_treble": 0.48,
+        "upper_treble": 0.3,
+        "air": 0.6
+      }
+    },
+    {
+      "library": "Library B",
+      "songs": 20,
+      "half_correlation": -0.579,
+      "reliability": null,
+      "per_band_sd_db": {
+        "sub_bass": 3.04,
+        "mid_bass": 0.64,
+        "lower_mids": 0.78,
+        "mids": 0.23,
+        "upper_mids": 0.55,
+        "presence": 1.12,
+        "lower_treble": 1.4,
+        "upper_treble": 1.32,
+        "air": 1.69
+      }
+    },
+    {
+      "library": "Library C",
+      "songs": 10,
+      "half_correlation": -0.714,
+      "reliability": null,
+      "per_band_sd_db": {
+        "sub_bass": 5.6,
+        "mid_bass": 0.97,
+        "lower_mids": 0.75,
+        "mids": 0.14,
+        "upper_mids": 0.48,
+        "presence": 1.29,
+        "lower_treble": 3.16,
+        "upper_treble": 2.48,
+        "air": 2.8
+      }
+    }
+  ],
+  "genre_contrast": {
+    "group_a": "bass-forward genres",
+    "group_b": "acoustic genres",
+    "songs_a": 8,
+    "songs_b": 9,
+    "sub_bass_db": [
+      4.9,
+      -17.6
+    ],
+    "air_db": [
+      8.3,
+      -3.6
+    ],
+    "difference_db": 22.6,
+    "permutation_p": 0.0065,
+    "music_only_bass_db": [
+      0.91,
+      -3.37
+    ]
+  },
+  "implementation": {
+    "compared": 203,
+    "score_r": 0.9998,
+    "score_mae": 0.238,
+    "sd_mae": 0.003,
+    "slope_mae": 0.003,
+    "aae_mae": 0.002,
+    "reference": "AutoEq results/RANKING.md at the pinned commit (scores rounded to integers)"
+  },
+  "sensitivity": [
+    {
+      "dimension": "bass",
+      "points": [
+        {
+          "shift_db": -4.0,
+          "top_mean_level_db": -1.71,
+          "top_names": [
+            "Moondrop Blessing",
+            "Moondrop Blessing 2",
+            "Moondrop Chu"
+          ]
+        },
+        {
+          "shift_db": -2.0,
+          "top_mean_level_db": -1.44,
+          "top_names": [
+            "Moondrop Chu",
+            "Moondrop Quarks DSP",
+            "Moondrop Blessing"
+          ]
+        },
+        {
+          "shift_db": 0.0,
+          "top_mean_level_db": -0.48,
+          "top_names": [
+            "Truthear Nova",
+            "AKG N400",
+            "Moondrop Quarks DSP"
+          ]
+        },
+        {
+          "shift_db": 2.0,
+          "top_mean_level_db": 1.5,
+          "top_names": [
+            "Truthear Nova",
+            "Moondrop Variations",
+            "Samsung Galaxy Buds2 Pro"
+          ]
+        },
+        {
+          "shift_db": 4.0,
+          "top_mean_level_db": 3.09,
+          "top_names": [
+            "Sony MH755",
+            "Sony MH750",
+            "Moondrop Variations"
+          ]
+        },
+        {
+          "shift_db": 6.0,
+          "top_mean_level_db": 4.21,
+          "top_names": [
+            "Anker Soundcore Liberty Air 2",
+            "Sony MH755",
+            "JBL Free X"
+          ]
+        }
+      ],
+      "spearman": 1.0,
+      "monotonic": true
+    },
+    {
+      "dimension": "treble",
+      "points": [
+        {
+          "shift_db": -4.0,
+          "top_mean_level_db": -2.71,
+          "top_names": [
+            "Samsung Galaxy Buds2 Pro",
+            "Moondrop Starfield",
+            "Truthear Gate"
+          ]
+        },
+        {
+          "shift_db": -2.0,
+          "top_mean_level_db": -1.12,
+          "top_names": [
+            "Samsung Galaxy Buds2 Pro",
+            "7Hz Salnotes Zero",
+            "Truthear Gate"
+          ]
+        },
+        {
+          "shift_db": 0.0,
+          "top_mean_level_db": -0.86,
+          "top_names": [
+            "Truthear Nova",
+            "AKG N400",
+            "Moondrop Quarks DSP"
+          ]
+        },
+        {
+          "shift_db": 2.0,
+          "top_mean_level_db": 0.27,
+          "top_names": [
+            "Truthear Nova",
+            "Moondrop Quarks DSP",
+            "AKG N400"
+          ]
+        },
+        {
+          "shift_db": 4.0,
+          "top_mean_level_db": 0.9,
+          "top_names": [
+            "Truthear x Crinacle Zero",
+            "Truthear Nova",
+            "Moondrop Quarks DSP"
+          ]
+        },
+        {
+          "shift_db": 6.0,
+          "top_mean_level_db": 0.9,
+          "top_names": [
+            "Truthear x Crinacle Zero",
+            "Truthear Nova",
+            "Jabra Elite 7 Pro"
+          ]
+        }
+      ],
+      "spearman": 0.986,
+      "monotonic": true
+    }
+  ],
+  "ablation": [
+    {
+      "library": "Library A",
+      "songs": 106,
+      "answered": true,
+      "music_vs_reference": 0.67,
+      "answers_vs_reference": 0.43,
+      "combined_vs_answers": 0.54,
+      "combined_vs_music": 0.67,
+      "kendall_combined_vs_answers": 0.849,
+      "bass_target_db": {
+        "music": -0.94,
+        "answers": 1.05,
+        "combined": 0.07
+      }
+    },
+    {
+      "library": "Library B",
+      "songs": 20,
+      "answered": true,
+      "music_vs_reference": 0.82,
+      "answers_vs_reference": 0.0,
+      "combined_vs_answers": 0.43,
+      "combined_vs_music": 0.11,
+      "kendall_combined_vs_answers": 0.772,
+      "bass_target_db": {
+        "music": 0.09,
+        "answers": 4.2,
+        "combined": 2.7
+      }
+    },
+    {
+      "library": "Library C",
+      "songs": 10,
+      "answered": false,
+      "music_vs_reference": 0.82,
+      "answers_vs_reference": null,
+      "combined_vs_answers": null,
+      "combined_vs_music": null,
+      "kendall_combined_vs_answers": null,
+      "bass_target_db": {
+        "music": 0.09
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "key": "prior_sd_bass_db",
+      "status": "literature_informed",
+      "value": 2.0,
+      "mean_top10_overlap": 0.94,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "prior_sd_bass_db",
+      "status": "literature_informed",
+      "value": 4.0,
+      "mean_top10_overlap": 1.0,
+      "min_top10_overlap": 1.0
+    },
+    {
+      "key": "prior_sd_treble_db",
+      "status": "literature_informed",
+      "value": 1.5,
+      "mean_top10_overlap": 0.83,
+      "min_top10_overlap": 0.67
+    },
+    {
+      "key": "prior_sd_treble_db",
+      "status": "literature_informed",
+      "value": 3.5,
+      "mean_top10_overlap": 0.88,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "prior_sd_mids_db",
+      "status": "assumption",
+      "value": 1.0,
+      "mean_top10_overlap": 0.94,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "prior_sd_mids_db",
+      "status": "assumption",
+      "value": 2.5,
+      "mean_top10_overlap": 0.88,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "prior_sd_air_db",
+      "status": "assumption",
+      "value": 1.5,
+      "mean_top10_overlap": 0.94,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "prior_sd_air_db",
+      "status": "assumption",
+      "value": 3.5,
+      "mean_top10_overlap": 1.0,
+      "min_top10_overlap": 1.0
+    },
+    {
+      "key": "answer_reliability",
+      "status": "literature_informed",
+      "value": 0.5,
+      "mean_top10_overlap": 0.72,
+      "min_top10_overlap": 0.33
+    },
+    {
+      "key": "answer_reliability",
+      "status": "literature_informed",
+      "value": 0.9,
+      "mean_top10_overlap": 0.6,
+      "min_top10_overlap": 0.25
+    },
+    {
+      "key": "indirect_reliability_factor",
+      "status": "assumption",
+      "value": 0.25,
+      "mean_top10_overlap": 1.0,
+      "min_top10_overlap": 1.0
+    },
+    {
+      "key": "indirect_reliability_factor",
+      "status": "assumption",
+      "value": 0.75,
+      "mean_top10_overlap": 0.94,
+      "min_top10_overlap": 0.82
+    },
+    {
+      "key": "music_correlation",
+      "status": "hypothesis",
+      "value": -0.837,
+      "mean_top10_overlap": 0.72,
+      "min_top10_overlap": 0.54
+    },
+    {
+      "key": "music_correlation",
+      "status": "hypothesis",
+      "value": 0.0,
+      "mean_top10_overlap": 0.6,
+      "min_top10_overlap": 0.43
+    },
+    {
+      "key": "music_correlation",
+      "status": "hypothesis",
+      "value": 0.5,
+      "mean_top10_overlap": 0.69,
+      "min_top10_overlap": 0.54
+    },
+    {
+      "key": "music_correlation",
+      "status": "hypothesis",
+      "value": 0.95,
+      "mean_top10_overlap": 0.75,
+      "min_top10_overlap": 0.43
+    }
+  ],
+  "methods": {
+    "reference_vs_published_kendall": 0.957,
+    "reference_top10_vs_published": 0.82,
+    "olive_vs_band_rms_top10": [
+      0.54,
+      0.43,
+      0.54
+    ]
+  },
+  "explanations": {
+    "recommendations": 60,
+    "reasons": 170,
+    "consistent": 170,
+    "problems": []
+  },
+  "pca": {
+    "iems": 203,
+    "components": [
+      {
+        "index": 1,
+        "variance_explained": 0.545,
+        "peak_hz": 20.0,
+        "shape": "bass shelf",
+        "correlation_with_bass_shelf": 0.81,
+        "correlation_with_tilt": -0.49
+      },
+      {
+        "index": 2,
+        "variance_explained": 0.161,
+        "peak_hz": 3350.0,
+        "shape": "broad tilt",
+        "correlation_with_bass_shelf": -0.74,
+        "correlation_with_tilt": 0.91
+      },
+      {
+        "index": 3,
+        "variance_explained": 0.09,
+        "peak_hz": 6000.0,
+        "shape": "localised, peaking near 6.0 kHz",
+        "correlation_with_bass_shelf": -0.21,
+        "correlation_with_tilt": 0.29
+      },
+      {
+        "index": 4,
+        "variance_explained": 0.073,
+        "peak_hz": 10000.0,
+        "shape": "localised, peaking near 10.0 kHz",
+        "correlation_with_bass_shelf": -0.01,
+        "correlation_with_tilt": 0.15
+      },
+      {
+        "index": 5,
+        "variance_explained": 0.036,
+        "peak_hz": 1800.0,
+        "shape": "localised, peaking near 1.8 kHz",
+        "correlation_with_bass_shelf": -0.35,
+        "correlation_with_tilt": 0.11
+      }
+    ],
+    "cumulative": [
+      0.545,
+      0.706,
+      0.796,
+      0.868,
+      0.904
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+ "about": "Songs AURALS measures for a listener who names genres instead of pasting a playlist. Widely known tracks, resolved to YouTube with yt-dlp on 2026-11-16 and checked by hand: official uploads only, nothing over ten minutes. Read by auralis.music.picks; a submission made from them is recorded as origin=genre_picks.",
+ "resolved_on": "2026-11-16",
+ "genres": {
+  "hip_hop": [
+   {
+    "video_id": "tvTRZJ-4EyI",
+    "title": "Kendrick Lamar - HUMBLE.",
+    "channel": "Kendrick Lamar",
+    "duration_s": 184
+   },
+   {
+    "video_id": "6ONRf7h3Mdk",
+    "title": "Travis Scott - SICKO MODE (Official Video) ft. Drake",
+    "channel": "Travis Scott",
+    "duration_s": 323
+   },
+   {
+    "video_id": "xpVfcZ0ZcFM",
+    "title": "Drake - God's Plan",
+    "channel": "Drake",
+    "duration_s": 357
+   },
+   {
+    "video_id": "hOHKltAiKXQ",
+    "title": "Hanumankind, Kalmi - Hanumankind – Big Dawgs | Prod. Kalmi (Official Music Video) | Def Jam India",
+    "channel": "Hanumankind",
+    "duration_s": 235
+   },
+   {
+    "video_id": "xFYQQPAOz7Y",
+    "title": "Eminem - Lose Yourself",
+    "channel": "NA",
+    "duration_s": 328
+   }
+  ],
+  "pop": [
+   {
+    "video_id": "4NRXx6U8ABQ",
+    "title": "The Weeknd - Blinding Lights (Official Video)",
+    "channel": "The Weeknd",
+    "duration_s": 263
+   },
+   {
+    "video_id": "TUVcZfQe-Kw",
+    "title": "Dua Lipa - Levitating Featuring DaBaby (Official Music Video)",
+    "channel": "Dua Lipa",
+    "duration_s": 231
+   },
+   {
+    "video_id": "DyDfgMOUjCI",
+    "title": "Billie Eilish - bad guy",
+    "channel": "Billie Eilish",
+    "duration_s": 206
+   },
+   {
+    "video_id": "b1kbLwvqugk",
+    "title": "Taylor Swift - Anti-Hero (Official Music Video)",
+    "channel": "Taylor Swift",
+    "duration_s": 310
+   },
+   {
+    "video_id": "H5v3kku4y6Q",
+    "title": "Harry Styles - As It Was (Official Video)",
+    "channel": "Harry Styles",
+    "duration_s": 166
+   }
+  ],
+  "rock_metal": [
+   {
+    "video_id": "CD-E-LDc384",
+    "title": "Metallica: Enter Sandman (Official Music Video)",
+    "channel": "Metallica",
+    "duration_s": 331
+   },
+   {
+    "video_id": "kXYiU_JCYtU",
+    "title": "Numb (Official Music Video) [4K UPGRADE] – Linkin Park",
+    "channel": "Linkin Park",
+    "duration_s": 188
+   },
+   {
+    "video_id": "bpOSxM0rNPM",
+    "title": "Arctic Monkeys - Do I Wanna Know? (Official Video)",
+    "channel": "Official Arctic Monkeys",
+    "duration_s": 266
+   },
+   {
+    "video_id": "eBG7P-K-r1Y",
+    "title": "Foo Fighters - Everlong (Official HD Video)",
+    "channel": "Foo Fighters",
+    "duration_s": 292
+   },
+   {
+    "video_id": "fJ9rUzIMcZQ",
+    "title": "Queen – Bohemian Rhapsody (Official Video Remastered)",
+    "channel": "Queen Official",
+    "duration_s": 360
+   }
+  ],
+  "electronic": [
+   {
+    "video_id": "_ovdm2yX4MA",
+    "title": "Avicii - Levels",
+    "channel": "Avicii",
+    "duration_s": 199
+   },
+   {
+    "video_id": "tKi9Z-f6qX4",
+    "title": "deadmau5 - Strobe",
+    "channel": "deadmau5",
+    "duration_s": 637
+   },
+   {
+    "video_id": "YJVmu6yttiw",
+    "title": "SKRILLEX - Bangarang feat. Sirah [Official Music Video]",
+    "channel": "Skrillex",
+    "duration_s": 219
+   },
+   {
+    "video_id": "ebXbLfLACGM",
+    "title": "Calvin Harris - Summer (Official Video)",
+    "channel": "Calvin Harris",
+    "duration_s": 234
+   }
+  ],
+  "bollywood": [
+   {
+    "video_id": "Umqb9KENgmk",
+    "title": "तुम ही हो  आशिकी 2 पूरा गाना बोल के साथ  | आदित्य रॉय कपूर, श्रद्धा कपूर",
+    "channel": "T-Series",
+    "duration_s": 268
+   },
+   {
+    "video_id": "BddP6PYo2gs",
+    "title": "Kesariya - Brahmāstra | Ranbir Kapoor, Alia Bhatt | Pritam | Arijit Singh | Amitabh Bhattacharya| 4K",
+    "channel": "Sony Music India",
+    "duration_s": 173
+   },
+   {
+    "video_id": "YxWlaYCA8MU",
+    "title": "Jhoome Jo Pathaan Song | Shah Rukh Khan, Deepika | Vishal & Sheykhar, Arijit Singh, Sukriti, Kumaar",
+    "channel": "YRF",
+    "duration_s": 203
+   },
+   {
+    "video_id": "ElZfdU54Cp8",
+    "title": "Apna Bana Le - Bhediya | Varun Dhawan, Kriti Sanon| Sachin-Jigar, Arijit Singh, Amitabh Bhattacharya",
+    "channel": "Zee Music Company",
+    "duration_s": 205
+   }
+  ],
+  "classical": [
+   {
+    "video_id": "e3nSvIiBNFo",
+    "title": "Vivaldi, The Four Seasons, Spring (La Primavera), 1st movement",
+    "channel": "Classical Concert Chamber Orchestra",
+    "duration_s": 197
+   },
+   {
+    "video_id": "n3EiRynr1Us",
+    "title": "Beethoven: Symphony No. 5, First movement (Benjamin Zander, Boston Philharmonic Orchestra)",
+    "channel": "Boston Philharmonic",
+    "duration_s": 404
+   },
+   {
+    "video_id": "c56t7upa8Bk",
+    "title": "Hans Zimmer - Time (Official Audio)",
+    "channel": "WaterTower Music",
+    "duration_s": 276
+   },
+   {
+    "video_id": "54hoKbTWon4",
+    "title": "John Williams & Wiener Philharmoniker – \"Main Title\" from \"Star Wars: A New Hope\"",
+    "channel": "Deutsche Grammophon - DG and John Williams",
+    "duration_s": 402
+   }
+  ],
+  "jazz_acoustic": [
+   {
+    "video_id": "-DHuW1h1wHw",
+    "title": "Dave Brubeck, The Dave Brubeck Quartet - Take Five (Audio)",
+    "channel": "Dave Brubeck",
+    "duration_s": 326
+   },
+   {
+    "video_id": "ylXk1LBvIqU",
+    "title": "Miles Davis - So What (Audio) (Official Audio)",
+    "channel": "Miles Davis",
+    "duration_s": 564
+   },
+   {
+    "video_id": "tO4dxvguQDk",
+    "title": "Norah Jones - Don't Know Why",
+    "channel": "Norah Jones",
+    "duration_s": 183
+   },
+   {
+    "video_id": "wCINvavqFXk",
+    "title": "Bill Evans Trio - Waltz For Debby (Official Visualizer)",
+    "channel": "Bill Evans",
+    "duration_s": 414
+   }
+  ]
+ }
+}

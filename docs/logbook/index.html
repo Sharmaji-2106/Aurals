@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AURALS Logbook</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm 18mm; }
+  @page :first { margin: 0; }
+  :root { --ink:#1d1724; --muted:#5d5566; --faint:#8c8494; --line:#e6e0ea; --sun:#e0894f; --plum:#3a2a44; }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 10.2pt/1.5 "Segoe UI", system-ui, sans-serif; color: var(--ink); background:#fff; }
+  .cover { height: 297mm; padding: 34mm 22mm; color:#fff; display:flex; flex-direction:column; justify-content:space-between;
+    background: radial-gradient(70% 50% at 70% 30%, #f3b07a 0%, #c86b5a 28%, #4a2a4e 62%, #140f1c 100%); page-break-after: always; }
+  .cover h1 { font: 600 44pt/1 Georgia, serif; margin: 0; letter-spacing: -0.5pt; }
+  .cover .kicker { letter-spacing: 3pt; text-transform: uppercase; font-size: 9pt; opacity: .8; }
+  .cover .big { font: 600 64pt/1 Georgia, serif; }
+  .cover .stats { display:grid; grid-template-columns: repeat(4, 1fr); gap: 10mm; }
+  .cover .stats b { display:block; font: 600 26pt/1 Georgia, serif; }
+  .cover .stats span { font-size: 8.5pt; opacity: .85; }
+  h2 { font: 600 17pt/1.15 Georgia, serif; margin: 9mm 0 2mm; color: var(--plum); page-break-after: avoid; }
+  h2 small { font: 9pt "Segoe UI", sans-serif; color: var(--faint); margin-left: 6px; }
+  p.lead { color: var(--muted); margin: 0 0 4mm; }
+  table { width:100%; border-collapse: collapse; margin-bottom: 2mm; }
+  tr { page-break-inside: avoid; }
+  td { vertical-align: top; padding: 2.2mm 2mm; border-bottom: 1px solid var(--line); }
+  td.n { width: 9mm; color: var(--sun); font-weight: 700; font-variant-numeric: tabular-nums; }
+  td.t { width: 52mm; font-weight: 600; }
+  td .f { display:block; color: var(--faint); font-size: 8.3pt; margin-top: 1mm; font-family: Consolas, monospace; }
+  .box { border: 1px solid var(--line); border-radius: 3mm; padding: 4mm 5mm; margin: 4mm 0; background: #faf8fb; page-break-inside: avoid; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  ul { margin: 1mm 0 0 4mm; padding: 0; } li { margin: .8mm 0; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="kicker">AURALS · Logbook</div>
+    <h1>Every change,<br />in one place.</h1>
+    <p style="max-width:120mm;opacity:.9;margin-top:6mm">What was built and changed in this working session (15–16 November 2026): the cinematic sea, the transitions, listening through an earphone, the matching engine, and the final polish. Each entry says what changed, where it lives, and how it was checked.</p>
+  </div>
+  <div>
+    <div class="big">42</div>
+    <div class="kicker" style="margin-top:2mm">changes logged</div>
+    <div class="stats" style="margin-top:12mm">
+      <div><b>278</b><span>backend tests passing</span></div>
+      <div><b>106</b><span>frontend tests passing</span></div>
+      <div><b>787</b><span>earphones the ranking can compare</span></div>
+      <div><b>0</b><span>commits (all uncommitted, by request)</span></div>
+    </div>
+  </div>
+</section>
+
+<h2>1 · The sea and the homepage film <small>4 changes</small></h2>
+<p class="lead">The homepage background: a Blender sea rendered with Physical Open Waters and Physical Atmosphere², played by the page's scroll.</p>
+<table>
+<tr><td class="n">01</td><td class="t">Natural, cinematic water</td><td>Navy water, softer capillary waves, the camera raised (3.6–4.4 m, 50 mm, f/2) — no more "liquid metal" look.<span class="f">design/film/sea/build_sea.py</span></td></tr>
+<tr><td class="n">02</td><td class="t">More clouds, cleaner sky</td><td>Denser cloud cover; sky-bake row streaks removed in post; WebP at quality 90 with dither to stop banding.<span class="f">design/film/sea/grade.py · package.py</span></td></tr>
+<tr><td class="n">03</td><td class="t">Scroll-played film</td><td>144 frames, golden hour to night, drawn to a canvas and cross-faded, driven by the page scroll through a spring.<span class="f">components/landing/film-canvas.tsx · landing-scene.tsx</span></td></tr>
+<tr><td class="n">04</td><td class="t">The ocean alive at rest</td><td>A WebGL cinemagraph over the first frame: swells roll in on the sea's ground plane, sun glitter twinkles, clouds sway; the film takes over the moment you scroll.<span class="f">components/landing/living-still.tsx</span></td></tr>
+</table>
+
+<h2>2 · Transitions through the journey <small>7 changes</small></h2>
+<table>
+<tr><td class="n">05</td><td class="t">The ascent film</td><td>A 96-frame Blender shot from the homepage's first frame: skim the swells, rise toward the sun. Rendered in small chunks with cooldowns after the PC's power shutdowns.<span class="f">build_sea.py --shot ascent · public/film/ascent</span></td></tr>
+<tr><td class="n">06</td><td class="t">Home → name, one continuous shot</td><td>Redesigned: the sea becomes the climb and ends exactly on the name page's own background — no flash, no cut. Scrolled-down pages run the evening back to golden hour first.<span class="f">components/transition/journeys.tsx (AscentField)</span></td></tr>
+<tr><td class="n">07</td><td class="t">The name page's sea</td><td>The same sea from a new angle — high above it, sun ahead — alive and veiled; the side column on glass.<span class="f">components/landing/start-scene.tsx · app/start/page.tsx</span></td></tr>
+<tr><td class="n">08</td><td class="t">Name → music: the name rite</td><td>The name written large, a line drawn beneath it that turns into a listening waveform, lifting into the music page.<span class="f">journeys.tsx (NameRite)</span></td></tr>
+<tr><td class="n">09</td><td class="t">Music → analysis: the dive</td><td>The ascent in reverse back to the water, the waterline climbs the screen, "Under the surface of your music.", settling into the analysis page.<span class="f">journeys.tsx (DiveField) · app/music/page.tsx</span></td></tr>
+<tr><td class="n">10</td><td class="t">Transition system</td><td>One provider runs every doorway (field, ascent, name, dive), warms film frames ahead, and loads the destination behind the animation.<span class="f">spectral-transition.tsx · lib/film-prefetch.ts</span></td></tr>
+<tr><td class="n">11</td><td class="t">"Find my sound"</td><td>The homepage call-to-action renamed from "Build my sound profile".<span class="f">components/landing/hero.tsx · closing.tsx</span></td></tr>
+</table>
+
+<h2>3 · Listening <small>9 changes</small></h2>
+<table>
+<tr><td class="n">12</td><td class="t">Listen through any earphone</td><td>Backend curve per product (measured minus your earphone, or the target), smoothed and limited to ±12 dB.<span class="f">backend store/listen.py · GET /api/store/products/{slug}/listen</span></td></tr>
+<tr><td class="n">13</td><td class="t">Browser filter engine</td><td>Linear-phase FIR (8192 taps) rendered offline, delay removed, loudness matched (K-weighted).<span class="f">lib/audio/through.ts</span></td></tr>
+<tr><td class="n">14</td><td class="t">The listening bar</td><td>A global player: "as it is" vs "through this earphone", your own song, Listen buttons in the store and on every result.<span class="f">components/listen/listening.tsx</span></td></tr>
+<tr><td class="n">15</td><td class="t">A/B: a song for each question</td><td>Each comparison plays the playlist song that shows it off — heaviest bass for bass, most forward vocal for vocals, brightest for treble.<span class="f">components/tuning/tuning-flow.tsx</span></td></tr>
+<tr><td class="n">16</td><td class="t">A/B: your own song, any time</td><td>"Your own song" mid-duel; a switch for matched songs; the record notes which songs the choices were made on.<span class="f">tuning-flow.tsx (SongLine)</span></td></tr>
+<tr><td class="n">17</td><td class="t">A/B: smoother and fairer</td><td>Songs cross-fade between pairs; answers wait until the next pair is actually playing.<span class="f">components/tuning/player.ts</span></td></tr>
+<tr><td class="n">18</td><td class="t">One master volume</td><td>Everything AURALS plays passes one perceptual volume, remembered per browser; A/B loudness matching untouched.<span class="f">lib/audio/volume.ts</span></td></tr>
+<tr><td class="n">19</td><td class="t">The volume rail</td><td>A vertical glass rail on the right of the listening session and questions: sunset fill, scale that breathes with the music, drag / wheel / keys / mute.<span class="f">components/listen/volume.tsx</span></td></tr>
+<tr><td class="n">20</td><td class="t">Inline volume</td><td>The same control laid flat on the listening bar.<span class="f">volume.tsx (VolumeInline)</span></td></tr>
+</table>
+
+<h2>4 · Matching that ends on proper earphones <small>11 changes</small></h2>
+<p class="lead">Tested with five listener personas run through the real engine (<span style="font-family:Consolas">python -m auralis.tools.personas</span>): every result is now a wired IEM at a verified Indian price inside the budget.</p>
+<table>
+<tr><td class="n">21</td><td class="t">Real prices</td><td>The best current retail price per currency (60-day window); marketplace snippets and used units ignored. Fixed Truthear Pure showing ₹14,943 instead of ₹9,990.<span class="f">recommend/service.py (_market)</span></td></tr>
+<tr><td class="n">22</td><td class="t">Wired IEMs only</td><td>49 true-wireless earbuds left out of recommendations, and the page says so.<span class="f">recommend/standing.py (is_wireless)</span></td></tr>
+<tr><td class="n">23</td><td class="t">Verified-price budgets</td><td>A budgeted list holds only earphones with a verified price inside it.<span class="f">service.py (_pragmatic)</span></td></tr>
+<tr><td class="n">24</td><td class="t">Community standing</td><td>At most +3 points for being stocked in India and recommended in 5 published roundups (linked on each card) — a tie-breaker between near-equals.<span class="f">data/iem/acclaim.json · standing.py · StandingLine</span></td></tr>
+<tr><td class="n">25</td><td class="t">Genres lean your sound</td><td>A soft, labelled rule of thumb (e.g. hip-hop: more bass, gentler treble); music, answers and ears outweigh it. Profile rebuilt when genres change.<span class="f">sound_profile/fusion.py (GENRE_LEAN)</span></td></tr>
+<tr><td class="n">26</td><td class="t">Best of your budget</td><td>Under the #1: the top three near the top of your price bracket.<span class="f">service.py (_budget_picks) · results/picks.tsx</span></td></tr>
+<tr><td class="n">27</td><td class="t">Driver types on record</td><td>245 configurations read from saved retailer listings (strict rules; disagreements left unknown), each with its source and quote.<span class="f">iem/drivers.py · data/iem/drivers.json</span></td></tr>
+<tr><td class="n">28</td><td class="t">Built for how you listen</td><td>A driver-type rule of thumb from your genres and sound, and the best earphone of each type (never one already shown above).<span class="f">lib/driver-fit.ts · picks.tsx (DriverPicks)</span></td></tr>
+<tr><td class="n">29</td><td class="t">More genres</td><td>Pop, Rock &amp; metal, Bollywood &amp; Indian, Classical, Jazz &amp; acoustic — 13 options in two rows, three new card motifs.<span class="f">lib/use-cases.ts · app/world/page.tsx</span></td></tr>
+<tr><td class="n">30</td><td class="t">Persona harness</td><td>Five listeners × budgets, top fives with match and standing, for judging any engine change.<span class="f">backend/src/auralis/tools/personas.py</span></td></tr>
+<tr><td class="n">31</td><td class="t">Honest ranking copy</td><td>Every page now says exactly what can and cannot move the ranking.<span class="f">match/results.tsx · evidence.tsx · world page</span></td></tr>
+</table>
+
+<h2>5 · Music without a playlist <small>3 changes</small></h2>
+<table>
+<tr><td class="n">32</td><td class="t">Choose songs for me</td><td>Name genres; AURALS measures 31 checked, official, well-known songs (4–5 per genre) through the same pipeline.<span class="f">data/music/genre-picks.json · music/picks.py · POST /api/music/picks</span></td></tr>
+<tr><td class="n">33</td><td class="t">Always labelled</td><td>A new <i>origin</i> on submissions (migration, reversible); results and the Sound Card say these were AURALS's choice, not your playlist.<span class="f">migrations/…d3a91e5f7c20 · results.tsx · card</span></td></tr>
+<tr><td class="n">34</td><td class="t">Skip music</td><td>Straight to listening and questions; the profile is drawn from ears and answers.<span class="f">app/music/page.tsx (NoPlaylist)</span></td></tr>
+</table>
+
+<h2>6 · The results page <small>4 changes</small></h2>
+<table>
+<tr><td class="n">35</td><td class="t">New order</td><td>Card → your sound → #1 → budget picks → driver pick → the field → your music → owners → the numbers.<span class="f">components/match/results.tsx</span></td></tr>
+<tr><td class="n">36</td><td class="t">Reviews only of your matches</td><td>Owner reviews shown only for earphones matched to you; one honest line when none have any. First-hand impressions lead; advice requests never do.<span class="f">components/results/evidence.tsx</span></td></tr>
+<tr><td class="n">37</td><td class="t">Section index</td><td>A quiet index on the right edge showing where you are on the page.<span class="f">components/match/section-index.tsx</span></td></tr>
+<tr><td class="n">38</td><td class="t">Tighter rhythm</td><td>Section spacing reduced; the page about 900 px shorter.<span class="f">results.tsx</span></td></tr>
+</table>
+
+<h2>7 · The Sound Card and the brand <small>4 changes</small></h2>
+<table>
+<tr><td class="n">39</td><td class="t">A credit-card-thin card</td><td>0.76 mm stock; satin bodies with glossy engraving, brushed metal finishes, soft studio light, specular anti-aliasing, 2× supersampling.<span class="f">components/card/scene/card-object.ts · card-stage.tsx</span></td></tr>
+<tr><td class="n">40</td><td class="t">Card layout fix</td><td>Two-line names no longer overprint the "your sound" label.<span class="f">components/card/artwork.ts</span></td></tr>
+<tr><td class="n">41</td><td class="t">Open the code</td><td>A small button that opens the address the card's QR code encodes.<span class="f">components/card/sound-card-section.tsx</span></td></tr>
+<tr><td class="n">42</td><td class="t">Neon AURALS, letter by letter</td><td>Each letter's tube flickers on in turn — A, u, r, a, l, s — then the wave fills with light and the sign hums.<span class="f">components/site/neon-sign.tsx · globals.css</span></td></tr>
+</table>
+
+<div class="grid2">
+  <div class="box"><b>How it was checked</b>
+    <ul>
+      <li>Backend: 278 pytest, ruff, mypy — all passing.</li>
+      <li>Frontend: 106 vitest, tsc, eslint, prettier — all passing.</li>
+      <li>Every visual change watched in a real browser with throwaway test listeners, each deleted afterwards.</li>
+    </ul>
+  </div>
+  <div class="box"><b>Data integrity</b>
+    <ul>
+      <li>Nothing fabricated: prices, driver types, roundups and songs all carry their source.</li>
+      <li>Rules of thumb (genre lean, driver fit, standing) are labelled as such wherever shown.</li>
+      <li>Originals of changed files are kept in <span style="font-family:Consolas">logs/</span>.</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

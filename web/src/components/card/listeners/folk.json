@@ -1,0 +1,4676 @@
+{
+  "capturedOn": "2026-11-12",
+  "playlist": "https://www.youtube.com/playlist?list=PLFHPLhbVbv26RJJLaKuR1FIm-EVW2frfw",
+  "me": {
+    "id": "0e9641dd-f145-46e7-87a6-e8dbf8b014cb",
+    "profile": {
+      "display_name": "Sample listener",
+      "country_code": null,
+      "currency": null,
+      "budget_min": null,
+      "budget_max": null,
+      "experience": null,
+      "current_gear": [],
+      "use_cases": [],
+      "primary_use_case": null,
+      "driver_preference": null,
+      "shortlist": []
+    },
+    "journey": {
+      "next_step": "questionnaire",
+      "active_submission_id": null,
+      "latest_submission_id": "faae98e7-9d82-4a71-906a-827ba9786a19",
+      "has_music_profile": true,
+      "has_questionnaire": false,
+      "has_sound_profile": true
+    }
+  },
+  "sound": {
+    "id": "fed48fca-aaaa-4d4e-81e8-ddb43923069a",
+    "created_at": "2026-11-12T17:26:28.503694+05:30",
+    "music_profile_id": "c0f7837f-015c-4e9e-acac-8c570977a5d5",
+    "questionnaire_response_id": null,
+    "data": {
+      "model_version": "sound-profile/3",
+      "basis": "bayesian",
+      "reference_target": "harman-ie-2019",
+      "dimensions": [
+        {
+          "key": "sub_bass",
+          "label": "Sub-bass",
+          "group": "tonal",
+          "description": "The deep rumble below the bass line.",
+          "low_label": "Restrained",
+          "high_label": "Elevated",
+          "value": 0.444,
+          "confidence": 0.699,
+          "unit": "dB",
+          "mean": -0.424,
+          "sd": 1.645,
+          "measurable_from_music": true,
+          "music_value": 0.444,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.444,
+              "weight": 1.0,
+              "note": "Your songs' sub-bass content is close to typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "mid_bass",
+          "label": "Mid-bass",
+          "group": "tonal",
+          "description": "Punch and body of kick drums and bass guitar.",
+          "low_label": "Lean",
+          "high_label": "Punchy",
+          "value": 0.519,
+          "confidence": 0.686,
+          "unit": "dB",
+          "mean": 0.146,
+          "sd": 1.68,
+          "measurable_from_music": true,
+          "music_value": 0.519,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.519,
+              "weight": 1.0,
+              "note": "Your songs' mid-bass content is close to typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "warmth",
+          "label": "Warmth",
+          "group": "tonal",
+          "description": "Fullness in the lower midrange.",
+          "low_label": "Clean",
+          "high_label": "Warm",
+          "value": 0.805,
+          "confidence": 0.679,
+          "unit": "dB",
+          "mean": 1.288,
+          "sd": 0.85,
+          "measurable_from_music": true,
+          "music_value": 0.805,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.805,
+              "weight": 1.0,
+              "note": "Your songs' lower-midrange content is well above typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "vocal_presence",
+          "label": "Vocal presence",
+          "group": "tonal",
+          "description": "How far forward voices and lead instruments sit.",
+          "low_label": "Laid-back",
+          "high_label": "Forward",
+          "value": 0.327,
+          "confidence": 0.694,
+          "unit": "dB",
+          "mean": -0.672,
+          "sd": 0.83,
+          "measurable_from_music": true,
+          "music_value": 0.327,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.327,
+              "weight": 1.0,
+              "note": "Your songs' upper-midrange content is a little below typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "treble",
+          "label": "Treble",
+          "group": "tonal",
+          "description": "Crispness of cymbals and consonants.",
+          "low_label": "Smooth",
+          "high_label": "Crisp",
+          "value": 0.346,
+          "confidence": 0.699,
+          "unit": "dB",
+          "mean": -0.991,
+          "sd": 1.372,
+          "measurable_from_music": true,
+          "music_value": 0.346,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.346,
+              "weight": 1.0,
+              "note": "Your songs' treble content is a little below typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "air",
+          "label": "Air",
+          "group": "tonal",
+          "description": "The open shimmer at the very top.",
+          "low_label": "Soft",
+          "high_label": "Airy",
+          "value": 0.425,
+          "confidence": 0.691,
+          "unit": "dB",
+          "mean": -0.475,
+          "sd": 1.39,
+          "measurable_from_music": true,
+          "music_value": 0.425,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.425,
+              "weight": 1.0,
+              "note": "Your songs' air-band content is close to typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "energy",
+          "label": "Energy",
+          "group": "character",
+          "description": "Overall liveliness of the presentation.",
+          "low_label": "Relaxed",
+          "high_label": "Energetic",
+          "value": 0.368,
+          "confidence": 0.695,
+          "unit": "sd",
+          "mean": -0.337,
+          "sd": 0.553,
+          "measurable_from_music": true,
+          "music_value": 0.368,
+          "answer_value": null,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "music",
+              "value": 0.368,
+              "weight": 1.0,
+              "note": "Your songs' energy is a little below typical music",
+              "status": "derived"
+            }
+          ]
+        },
+        {
+          "key": "treble_tolerance",
+          "label": "Treble tolerance",
+          "group": "tolerance",
+          "description": "How well you handle bright or sharp sound.",
+          "low_label": "Sensitive",
+          "high_label": "Tolerant",
+          "value": 0.5,
+          "confidence": 0.0,
+          "unit": "sd",
+          "mean": 0.0,
+          "sd": 1.0,
+          "measurable_from_music": false,
+          "music_value": null,
+          "answer_value": null,
+          "basis": {
+            "music": "none",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "prior",
+              "value": 0.5,
+              "weight": 1.0,
+              "note": "Population median",
+              "status": "heuristic"
+            }
+          ]
+        },
+        {
+          "key": "detail",
+          "label": "Detail",
+          "group": "priority",
+          "description": "How much resolving fine detail matters.",
+          "low_label": "Low priority",
+          "high_label": "High priority",
+          "value": 0.5,
+          "confidence": 0.0,
+          "unit": "sd",
+          "mean": 0.0,
+          "sd": 1.0,
+          "measurable_from_music": false,
+          "music_value": null,
+          "answer_value": null,
+          "basis": {
+            "music": "none",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "prior",
+              "value": 0.5,
+              "weight": 1.0,
+              "note": "Population median",
+              "status": "heuristic"
+            }
+          ]
+        },
+        {
+          "key": "soundstage",
+          "label": "Soundstage",
+          "group": "priority",
+          "description": "How much a spacious presentation matters.",
+          "low_label": "Low priority",
+          "high_label": "High priority",
+          "value": 0.5,
+          "confidence": 0.0,
+          "unit": "sd",
+          "mean": 0.0,
+          "sd": 1.0,
+          "measurable_from_music": false,
+          "music_value": null,
+          "answer_value": null,
+          "basis": {
+            "music": "none",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "prior",
+              "value": 0.5,
+              "weight": 1.0,
+              "note": "Population median",
+              "status": "heuristic"
+            }
+          ]
+        },
+        {
+          "key": "naturalness",
+          "label": "Naturalness",
+          "group": "priority",
+          "description": "How much true-to-life timbre matters.",
+          "low_label": "Low priority",
+          "high_label": "High priority",
+          "value": 0.5,
+          "confidence": 0.0,
+          "unit": "sd",
+          "mean": 0.0,
+          "sd": 1.0,
+          "measurable_from_music": false,
+          "music_value": null,
+          "answer_value": null,
+          "basis": {
+            "music": "none",
+            "answers": "none",
+            "agreement": null
+          },
+          "evidence": [
+            {
+              "source": "prior",
+              "value": 0.5,
+              "weight": 1.0,
+              "note": "Population median",
+              "status": "heuristic"
+            }
+          ]
+        }
+      ],
+      "preference_curve": [
+        {
+          "band": "sub_bass",
+          "label": "Sub-bass",
+          "center_hz": 34.6,
+          "offset_db": -0.42,
+          "confidence": 0.699,
+          "sd_db": 1.64,
+          "low_db": -2.53,
+          "high_db": 1.68,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "mid_bass",
+          "label": "Mid-bass",
+          "center_hz": 109.5,
+          "offset_db": 0.15,
+          "confidence": 0.686,
+          "sd_db": 1.68,
+          "low_db": -2.01,
+          "high_db": 2.3,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "lower_mids",
+          "label": "Lower mids",
+          "center_hz": 316.2,
+          "offset_db": 1.29,
+          "confidence": 0.679,
+          "sd_db": 0.85,
+          "low_db": 0.2,
+          "high_db": 2.38,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "mids",
+          "label": "Mids",
+          "center_hz": 774.6,
+          "offset_db": 0.0,
+          "confidence": 1.0,
+          "sd_db": 0.0,
+          "low_db": 0.0,
+          "high_db": 0.0,
+          "reference": true,
+          "basis": {
+            "music": "none",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "upper_mids",
+          "label": "Upper mids",
+          "center_hz": 1897.4,
+          "offset_db": -0.67,
+          "confidence": 0.694,
+          "sd_db": 0.83,
+          "low_db": -1.74,
+          "high_db": 0.39,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "presence",
+          "label": "Presence",
+          "center_hz": 3873.0,
+          "offset_db": -0.83,
+          "confidence": 0.694,
+          "sd_db": 0.8,
+          "low_db": -1.86,
+          "high_db": 0.2,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "lower_treble",
+          "label": "Lower treble",
+          "center_hz": 6324.6,
+          "offset_db": -0.99,
+          "confidence": 0.699,
+          "sd_db": 1.37,
+          "low_db": -2.75,
+          "high_db": 0.77,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "upper_treble",
+          "label": "Upper treble",
+          "center_hz": 9798.0,
+          "offset_db": -0.99,
+          "confidence": 0.699,
+          "sd_db": 1.37,
+          "low_db": -2.75,
+          "high_db": 0.77,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        },
+        {
+          "band": "air",
+          "label": "Air",
+          "center_hz": 15491.9,
+          "offset_db": -0.47,
+          "confidence": 0.691,
+          "sd_db": 1.39,
+          "low_db": -2.26,
+          "high_db": 1.31,
+          "reference": false,
+          "basis": {
+            "music": "strong",
+            "answers": "none",
+            "agreement": null
+          }
+        }
+      ],
+      "layers": {
+        "music": [
+          {
+            "band": "sub_bass",
+            "label": "Sub-bass",
+            "center_hz": 34.6,
+            "offset_db": -0.42,
+            "confidence": 0.699,
+            "sd_db": 1.64,
+            "low_db": -2.53,
+            "high_db": 1.68,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "mid_bass",
+            "label": "Mid-bass",
+            "center_hz": 109.5,
+            "offset_db": 0.15,
+            "confidence": 0.686,
+            "sd_db": 1.68,
+            "low_db": -2.01,
+            "high_db": 2.3,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "lower_mids",
+            "label": "Lower mids",
+            "center_hz": 316.2,
+            "offset_db": 1.29,
+            "confidence": 0.679,
+            "sd_db": 0.85,
+            "low_db": 0.2,
+            "high_db": 2.38,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "mids",
+            "label": "Mids",
+            "center_hz": 774.6,
+            "offset_db": 0.0,
+            "confidence": 1.0,
+            "sd_db": 0.0,
+            "low_db": 0.0,
+            "high_db": 0.0,
+            "reference": true,
+            "basis": {
+              "music": "none",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "upper_mids",
+            "label": "Upper mids",
+            "center_hz": 1897.4,
+            "offset_db": -0.67,
+            "confidence": 0.694,
+            "sd_db": 0.83,
+            "low_db": -1.74,
+            "high_db": 0.39,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "presence",
+            "label": "Presence",
+            "center_hz": 3873.0,
+            "offset_db": -0.83,
+            "confidence": 0.694,
+            "sd_db": 0.8,
+            "low_db": -1.86,
+            "high_db": 0.2,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "lower_treble",
+            "label": "Lower treble",
+            "center_hz": 6324.6,
+            "offset_db": -0.99,
+            "confidence": 0.699,
+            "sd_db": 1.37,
+            "low_db": -2.75,
+            "high_db": 0.77,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "upper_treble",
+            "label": "Upper treble",
+            "center_hz": 9798.0,
+            "offset_db": -0.99,
+            "confidence": 0.699,
+            "sd_db": 1.37,
+            "low_db": -2.75,
+            "high_db": 0.77,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          },
+          {
+            "band": "air",
+            "label": "Air",
+            "center_hz": 15491.9,
+            "offset_db": -0.47,
+            "confidence": 0.691,
+            "sd_db": 1.39,
+            "low_db": -2.26,
+            "high_db": 1.31,
+            "reference": false,
+            "basis": {
+              "music": "strong",
+              "answers": "none",
+              "agreement": null
+            }
+          }
+        ],
+        "answers": null
+      },
+      "curve_reference": "Offsets in dB relative to the Harman in-ear 2019 target (Olive et al.). IEMs are compared against that target plus these offsets.",
+      "assumptions": [
+        {
+          "key": "prior_sd_bass_db",
+          "value": 3.0,
+          "unit": "dB",
+          "status": "literature_informed",
+          "basis": "Harman listener classes: 64% prefer the target, 15% want 4-6 dB more bass, 21% about 2 dB less (Olive 2022). That mixture alone has an SD of about 2.1 dB; within-class spread is added."
+        },
+        {
+          "key": "prior_sd_treble_db",
+          "value": 2.5,
+          "unit": "dB",
+          "status": "literature_informed",
+          "basis": "Demographic groups differ by about 2 dB in preferred treble (Olive & Welti 2015)."
+        },
+        {
+          "key": "prior_sd_mids_db",
+          "value": 1.5,
+          "unit": "dB",
+          "status": "assumption",
+          "basis": "Listeners strongly rejected both the 2-4 kHz emphasis of diffuse-field targets and too little energy there (Olive et al. 2013); variation in the midrange is assumed smaller than in bass."
+        },
+        {
+          "key": "prior_sd_air_db",
+          "value": 2.5,
+          "unit": "dB",
+          "status": "assumption",
+          "basis": "No preference data; set like treble. Couplers are unreliable above 10 kHz anyway."
+        },
+        {
+          "key": "answer_reliability",
+          "value": 0.7,
+          "unit": "0-1",
+          "status": "literature_informed",
+          "basis": "Conservative minimum reliability of single-item self-report measures (Wanous, Reichers & Hudy 1997). Borrowed from a neighbouring field, not measured for audio questions."
+        },
+        {
+          "key": "indirect_reliability_factor",
+          "value": 0.5,
+          "unit": "x",
+          "status": "assumption",
+          "basis": "An answer inferred from a neighbouring question (e.g. air from treble) keeps half the reliability of a direct one."
+        },
+        {
+          "key": "music_correlation",
+          "value": 0.837,
+          "unit": "rho",
+          "status": "hypothesis",
+          "basis": "Correlation between a library's spectral balance and the listener's preferred balance. No study has measured it (research.md section 3). The sign follows the content-matching hypothesis; the magnitude makes a large library exactly as informative as one direct answer (rho^2 = answer reliability)."
+        }
+      ],
+      "summary": [
+        "Warmth: leaning warm (+1.3 dB vs the reference), from your music.",
+        "Vocal presence: leaning laid-back (-0.7 dB vs the reference), from your music.",
+        "Treble: leaning smooth (-1.0 dB vs the reference), from your music."
+      ],
+      "sources": {
+        "music": true,
+        "prior": true,
+        "feedback": false,
+        "questionnaire": false
+      }
+    }
+  },
+  "music": {
+    "id": "c0f7837f-015c-4e9e-acac-8c570977a5d5",
+    "created_at": "2026-11-12T17:26:28.503694+05:30",
+    "submission_id": "faae98e7-9d82-4a71-906a-827ba9786a19",
+    "track_count": 94,
+    "data": {
+      "version": "music-profile/2",
+      "analyzer_version": "analyzer/1",
+      "descriptors_version": "descriptors/1",
+      "bands_version": "bands/1",
+      "calibration": "corpus-2026-09",
+      "counts": {
+        "analysed": 94,
+        "effective": 94.0,
+        "duplicates": 0,
+        "outliers": 0
+      },
+      "bands": [
+        {
+          "key": "sub_bass",
+          "label": "Sub-bass",
+          "low_hz": 20.0,
+          "high_hz": 60.0,
+          "level_db": {
+            "median": -2.45,
+            "p25": -5.6,
+            "p75": 1.2
+          },
+          "emphasis": {
+            "median": 0.458,
+            "p25": 0.401,
+            "p75": 0.525
+          },
+          "confidence": 0.84,
+          "deviation_db": {
+            "median": -2.3,
+            "p25": -5.45,
+            "p75": 1.35
+          },
+          "balance_db": {
+            "estimate": -2.3,
+            "se": 0.55,
+            "ci_low": -3.25,
+            "ci_high": -1.53,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.169,
+            "se": 0.04,
+            "ci_low": -0.238,
+            "ci_high": -0.112,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "mid_bass",
+          "label": "Mid-bass",
+          "low_hz": 60.0,
+          "high_hz": 200.0,
+          "level_db": {
+            "median": 3.59,
+            "p25": 0.92,
+            "p75": 6.59
+          },
+          "emphasis": {
+            "median": 0.514,
+            "p25": 0.338,
+            "p75": 0.706
+          },
+          "confidence": 0.606,
+          "deviation_db": {
+            "median": 0.21,
+            "p25": -2.46,
+            "p75": 3.21
+          },
+          "balance_db": {
+            "estimate": 0.21,
+            "se": 0.52,
+            "ci_low": -0.61,
+            "ci_high": 1.09,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": 0.058,
+            "se": 0.143,
+            "ci_low": -0.168,
+            "ci_high": 0.298,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "lower_mids",
+          "label": "Lower mids",
+          "low_hz": 200.0,
+          "high_hz": 500.0,
+          "level_db": {
+            "median": 3.45,
+            "p25": 0.94,
+            "p75": 4.8
+          },
+          "emphasis": {
+            "median": 0.736,
+            "p25": 0.508,
+            "p75": 0.826
+          },
+          "confidence": 0.654,
+          "deviation_db": {
+            "median": 2.59,
+            "p25": 0.08,
+            "p75": 3.94
+          },
+          "balance_db": {
+            "estimate": 2.59,
+            "se": 0.44,
+            "ci_low": 1.66,
+            "ci_high": 3.0,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": 1.026,
+            "se": 0.175,
+            "ci_low": 0.656,
+            "ci_high": 1.188,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "mids",
+          "label": "Mids",
+          "low_hz": 500.0,
+          "high_hz": 1200.0,
+          "level_db": {
+            "median": 1.03,
+            "p25": 0.72,
+            "p75": 1.37
+          },
+          "emphasis": {
+            "median": 0.557,
+            "p25": 0.45,
+            "p75": 0.671
+          },
+          "confidence": 0.747,
+          "deviation_db": {
+            "median": 0.16,
+            "p25": -0.14,
+            "p75": 0.51
+          },
+          "balance_db": {
+            "estimate": 0.16,
+            "se": 0.05,
+            "ci_low": 0.11,
+            "ci_high": 0.24,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": 0.231,
+            "se": 0.064,
+            "ci_low": 0.149,
+            "ci_high": 0.338,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "upper_mids",
+          "label": "Upper mids",
+          "low_hz": 1200.0,
+          "high_hz": 3000.0,
+          "level_db": {
+            "median": -3.7,
+            "p25": -5.14,
+            "p75": -2.51
+          },
+          "emphasis": {
+            "median": 0.384,
+            "p25": 0.219,
+            "p75": 0.546
+          },
+          "confidence": 0.646,
+          "deviation_db": {
+            "median": -0.86,
+            "p25": -2.3,
+            "p75": 0.34
+          },
+          "balance_db": {
+            "estimate": -0.86,
+            "se": 0.25,
+            "ci_low": -1.3,
+            "ci_high": -0.59,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.474,
+            "se": 0.138,
+            "ci_low": -0.717,
+            "ci_high": -0.325,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "presence",
+          "label": "Presence",
+          "low_hz": 3000.0,
+          "high_hz": 5000.0,
+          "level_db": {
+            "median": -8.54,
+            "p25": -11.16,
+            "p75": -6.57
+          },
+          "emphasis": {
+            "median": 0.355,
+            "p25": 0.212,
+            "p75": 0.486
+          },
+          "confidence": 0.696,
+          "deviation_db": {
+            "median": -2.18,
+            "p25": -4.79,
+            "p75": -0.2
+          },
+          "balance_db": {
+            "estimate": -2.18,
+            "se": 0.52,
+            "ci_low": -3.52,
+            "ci_high": -1.68,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.597,
+            "se": 0.144,
+            "ci_low": -0.965,
+            "ci_high": -0.461,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "lower_treble",
+          "label": "Lower treble",
+          "low_hz": 5000.0,
+          "high_hz": 8000.0,
+          "level_db": {
+            "median": -11.87,
+            "p25": -14.34,
+            "p75": -9.88
+          },
+          "emphasis": {
+            "median": 0.362,
+            "p25": 0.281,
+            "p75": 0.435
+          },
+          "confidence": 0.811,
+          "deviation_db": {
+            "median": -3.71,
+            "p25": -6.18,
+            "p75": -1.72
+          },
+          "balance_db": {
+            "estimate": -3.71,
+            "se": 0.42,
+            "ci_low": -4.23,
+            "ci_high": -2.97,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.566,
+            "se": 0.065,
+            "ci_low": -0.645,
+            "ci_high": -0.452,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "upper_treble",
+          "label": "Upper treble",
+          "low_hz": 8000.0,
+          "high_hz": 12000.0,
+          "level_db": {
+            "median": -13.85,
+            "p25": -15.82,
+            "p75": -11.36
+          },
+          "emphasis": {
+            "median": 0.406,
+            "p25": 0.334,
+            "p75": 0.502
+          },
+          "confidence": 0.798,
+          "deviation_db": {
+            "median": -2.43,
+            "p25": -4.4,
+            "p75": 0.06
+          },
+          "balance_db": {
+            "estimate": -2.43,
+            "se": 0.49,
+            "ci_low": -3.33,
+            "ci_high": -1.71,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.381,
+            "se": 0.077,
+            "ci_low": -0.523,
+            "ci_high": -0.269,
+            "method": "bootstrap"
+          },
+          "coverage": 1.0
+        },
+        {
+          "key": "air",
+          "label": "Air",
+          "low_hz": 12000.0,
+          "high_hz": 20000.0,
+          "level_db": {
+            "median": -22.23,
+            "p25": -25.98,
+            "p75": -18.67
+          },
+          "emphasis": {
+            "median": 0.443,
+            "p25": 0.317,
+            "p75": 0.572
+          },
+          "confidence": 0.707,
+          "deviation_db": {
+            "median": -1.57,
+            "p25": -5.32,
+            "p75": 1.99
+          },
+          "balance_db": {
+            "estimate": -1.57,
+            "se": 0.81,
+            "ci_low": -2.57,
+            "ci_high": -0.36,
+            "method": "bootstrap"
+          },
+          "balance_z": {
+            "estimate": -0.227,
+            "se": 0.117,
+            "ci_low": -0.372,
+            "ci_high": -0.052,
+            "method": "bootstrap"
+          },
+          "coverage": 0.989
+        }
+      ],
+      "descriptors": [
+        {
+          "key": "brightness",
+          "label": "Brightness",
+          "summary": "Where the spectral centre of gravity sits, relative to the reference corpus.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.32,
+            "p25": 0.213,
+            "p75": 0.427
+          },
+          "confidence": 0.754,
+          "z": {
+            "estimate": -0.755,
+            "se": 0.086,
+            "ci_low": -0.872,
+            "ci_high": -0.577,
+            "method": "bootstrap"
+          }
+        },
+        {
+          "key": "warmth",
+          "label": "Warmth",
+          "summary": "Energy in bass and lower mids relative to upper mids and presence.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.748,
+            "p25": 0.588,
+            "p75": 0.878
+          },
+          "confidence": 0.681,
+          "z": {
+            "estimate": 1.086,
+            "se": 0.13,
+            "ci_low": 0.905,
+            "ci_high": 1.28,
+            "method": "bootstrap"
+          }
+        },
+        {
+          "key": "energy",
+          "label": "Energy",
+          "summary": "A blend of transient rate, percussive share and loudness.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.402,
+            "p25": 0.32,
+            "p75": 0.488
+          },
+          "confidence": 0.798,
+          "z": {
+            "estimate": -0.403,
+            "se": 0.093,
+            "ci_low": -0.538,
+            "ci_high": -0.256,
+            "method": "bootstrap"
+          }
+        },
+        {
+          "key": "dynamics",
+          "label": "Dynamics",
+          "summary": "How much loudness varies over time and how much headroom peaks have.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.578,
+            "p25": 0.449,
+            "p75": 0.658
+          },
+          "confidence": 0.759,
+          "z": {
+            "estimate": 0.326,
+            "se": 0.099,
+            "ci_low": 0.117,
+            "ci_high": 0.45,
+            "method": "bootstrap"
+          }
+        },
+        {
+          "key": "density",
+          "label": "Density",
+          "summary": "How busy the music is: transient rate and how noise-like the spectrum is.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.418,
+            "p25": 0.321,
+            "p75": 0.501
+          },
+          "confidence": 0.787,
+          "z": {
+            "estimate": -0.354,
+            "se": 0.073,
+            "ci_low": -0.449,
+            "ci_high": -0.246,
+            "method": "bootstrap"
+          }
+        },
+        {
+          "key": "width",
+          "label": "Stereo width",
+          "summary": "Energy in the side channel relative to the centre of the mix.",
+          "basis": "heuristic",
+          "value": {
+            "median": 0.4,
+            "p25": 0.29,
+            "p75": 0.508
+          },
+          "confidence": 0.75,
+          "z": {
+            "estimate": -0.407,
+            "se": 0.128,
+            "ci_low": -0.656,
+            "ci_high": -0.265,
+            "method": "bootstrap"
+          }
+        }
+      ],
+      "measures": [
+        {
+          "key": "tempo_bpm",
+          "label": "Tempo",
+          "unit": "BPM",
+          "value": {
+            "median": 123.05,
+            "p25": 112.35,
+            "p75": 143.55
+          }
+        },
+        {
+          "key": "integrated_lufs",
+          "label": "Loudness",
+          "unit": "LUFS",
+          "value": {
+            "median": -11.24,
+            "p25": -13.32,
+            "p75": -9.67
+          }
+        },
+        {
+          "key": "loudness_range_lu",
+          "label": "Loudness range",
+          "unit": "LU",
+          "value": {
+            "median": 6.27,
+            "p25": 4.77,
+            "p75": 8.4
+          }
+        },
+        {
+          "key": "side_to_mid_db",
+          "label": "Side / mid energy",
+          "unit": "dB",
+          "value": {
+            "median": -9.87,
+            "p25": -11.96,
+            "p75": -7.99
+          }
+        },
+        {
+          "key": "centroid_hz",
+          "label": "Spectral centroid",
+          "unit": "Hz",
+          "value": {
+            "median": 2180.74,
+            "p25": 1790.09,
+            "p75": 2572.58
+          }
+        }
+      ],
+      "spectrum": {
+        "freqs_hz": [
+          20.0, 22.45, 25.2, 28.28, 31.75, 35.64, 40.0, 44.9, 50.4, 56.57, 63.5, 71.27, 80.0, 89.8, 100.79,
+          113.14, 126.99, 142.54, 160.0, 179.59, 201.59, 226.27, 253.98, 285.09, 320.0, 359.19, 403.17,
+          452.55, 507.97, 570.18, 640.0, 718.38, 806.35, 905.1, 1015.94, 1140.35, 1280.0, 1436.75, 1612.7,
+          1810.19, 2031.87, 2280.7, 2560.0, 2873.5, 3225.4, 3620.39, 4063.75, 4561.4, 5120.0, 5747.01, 6450.8,
+          7240.77, 8127.49, 9122.8, 10240.0, 11494.01, 12901.59, 14481.55, 16254.99, 18245.61, 20480.0
+        ],
+        "median_db": [
+          -23.72, -21.48, -19.73, -16.69, -13.73, -8.08, -3.47, -0.88, 1.4, 2.73, 2.81, 3.31, 4.11, 4.64,
+          4.53, 4.47, 3.22, 2.69, 3.75, 3.53, 3.37, 3.26, 3.93, 3.58, 3.21, 2.67, 2.04, 1.78, 2.92, 2.35,
+          2.41, 1.61, 0.66, 0.31, -0.33, -1.16, -1.9, -2.15, -2.03, -2.66, -4.01, -4.42, -5.71, -5.56, -7.23,
+          -7.91, -7.89, -9.55, -10.69, -10.7, -11.38, -11.37, -11.96, -12.56, -13.44, -15.51, -17.96, -21.13,
+          -25.62, -29.39, -37.73
+        ],
+        "p25_db": [
+          -28.96, -27.02, -24.48, -21.09, -18.86, -14.01, -8.92, -5.18, -3.24, -0.89, -0.91, -0.05, 1.79,
+          1.49, 1.12, 1.54, 0.77, -0.07, 0.81, 1.14, 1.25, 0.65, 1.24, 1.48, 1.34, -0.53, -0.47, -0.26, 1.02,
+          0.46, 1.48, 0.14, -0.65, -0.95, -1.41, -2.48, -3.01, -3.71, -3.39, -4.0, -5.89, -6.14, -7.14, -8.24,
+          -9.31, -9.77, -10.3, -12.48, -13.34, -13.78, -13.81, -13.61, -13.57, -14.28, -16.32, -18.94, -21.58,
+          -24.92, -29.36, -34.09, -42.93
+        ],
+        "p75_db": [
+          -19.27, -17.28, -14.49, -10.62, -6.72, -1.85, 0.1, 3.26, 4.95, 6.08, 6.54, 7.19, 7.81, 7.28, 7.32,
+          6.71, 6.8, 4.94, 6.46, 6.72, 6.01, 6.0, 6.69, 5.94, 5.95, 4.93, 4.93, 5.1, 4.81, 4.02, 3.84, 3.28,
+          2.61, 1.72, 0.89, -0.13, -0.9, -0.68, -0.88, -1.74, -1.97, -3.12, -3.48, -4.2, -4.78, -5.36, -5.69,
+          -7.05, -8.32, -9.18, -9.17, -9.45, -9.87, -9.57, -10.95, -12.26, -14.83, -17.35, -21.39, -24.83,
+          -32.6
+        ]
+      },
+      "clusters": [
+        {
+          "id": 0,
+          "label": "Leaner · Lighter bass",
+          "size": 42,
+          "share": 0.447,
+          "descriptors": {
+            "width": 0.422,
+            "energy": 0.422,
+            "warmth": 0.667,
+            "density": 0.425,
+            "dynamics": 0.565,
+            "brightness": 0.344
+          },
+          "band_emphasis": {
+            "air": 0.412,
+            "mids": 0.518,
+            "mid_bass": 0.429,
+            "presence": 0.341,
+            "sub_bass": 0.427,
+            "lower_mids": 0.575,
+            "upper_mids": 0.414,
+            "lower_treble": 0.338,
+            "upper_treble": 0.371
+          },
+          "representative_track_ids": [
+            "bf7e774b-879c-41ec-acd1-7d2523755d57",
+            "9edd578d-e56a-4235-9207-d4b618c9c074",
+            "f0f6557f-0430-4382-8cce-14e1ee02fd56"
+          ]
+        },
+        {
+          "id": 1,
+          "label": "Warmer · Heavier bass",
+          "size": 18,
+          "share": 0.191,
+          "descriptors": {
+            "width": 0.429,
+            "energy": 0.415,
+            "warmth": 0.909,
+            "density": 0.4,
+            "dynamics": 0.496,
+            "brightness": 0.262
+          },
+          "band_emphasis": {
+            "air": 0.511,
+            "mids": 0.614,
+            "mid_bass": 0.753,
+            "presence": 0.324,
+            "sub_bass": 0.516,
+            "lower_mids": 0.872,
+            "upper_mids": 0.289,
+            "lower_treble": 0.397,
+            "upper_treble": 0.465
+          },
+          "representative_track_ids": [
+            "b48cdabd-25d1-4b67-9f95-fcaa3bc7aebf",
+            "dbff7890-6552-400b-a679-29528a2f4421",
+            "029e0e36-1c4f-4d7c-9958-3c6199bd98f0"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Brighter · Leaner",
+          "size": 16,
+          "share": 0.17,
+          "descriptors": {
+            "width": 0.313,
+            "energy": 0.467,
+            "warmth": 0.566,
+            "density": 0.531,
+            "dynamics": 0.499,
+            "brightness": 0.555
+          },
+          "band_emphasis": {
+            "air": 0.652,
+            "mids": 0.401,
+            "mid_bass": 0.634,
+            "presence": 0.643,
+            "sub_bass": 0.49,
+            "lower_mids": 0.591,
+            "upper_mids": 0.629,
+            "lower_treble": 0.533,
+            "upper_treble": 0.628
+          },
+          "representative_track_ids": [
+            "02df53ea-b684-472a-af32-ff126a22cf71",
+            "980e276b-61c5-4de3-ae83-64dadafc71fa",
+            "9303e9fd-0069-429c-b805-38eebcdd9727"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Darker · Sparser",
+          "size": 10,
+          "share": 0.106,
+          "descriptors": {
+            "width": 0.465,
+            "energy": 0.288,
+            "warmth": 0.917,
+            "density": 0.213,
+            "dynamics": 0.667,
+            "brightness": 0.111
+          },
+          "band_emphasis": {
+            "air": 0.242,
+            "mids": 0.636,
+            "mid_bass": 0.578,
+            "presence": 0.145,
+            "sub_bass": 0.396,
+            "lower_mids": 0.809,
+            "upper_mids": 0.207,
+            "lower_treble": 0.244,
+            "upper_treble": 0.271
+          },
+          "representative_track_ids": [
+            "844ae662-7e78-416e-bf3a-7192e4dd5730",
+            "b71132cf-d3d0-477e-9ad4-068b655191a7",
+            "578b390f-7744-4bd9-8b63-d88928483022"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Lighter bass · Narrower",
+          "size": 8,
+          "share": 0.085,
+          "descriptors": {
+            "width": 0.194,
+            "energy": 0.336,
+            "warmth": 0.616,
+            "density": 0.359,
+            "dynamics": 0.671,
+            "brightness": 0.248
+          },
+          "band_emphasis": {
+            "air": 0.355,
+            "mids": 0.671,
+            "mid_bass": 0.226,
+            "presence": 0.373,
+            "sub_bass": 0.201,
+            "lower_mids": 0.73,
+            "upper_mids": 0.217,
+            "lower_treble": 0.32,
+            "upper_treble": 0.357
+          },
+          "representative_track_ids": [
+            "a4d1ed5b-9c09-404e-b73b-ab17616278de",
+            "f3d146dd-96f0-460e-b83e-993ca2f43175",
+            "c6a254a1-7d2e-49b0-badd-045b3bca831e"
+          ]
+        }
+      ],
+      "map": [
+        {
+          "track_id": "7d031de6-5af1-415c-8c5c-694f59fb3e60",
+          "x": 0.1768,
+          "y": 0.4047,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "17a50ed1-a88b-4a66-ac41-77ad374e8270",
+          "x": 0.3921,
+          "y": 0.5073,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "b71132cf-d3d0-477e-9ad4-068b655191a7",
+          "x": 0.0769,
+          "y": 0.2626,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "99ed497c-91d0-4fb9-89c7-bbbb1a42d744",
+          "x": 0.3228,
+          "y": 0.4879,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "6664cd83-28ca-4fad-aaed-a6fdabf4edf8",
+          "x": 0.5364,
+          "y": 0.5431,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "378954b0-c65d-456a-8974-50d14477196d",
+          "x": 0.3166,
+          "y": 0.3599,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f92905c7-fa69-4406-bc87-662872d16e16",
+          "x": 0.2833,
+          "y": 0.3203,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d608715a-ffc6-4f5d-8e92-12585c6e766b",
+          "x": 0.4103,
+          "y": 0.5663,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d4597476-894f-4618-afe9-f00ab8760c91",
+          "x": 0.1972,
+          "y": 0.35,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "88f2b6e8-9037-4651-a96b-6115af95a2cc",
+          "x": 0.2255,
+          "y": 0.2785,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "6754e61f-eca8-40ee-8531-92b0009a2312",
+          "x": 0.011,
+          "y": 0.2703,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "b9ae97ec-fcc3-4b6d-8d86-95bb68f53cef",
+          "x": 0.4118,
+          "y": 0.3364,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "e2a86fb5-4d1e-4e6e-82ec-0ee87b89bcb5",
+          "x": 0.2373,
+          "y": 0.4894,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "effa2a48-ea93-4afc-91ca-a5f6ee095831",
+          "x": 0.6526,
+          "y": 0.3877,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d322539c-7746-4d95-9a23-d120ee60c210",
+          "x": 0.374,
+          "y": 0.3495,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "316ce05e-92ba-49c9-94c2-03d59ffff40e",
+          "x": 0.4603,
+          "y": 0.5778,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "e2fad964-7c88-4c78-96f6-354999c4c86d",
+          "x": 0.2949,
+          "y": 0.4404,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "203f1ee7-05b3-4cb8-933b-42651ed67315",
+          "x": 0.1929,
+          "y": 0.2942,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "46e38240-679f-48ef-8e29-8a9ef9481918",
+          "x": 0.658,
+          "y": 0.5024,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "75cc3bce-2631-4966-84f1-ff184c35edeb",
+          "x": 0.3862,
+          "y": 0.3978,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "ebbf05b0-7ae8-4a8c-ba2d-d2deceeae5ae",
+          "x": 0.3621,
+          "y": 0.5536,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "ac224fbb-3b30-40e4-9698-ff063c9edc24",
+          "x": 0.3849,
+          "y": 0.376,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "0bf1e00e-01ad-4d65-bd93-78cccf2f2cc8",
+          "x": 0.1863,
+          "y": 0.4558,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "16e0ea4d-bf46-4803-9bf7-3af636bb1bc2",
+          "x": 0.6842,
+          "y": 0.5193,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "154a073d-62b5-416e-9733-93a9db18a874",
+          "x": 0.3101,
+          "y": 0.3979,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "4e3b180f-4613-46d3-ace6-4bc180317927",
+          "x": 0.0694,
+          "y": 0.3525,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "844ae662-7e78-416e-bf3a-7192e4dd5730",
+          "x": 0.0999,
+          "y": 0.2794,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "980e276b-61c5-4de3-ae83-64dadafc71fa",
+          "x": 0.4742,
+          "y": 0.6241,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "b52c2c9f-ba24-4308-98d3-4423c0a65585",
+          "x": 0.43,
+          "y": 0.3537,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "81d90fee-5658-46e2-9d43-a925cdcb0456",
+          "x": 0.2612,
+          "y": 0.3159,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "a22517bc-d020-4c3d-a505-facf9d67e8c6",
+          "x": 0.301,
+          "y": 0.4622,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "af05bb02-e9e4-41c7-8e99-297c404582d0",
+          "x": 0.6798,
+          "y": 0.4472,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "cfad1d50-6b8b-4bb7-b87b-b90b65684059",
+          "x": 0.3612,
+          "y": 0.3553,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "84698df1-7f07-43e3-83cc-8ddc55a21859",
+          "x": 0.1935,
+          "y": 0.455,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "ebf9e882-9aad-4f60-b7c7-09c310f81934",
+          "x": 0.2262,
+          "y": 0.5545,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "7cf38981-3509-4c04-861c-8ad632046f57",
+          "x": 0.5439,
+          "y": 0.2206,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "41630e45-5a87-45ad-9605-a97ca4b218f0",
+          "x": 0.3083,
+          "y": 0.4383,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d0f2b7fa-ed89-4337-9c24-1e7221bd1472",
+          "x": 0.383,
+          "y": 0.59,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f10566d8-15e6-40cd-b9d2-8f20a69498b2",
+          "x": 0.4236,
+          "y": 0.4495,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "9303e9fd-0069-429c-b805-38eebcdd9727",
+          "x": 0.5347,
+          "y": 0.552,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "0b7d1537-c4df-486b-babf-ae6f1e953ce7",
+          "x": 0.4486,
+          "y": 0.4464,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "ca0fd286-e64b-4f64-ade3-919b0b0c0d42",
+          "x": 0.4763,
+          "y": 0.4462,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "bf7e774b-879c-41ec-acd1-7d2523755d57",
+          "x": 0.3578,
+          "y": 0.4957,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "02df53ea-b684-472a-af32-ff126a22cf71",
+          "x": 0.5043,
+          "y": 0.4819,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "029e0e36-1c4f-4d7c-9958-3c6199bd98f0",
+          "x": 0.3792,
+          "y": 0.5173,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "bf22fadf-ae79-4c32-abaa-82a5b22cd130",
+          "x": 0.374,
+          "y": 0.423,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "92f811e1-68a7-448c-84a4-cc1843431483",
+          "x": 0.3737,
+          "y": 0.3299,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "7b1ddb7d-6672-412a-923e-3ef57d741038",
+          "x": 0.5002,
+          "y": 0.4269,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "0d957798-6b0f-4602-a839-d74842207fd8",
+          "x": 0.7751,
+          "y": 0.3387,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "6f4b2c9e-b699-423b-b17b-ce0661841ffc",
+          "x": 0.3167,
+          "y": 0.458,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "67e9b511-c83c-4b2a-85f1-af4184d4294e",
+          "x": 0.1871,
+          "y": 0.3227,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f83053d6-6001-4ee1-a09e-4d99cc510f37",
+          "x": 0.3413,
+          "y": 0.3798,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "7542ab3f-d7fe-4e0c-9409-3c65f61bfa7d",
+          "x": 0.3262,
+          "y": 0.4298,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "55be8e66-833a-4e5c-963c-fee3feb1fba7",
+          "x": 0.4363,
+          "y": 0.4302,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d3473e70-f336-4f81-bfff-eac1e11124b5",
+          "x": 0.4185,
+          "y": 0.3179,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "c2594b4a-aa09-4338-9649-96e0aabd3a37",
+          "x": 0.2411,
+          "y": 0.5578,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "a4d1ed5b-9c09-404e-b73b-ab17616278de",
+          "x": 0.3297,
+          "y": 0.2926,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "5d34a9b2-017e-45c4-a3a0-a45c946bf7f4",
+          "x": 0.3596,
+          "y": 0.5166,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "defbc0a5-26fe-4954-9ebe-a1f8c417e263",
+          "x": 0.5277,
+          "y": 0.4415,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "347ecbc0-29b9-456c-8d9f-4a084f5a084b",
+          "x": 0.1831,
+          "y": 0.2892,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "6162a683-34d5-49db-8fb3-c98a7147ab72",
+          "x": 0.3404,
+          "y": 0.6116,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "37426053-d364-4674-b023-f246f0b0d429",
+          "x": 0.2777,
+          "y": 0.4722,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "356b11ef-76cd-4221-a89a-dca54009e6e0",
+          "x": 0.1535,
+          "y": 0.3466,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "0ae367eb-21a5-46c9-967c-0ac99ba4c435",
+          "x": 0.2131,
+          "y": 0.6175,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f3e741f5-5fee-48a6-8287-8c02efd1a544",
+          "x": 0.1918,
+          "y": 0.5627,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "3f169d4c-2e4c-4353-9ad3-09f6532d1f45",
+          "x": 0.4271,
+          "y": 0.2976,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "141da03f-cf68-4d02-bcea-710cb85d63db",
+          "x": 0.4173,
+          "y": 0.4407,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "6bcd332d-8cd1-4380-a2c4-d80ad5409a28",
+          "x": 0.1146,
+          "y": 0.3805,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "33764f61-02a6-47d8-b08e-430df7d34392",
+          "x": 0.2764,
+          "y": 0.4559,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "c6a254a1-7d2e-49b0-badd-045b3bca831e",
+          "x": 0.2449,
+          "y": 0.2875,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "38825a8f-0368-4cf1-a6a7-3cffb6218517",
+          "x": 0.4342,
+          "y": 0.3138,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "444237fc-ecf9-4ff6-8c0b-c1c0a82a4bb7",
+          "x": 0.2667,
+          "y": 0.36,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "dbff7890-6552-400b-a679-29528a2f4421",
+          "x": 0.2189,
+          "y": 0.3313,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f3d146dd-96f0-460e-b83e-993ca2f43175",
+          "x": 0.187,
+          "y": 0.2998,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "b48cdabd-25d1-4b67-9f95-fcaa3bc7aebf",
+          "x": 0.2817,
+          "y": 0.4184,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "2806df31-fccd-4688-9e2b-660b4d9c957a",
+          "x": 0.2205,
+          "y": 0.3992,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "d6067d7c-abfb-4814-943d-99922315225d",
+          "x": 0.0768,
+          "y": 0.289,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "cfaa0cf8-6872-43c1-8d25-4bec304e09a1",
+          "x": 0.5749,
+          "y": 0.4794,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "fa2a893b-4941-411f-aa53-8fc1cd1c0624",
+          "x": 0.5078,
+          "y": 0.3676,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "c1e5891c-f1bc-4fd5-adcd-18de8bfc0e32",
+          "x": 0.3136,
+          "y": 0.1831,
+          "cluster": 1,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "56b06e2c-2e92-4f99-9cde-f5430fc98386",
+          "x": 0.1413,
+          "y": 0.2503,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "aca2bc35-0faa-405d-bbdd-51eea0c1c0df",
+          "x": 0.1806,
+          "y": 0.3111,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "320966c9-0872-41ba-9e90-5096ef7f80b3",
+          "x": 0.2865,
+          "y": 0.4918,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "81bbf623-d8c5-47e0-943e-cdce197fcf22",
+          "x": 0.0808,
+          "y": 0.2254,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "31dc8320-9da1-4aac-8837-26de8a48baad",
+          "x": 0.5097,
+          "y": 0.5707,
+          "cluster": 2,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "96a95de7-b692-48f9-b9f2-d7f81f308ecb",
+          "x": 0.1465,
+          "y": 0.429,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "c4cc72a3-4bfb-4316-ac33-1e12425d4267",
+          "x": 0.3151,
+          "y": 0.5209,
+          "cluster": 4,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "fa49e653-2ec8-4ba0-94d3-add7989b9da7",
+          "x": 0.1667,
+          "y": 0.2767,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "f0f6557f-0430-4382-8cce-14e1ee02fd56",
+          "x": 0.3507,
+          "y": 0.3794,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "578b390f-7744-4bd9-8b63-d88928483022",
+          "x": 0.1543,
+          "y": 0.2142,
+          "cluster": 3,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "8da4ebd8-4932-4946-a2d7-e5a31edc88c7",
+          "x": 0.2016,
+          "y": 0.2494,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "e060d97f-cbf4-4dec-bf11-23aa535becd3",
+          "x": 0.4433,
+          "y": 0.2961,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "9aeaeaaa-16d1-45c4-963f-80cc73d611c9",
+          "x": 0.2809,
+          "y": 0.5101,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        },
+        {
+          "track_id": "9edd578d-e56a-4235-9207-d4b618c9c074",
+          "x": 0.4354,
+          "y": 0.3663,
+          "cluster": 0,
+          "weight": 1.0,
+          "flag": null
+        }
+      ],
+      "notes": [
+        "Your library splits into 5 distinct sonic groups; the overall profile blends them in proportion."
+      ]
+    },
+    "tracks": {
+      "7d031de6-5af1-415c-8c5c-694f59fb3e60": {
+        "id": "7d031de6-5af1-415c-8c5c-694f59fb3e60",
+        "video_id": "utx1gf0lEZ0",
+        "title": "Mountain Boy - The Nights (Official Lyric Video)",
+        "channel": "Mountain Boy"
+      },
+      "17a50ed1-a88b-4a66-ac41-77ad374e8270": {
+        "id": "17a50ed1-a88b-4a66-ac41-77ad374e8270",
+        "video_id": "QaFKe50zLoI",
+        "title": "Mel Parsons | Be Here Now (Alt video)",
+        "channel": "Mel Parsons Music"
+      },
+      "99ed497c-91d0-4fb9-89c7-bbbb1a42d744": {
+        "id": "99ed497c-91d0-4fb9-89c7-bbbb1a42d744",
+        "video_id": "sg3aqiQO2kY",
+        "title": "Black Machine - Tess Liautaud (Live at Lyttelton Arts Factory)",
+        "channel": "Tess Liautaud "
+      },
+      "378954b0-c65d-456a-8974-50d14477196d": {
+        "id": "378954b0-c65d-456a-8974-50d14477196d",
+        "video_id": "_U6SGpHvUvQ",
+        "title": "Dave Weir - Almost June Time (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "f92905c7-fa69-4406-bc87-662872d16e16": {
+        "id": "f92905c7-fa69-4406-bc87-662872d16e16",
+        "video_id": "sAs8CMeMxxQ",
+        "title": "Arthur Ahbez - Simple Medication (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "d4597476-894f-4618-afe9-f00ab8760c91": {
+        "id": "d4597476-894f-4618-afe9-f00ab8760c91",
+        "video_id": "yvIrQIM-YJc",
+        "title": "The Veils - The Ladder [Official 4K Video]",
+        "channel": "The Veils"
+      },
+      "88f2b6e8-9037-4651-a96b-6115af95a2cc": {
+        "id": "88f2b6e8-9037-4651-a96b-6115af95a2cc",
+        "video_id": "FtErrcQf4Lw",
+        "title": "Bailey Talamasina - ROMEO (When the Light Goes) Music Video",
+        "channel": "Fine Folk Music"
+      },
+      "6754e61f-eca8-40ee-8531-92b0009a2312": {
+        "id": "6754e61f-eca8-40ee-8531-92b0009a2312",
+        "video_id": "nnoQ_lJ0v8g",
+        "title": "Hazlett - I'm Not Ready To Go (Official Music Video)",
+        "channel": "Hazlett"
+      },
+      "b9ae97ec-fcc3-4b6d-8d86-95bb68f53cef": {
+        "id": "b9ae97ec-fcc3-4b6d-8d86-95bb68f53cef",
+        "video_id": "0r3RXr44dA0",
+        "title": "Kate Bollinger - I See It Now (Official Video)",
+        "channel": "Kate Bollinger"
+      },
+      "e2a86fb5-4d1e-4e6e-82ec-0ee87b89bcb5": {
+        "id": "e2a86fb5-4d1e-4e6e-82ec-0ee87b89bcb5",
+        "video_id": "fx_O0WN8Nt0",
+        "title": "Katie Gavin - Inconsolable (Official Video)",
+        "channel": "Katie Gavin"
+      },
+      "effa2a48-ea93-4afc-91ca-a5f6ee095831": {
+        "id": "effa2a48-ea93-4afc-91ca-a5f6ee095831",
+        "video_id": "SnWBgX5oOq8",
+        "title": "Adam Hattaway - Good Times (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "d322539c-7746-4d95-9a23-d120ee60c210": {
+        "id": "d322539c-7746-4d95-9a23-d120ee60c210",
+        "video_id": "OEWh73rogcQ",
+        "title": "Folk Bitch Trio - God's A Different Sword (Official Video)",
+        "channel": "Folk B*tch Trio"
+      },
+      "316ce05e-92ba-49c9-94c2-03d59ffff40e": {
+        "id": "316ce05e-92ba-49c9-94c2-03d59ffff40e",
+        "video_id": "uhAaqnaY-2k",
+        "title": "Joy Oladokun - I'D MISS THE BIRDS",
+        "channel": "Joy Oladokun"
+      },
+      "e2fad964-7c88-4c78-96f6-354999c4c86d": {
+        "id": "e2fad964-7c88-4c78-96f6-354999c4c86d",
+        "video_id": "58qSDZDOSCY",
+        "title": "The Mons Whaler  - Blood (Live Bank Sessions)",
+        "channel": "Fine Folk Music"
+      },
+      "203f1ee7-05b3-4cb8-933b-42651ed67315": {
+        "id": "203f1ee7-05b3-4cb8-933b-42651ed67315",
+        "video_id": "gP8mnPxFlFo",
+        "title": "Gina Malcolm - In The Night (Official Video)",
+        "channel": "Fine Folk Music"
+      },
+      "75cc3bce-2631-4966-84f1-ff184c35edeb": {
+        "id": "75cc3bce-2631-4966-84f1-ff184c35edeb",
+        "video_id": "B-eEOYuPLxY",
+        "title": "Arthur Ahbez - Reckless (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "ebbf05b0-7ae8-4a8c-ba2d-d2deceeae5ae": {
+        "id": "ebbf05b0-7ae8-4a8c-ba2d-d2deceeae5ae",
+        "video_id": "2VrYqA6ghK0",
+        "title": "Ray LaMontagne - Step Into Your Power (Official Lyric Video)",
+        "channel": "Ray LaMontagne"
+      },
+      "ac224fbb-3b30-40e4-9698-ff063c9edc24": {
+        "id": "ac224fbb-3b30-40e4-9698-ff063c9edc24",
+        "video_id": "jbQ_qKmmv8c",
+        "title": "adrianne lenker - once a bunch (official lyric video)",
+        "channel": "Adrianne Lenker"
+      },
+      "0bf1e00e-01ad-4d65-bd93-78cccf2f2cc8": {
+        "id": "0bf1e00e-01ad-4d65-bd93-78cccf2f2cc8",
+        "video_id": "xjHQUi4cOwE",
+        "title": "CAITLIN - What You Love (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "16e0ea4d-bf46-4803-9bf7-3af636bb1bc2": {
+        "id": "16e0ea4d-bf46-4803-9bf7-3af636bb1bc2",
+        "video_id": "WIM668FQcHU",
+        "title": "Adam Hattaway - High Horse (Official video)",
+        "channel": "Adam Hattaway"
+      },
+      "154a073d-62b5-416e-9733-93a9db18a874": {
+        "id": "154a073d-62b5-416e-9733-93a9db18a874",
+        "video_id": "puibOegsfoc",
+        "title": "Mel Parsons | 5432",
+        "channel": "Mel Parsons Music"
+      },
+      "4e3b180f-4613-46d3-ace6-4bc180317927": {
+        "id": "4e3b180f-4613-46d3-ace6-4bc180317927",
+        "video_id": "tSeJqLyeCeE",
+        "title": "Laura Marling - Patterns (Official Lyric Video)",
+        "channel": "Laura Marling"
+      },
+      "844ae662-7e78-416e-bf3a-7192e4dd5730": {
+        "id": "844ae662-7e78-416e-bf3a-7192e4dd5730",
+        "video_id": "xl_skC-dpKk",
+        "title": "Christian Lee Hutson - \"After Hours\"",
+        "channel": "ANTI- Records"
+      },
+      "980e276b-61c5-4de3-ae83-64dadafc71fa": {
+        "id": "980e276b-61c5-4de3-ae83-64dadafc71fa",
+        "video_id": "eU5i_Mn3Yjc",
+        "title": "Odie Leigh - Already (On My Mind) [Official Music Video]",
+        "channel": "Odie Leigh"
+      },
+      "b52c2c9f-ba24-4308-98d3-4423c0a65585": {
+        "id": "b52c2c9f-ba24-4308-98d3-4423c0a65585",
+        "video_id": "9R-j7HOnVHw",
+        "title": "Muse and Musician - Just Janie",
+        "channel": "Just Janie"
+      },
+      "81d90fee-5658-46e2-9d43-a925cdcb0456": {
+        "id": "81d90fee-5658-46e2-9d43-a925cdcb0456",
+        "video_id": "iFJZNpdwJAg",
+        "title": "Arahi - We’ve Seen Better Days",
+        "channel": "Fine Folk Music"
+      },
+      "a22517bc-d020-4c3d-a505-facf9d67e8c6": {
+        "id": "a22517bc-d020-4c3d-a505-facf9d67e8c6",
+        "video_id": "0rpGJQpoL1Y",
+        "title": "Tess Liautaud - The Way It's Meant To Rain (Live at L.A.F.)",
+        "channel": "Tess Liautaud "
+      },
+      "af05bb02-e9e4-41c7-8e99-297c404582d0": {
+        "id": "af05bb02-e9e4-41c7-8e99-297c404582d0",
+        "video_id": "kX8hM1XWcQo",
+        "title": "Kayla Mahon - Right On The Money (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "cfad1d50-6b8b-4bb7-b87b-b90b65684059": {
+        "id": "cfad1d50-6b8b-4bb7-b87b-b90b65684059",
+        "video_id": "mwTBIi9blc8",
+        "title": "Blue Dreams, Holly Arrowsmith",
+        "channel": "HollyArrowsmith"
+      },
+      "84698df1-7f07-43e3-83cc-8ddc55a21859": {
+        "id": "84698df1-7f07-43e3-83cc-8ddc55a21859",
+        "video_id": "jw43Zbv1C-Q",
+        "title": "immersion - Mitch Zachry",
+        "channel": "heartflower records"
+      },
+      "ebf9e882-9aad-4f60-b7c7-09c310f81934": {
+        "id": "ebf9e882-9aad-4f60-b7c7-09c310f81934",
+        "video_id": "htWzLhGJ0qg",
+        "title": "Mountain Boy - Dais (Official Lyric Video)",
+        "channel": "Mountain Boy"
+      },
+      "7cf38981-3509-4c04-861c-8ad632046f57": {
+        "id": "7cf38981-3509-4c04-861c-8ad632046f57",
+        "video_id": "DosYGl59WE0",
+        "title": "Nostalgia - Music Video",
+        "channel": "Just Janie"
+      },
+      "41630e45-5a87-45ad-9605-a97ca4b218f0": {
+        "id": "41630e45-5a87-45ad-9605-a97ca4b218f0",
+        "video_id": "CLfZxBB2ARU",
+        "title": "Sam Evian - Stay (Official Lyric Video)",
+        "channel": "Sam Evian"
+      },
+      "d0f2b7fa-ed89-4337-9c24-1e7221bd1472": {
+        "id": "d0f2b7fa-ed89-4337-9c24-1e7221bd1472",
+        "video_id": "GZ8IaJ6Se2E",
+        "title": "Angus & Julia Stone - Cape Forestier (Official Music Video)",
+        "channel": "Angus and Julia Stone"
+      },
+      "f10566d8-15e6-40cd-b9d2-8f20a69498b2": {
+        "id": "f10566d8-15e6-40cd-b9d2-8f20a69498b2",
+        "video_id": "78P84tktA7M",
+        "title": "Bonny Light Horseman - Tumblin Down (Official Lyric Video)",
+        "channel": "Bonny Light Horseman"
+      },
+      "9303e9fd-0069-429c-b805-38eebcdd9727": {
+        "id": "9303e9fd-0069-429c-b805-38eebcdd9727",
+        "video_id": "cD6t9839Uck",
+        "title": "Kayla Mahon - Bombshell Bobby (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "0b7d1537-c4df-486b-babf-ae6f1e953ce7": {
+        "id": "0b7d1537-c4df-486b-babf-ae6f1e953ce7",
+        "video_id": "RzokEVNGQEw",
+        "title": "Katie Thompson - I See You (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "ca0fd286-e64b-4f64-ade3-919b0b0c0d42": {
+        "id": "ca0fd286-e64b-4f64-ade3-919b0b0c0d42",
+        "video_id": "X1JgahzLL6A",
+        "title": "Tess Liautaud - Here Go The Lovers (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "bf7e774b-879c-41ec-acd1-7d2523755d57": {
+        "id": "bf7e774b-879c-41ec-acd1-7d2523755d57",
+        "video_id": "r0VR1AVk6O0",
+        "title": "LOU'ANA - day dreams (voodoo version)",
+        "channel": "LOU'ANA"
+      },
+      "02df53ea-b684-472a-af32-ff126a22cf71": {
+        "id": "02df53ea-b684-472a-af32-ff126a22cf71",
+        "video_id": "dR7GaUToRAo",
+        "title": "Gold Digger- Tess Liautaud  [Official video]",
+        "channel": "Tess Liautaud "
+      },
+      "029e0e36-1c4f-4d7c-9958-3c6199bd98f0": {
+        "id": "029e0e36-1c4f-4d7c-9958-3c6199bd98f0",
+        "video_id": "1k1vM3Ijomk",
+        "title": "My Cosmic Girl - Help It",
+        "channel": "My Cosmic Girl"
+      },
+      "bf22fadf-ae79-4c32-abaa-82a5b22cd130": {
+        "id": "bf22fadf-ae79-4c32-abaa-82a5b22cd130",
+        "video_id": "_PwO2np8pfg",
+        "title": "Mel Parsons - Circling The City (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "92f811e1-68a7-448c-84a4-cc1843431483": {
+        "id": "92f811e1-68a7-448c-84a4-cc1843431483",
+        "video_id": "Ulwr6JbqxEo",
+        "title": "Jamestown Revival - Young Man (One Take from the Mississippi River)",
+        "channel": "Jamestown Revival"
+      },
+      "7b1ddb7d-6672-412a-923e-3ef57d741038": {
+        "id": "7b1ddb7d-6672-412a-923e-3ef57d741038",
+        "video_id": "33zDwdH5KHg",
+        "title": "Miles Calder - Pushing & Pulling (Official Video)",
+        "channel": "Miles Calder"
+      },
+      "0d957798-6b0f-4602-a839-d74842207fd8": {
+        "id": "0d957798-6b0f-4602-a839-d74842207fd8",
+        "video_id": "j1zXwhv1N2o",
+        "title": "K M T P - First Date",
+        "channel": "Sunreturn"
+      },
+      "6f4b2c9e-b699-423b-b17b-ce0661841ffc": {
+        "id": "6f4b2c9e-b699-423b-b17b-ce0661841ffc",
+        "video_id": "DWhUT0e0xUM",
+        "title": "Jim Nothing - Fall Back Down (Official Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "67e9b511-c83c-4b2a-85f1-af4184d4294e": {
+        "id": "67e9b511-c83c-4b2a-85f1-af4184d4294e",
+        "video_id": "u2JPIJcUtFs",
+        "title": "Sam Bambery - Parasite (Official Video)",
+        "channel": "Sam Bambery"
+      },
+      "f83053d6-6001-4ee1-a09e-4d99cc510f37": {
+        "id": "f83053d6-6001-4ee1-a09e-4d99cc510f37",
+        "video_id": "2bpMSpFTdzM",
+        "title": "Lizzy McAlpine - ceilings (official video)",
+        "channel": "Lizzy McAlpine"
+      },
+      "7542ab3f-d7fe-4e0c-9409-3c65f61bfa7d": {
+        "id": "7542ab3f-d7fe-4e0c-9409-3c65f61bfa7d",
+        "video_id": "BDUDx15KdkI",
+        "title": "The New Basement Tapes - When I Get My Hands On You - Lyrics by Bob Dylan & Vocals by Marcus Mumford",
+        "channel": "TNBTVEVO"
+      },
+      "55be8e66-833a-4e5c-963c-fee3feb1fba7": {
+        "id": "55be8e66-833a-4e5c-963c-fee3feb1fba7",
+        "video_id": "8BcUhTsvX54",
+        "title": "The Nude Party - \"Hard Times\" [Barn Sessions]",
+        "channel": "The Nude Party"
+      },
+      "d3473e70-f336-4f81-bfff-eac1e11124b5": {
+        "id": "d3473e70-f336-4f81-bfff-eac1e11124b5",
+        "video_id": "N3NsN_b23Qk",
+        "title": "Slow Down",
+        "channel": "Tom Young"
+      },
+      "c2594b4a-aa09-4338-9649-96e0aabd3a37": {
+        "id": "c2594b4a-aa09-4338-9649-96e0aabd3a37",
+        "video_id": "ng5naYhJGT8",
+        "title": "Isobel Campbell - 4316 (Official Video)",
+        "channel": "Isobel Campbell"
+      },
+      "a4d1ed5b-9c09-404e-b73b-ab17616278de": {
+        "id": "a4d1ed5b-9c09-404e-b73b-ab17616278de",
+        "video_id": "-EHCh0FdzIU",
+        "title": "The Mitchell Twins - Find A River (Acoustic)",
+        "channel": "The Mitchell Twins"
+      },
+      "5d34a9b2-017e-45c4-a3a0-a45c946bf7f4": {
+        "id": "5d34a9b2-017e-45c4-a3a0-a45c946bf7f4",
+        "video_id": "ueB8u4gLaGE",
+        "title": "Bess Atwell - Release Myself (Official Music Video)",
+        "channel": "Bess Atwell"
+      },
+      "defbc0a5-26fe-4954-9ebe-a1f8c417e263": {
+        "id": "defbc0a5-26fe-4954-9ebe-a1f8c417e263",
+        "video_id": "fKGYFVmCQTQ",
+        "title": "Lillie Mae - Festival Eyes (Official Video)",
+        "channel": "Lillie Mae"
+      },
+      "347ecbc0-29b9-456c-8d9f-4a084f5a084b": {
+        "id": "347ecbc0-29b9-456c-8d9f-4a084f5a084b",
+        "video_id": "cZilk02HvpY",
+        "title": "Jenny Mitchell – Trouble Finds a Girl ft. Tami Neilson (Official Music Video)",
+        "channel": "Jenny Mitchell"
+      },
+      "6162a683-34d5-49db-8fb3-c98a7147ab72": {
+        "id": "6162a683-34d5-49db-8fb3-c98a7147ab72",
+        "video_id": "UJXccBGs_IY",
+        "title": "Unknown Mortal Orchestra - That Life",
+        "channel": "Unknown Mortal Orchestra"
+      },
+      "37426053-d364-4674-b023-f246f0b0d429": {
+        "id": "37426053-d364-4674-b023-f246f0b0d429",
+        "video_id": "XkJJPM4qGzE",
+        "title": "Father John Misty - Real Love Baby [Official Music Video]",
+        "channel": "Father John Misty"
+      },
+      "356b11ef-76cd-4221-a89a-dca54009e6e0": {
+        "id": "356b11ef-76cd-4221-a89a-dca54009e6e0",
+        "video_id": "XQN2ERlBevg",
+        "title": "Oscar LaDell - Salt & Sand (Visualizer)",
+        "channel": "Fine Folk Music"
+      },
+      "0ae367eb-21a5-46c9-967c-0ac99ba4c435": {
+        "id": "0ae367eb-21a5-46c9-967c-0ac99ba4c435",
+        "video_id": "Xtrn-gXD5K4",
+        "title": "Tom Lark  - Brave Star (Lyric Video)",
+        "channel": "TOM LARK"
+      },
+      "3f169d4c-2e4c-4353-9ad3-09f6532d1f45": {
+        "id": "3f169d4c-2e4c-4353-9ad3-09f6532d1f45",
+        "video_id": "M7fLma4OD5M",
+        "title": "Lepani - Some Day (Music Video)",
+        "channel": "A Blanket & A Cuppa Tea"
+      },
+      "141da03f-cf68-4d02-bcea-710cb85d63db": {
+        "id": "141da03f-cf68-4d02-bcea-710cb85d63db",
+        "video_id": "09SO9vyGTKw",
+        "title": "Mel Parsons | Little Sadness",
+        "channel": "Mel Parsons Music"
+      },
+      "6bcd332d-8cd1-4380-a2c4-d80ad5409a28": {
+        "id": "6bcd332d-8cd1-4380-a2c4-d80ad5409a28",
+        "video_id": "lQceyn5an8I",
+        "title": "Hannah Everingham - Don't Be Crass (Official Video)",
+        "channel": "Hannah Everingham"
+      },
+      "33764f61-02a6-47d8-b08e-430df7d34392": {
+        "id": "33764f61-02a6-47d8-b08e-430df7d34392",
+        "video_id": "iEzXZL1_rKQ",
+        "title": "Amiria Grenell, The Ghost in You (Official Music Video)",
+        "channel": "Amiria Grenell Music"
+      },
+      "c6a254a1-7d2e-49b0-badd-045b3bca831e": {
+        "id": "c6a254a1-7d2e-49b0-badd-045b3bca831e",
+        "video_id": "LuQ3NVnEUlg",
+        "title": "Cloudy - I'll Stay (Acoustic / Stripped) Visualizer",
+        "channel": "Fine Folk Music"
+      },
+      "38825a8f-0368-4cf1-a6a7-3cffb6218517": {
+        "id": "38825a8f-0368-4cf1-a6a7-3cffb6218517",
+        "video_id": "Lp3r0hnJV5s",
+        "title": "Saint Martins - Daily Grind",
+        "channel": "Fine Folk Music"
+      },
+      "444237fc-ecf9-4ff6-8c0b-c1c0a82a4bb7": {
+        "id": "444237fc-ecf9-4ff6-8c0b-c1c0a82a4bb7",
+        "video_id": "qk30fxeo8lk",
+        "title": "Ebony Lamb - Take My Hands At Night (Official Music Video)",
+        "channel": "EBONY LAMB"
+      },
+      "dbff7890-6552-400b-a679-29528a2f4421": {
+        "id": "dbff7890-6552-400b-a679-29528a2f4421",
+        "video_id": "UJrI0K6B_4k",
+        "title": "Tarn PK - Serenity (Audio)",
+        "channel": "ʟᴀᴢʏ ᴄʜᴏʀᴅꜱ"
+      },
+      "f3d146dd-96f0-460e-b83e-993ca2f43175": {
+        "id": "f3d146dd-96f0-460e-b83e-993ca2f43175",
+        "video_id": "-BangouEKXQ",
+        "title": "Lily Helena - Can't Leave You Lonely (feat. Serebii)",
+        "channel": "Fine Folk Music"
+      },
+      "b48cdabd-25d1-4b67-9f95-fcaa3bc7aebf": {
+        "id": "b48cdabd-25d1-4b67-9f95-fcaa3bc7aebf",
+        "video_id": "J8gXBEgnuiw",
+        "title": "Blitzen Trapper - \"Magical Thinking\" (Official Video)",
+        "channel": "Yep Roc Records"
+      },
+      "2806df31-fccd-4688-9e2b-660b4d9c957a": {
+        "id": "2806df31-fccd-4688-9e2b-660b4d9c957a",
+        "video_id": "DrQRS40OKNE",
+        "title": "Fleet Foxes - White Winter Hymnal (OFFICIAL VIDEO)",
+        "channel": "Sub Pop"
+      },
+      "d6067d7c-abfb-4814-943d-99922315225d": {
+        "id": "d6067d7c-abfb-4814-943d-99922315225d",
+        "video_id": "cEoHNoedZck",
+        "title": "Womb - Used to Be (Official Video)",
+        "channel": "Womb"
+      },
+      "cfaa0cf8-6872-43c1-8d25-4bec304e09a1": {
+        "id": "cfaa0cf8-6872-43c1-8d25-4bec304e09a1",
+        "video_id": "7XkHoAJ2vAc",
+        "title": "The Spectre Collective - Swamp Fling (Official Music Video)",
+        "channel": "The Spectre Collective"
+      },
+      "fa2a893b-4941-411f-aa53-8fc1cd1c0624": {
+        "id": "fa2a893b-4941-411f-aa53-8fc1cd1c0624",
+        "video_id": "XUl1JgdnF4U",
+        "title": "Ed Waaka - Revolution (Official Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "c1e5891c-f1bc-4fd5-adcd-18de8bfc0e32": {
+        "id": "c1e5891c-f1bc-4fd5-adcd-18de8bfc0e32",
+        "video_id": "pZ1uI87oRew",
+        "title": "Nadia Reid covers Mazzy Star's 1993 hit  'Fade into You'",
+        "channel": "RNZ"
+      },
+      "56b06e2c-2e92-4f99-9cde-f5430fc98386": {
+        "id": "56b06e2c-2e92-4f99-9cde-f5430fc98386",
+        "video_id": "cUPmE_hU7Ss",
+        "title": "Jesca Hoop - Outside of Eden - feat Kate Stables and Justis (Official Video)",
+        "channel": "JescaHoop"
+      },
+      "aca2bc35-0faa-405d-bbdd-51eea0c1c0df": {
+        "id": "aca2bc35-0faa-405d-bbdd-51eea0c1c0df",
+        "video_id": "J-dLmK_9SwM",
+        "title": "David Keenan - Origin Of The World  | Mahogany Session",
+        "channel": "Mahogany"
+      },
+      "320966c9-0872-41ba-9e90-5096ef7f80b3": {
+        "id": "320966c9-0872-41ba-9e90-5096ef7f80b3",
+        "video_id": "OfPdS4StZq8",
+        "title": "Flyte - White Roses (Lyric Video)",
+        "channel": "Flyte"
+      },
+      "81bbf623-d8c5-47e0-943e-cdce197fcf22": {
+        "id": "81bbf623-d8c5-47e0-943e-cdce197fcf22",
+        "video_id": "Vf76O7y-7pk",
+        "title": "Jack Johnson - Only The Ocean (Official Video)",
+        "channel": "jackjohnsonmusic"
+      },
+      "31dc8320-9da1-4aac-8837-26de8a48baad": {
+        "id": "31dc8320-9da1-4aac-8837-26de8a48baad",
+        "video_id": "IqFsRt0uYzA",
+        "title": "Mumford & Sons - Beloved",
+        "channel": "Mumford & Sons"
+      },
+      "96a95de7-b692-48f9-b9f2-d7f81f308ecb": {
+        "id": "96a95de7-b692-48f9-b9f2-d7f81f308ecb",
+        "video_id": "lm8oxC24QZc",
+        "title": "Eddie Vedder - Society (HD)",
+        "channel": "Fine Folk Music"
+      },
+      "c4cc72a3-4bfb-4316-ac33-1e12425d4267": {
+        "id": "c4cc72a3-4bfb-4316-ac33-1e12425d4267",
+        "video_id": "NpmGOhys1wQ",
+        "title": "Eddie Vedder - Rise (HD)",
+        "channel": "Fine Folk Music"
+      },
+      "fa49e653-2ec8-4ba0-94d3-add7989b9da7": {
+        "id": "fa49e653-2ec8-4ba0-94d3-add7989b9da7",
+        "video_id": "pfcpOTxDrvU",
+        "title": "Lydia Cole - The Sacred",
+        "channel": "Lydia Cole"
+      },
+      "f0f6557f-0430-4382-8cce-14e1ee02fd56": {
+        "id": "f0f6557f-0430-4382-8cce-14e1ee02fd56",
+        "video_id": "Kd-cIHo8jB8",
+        "title": "Honeysuckle - To The Grave (Official Audio)",
+        "channel": "Honeysuckle"
+      },
+      "578b390f-7744-4bd9-8b63-d88928483022": {
+        "id": "578b390f-7744-4bd9-8b63-d88928483022",
+        "video_id": "OI8CpF45Pcg",
+        "title": "Andrew Combs | Hazel",
+        "channel": "Baggs | LR Baggs | Obsessive Audio Innovation"
+      },
+      "8da4ebd8-4932-4946-a2d7-e5a31edc88c7": {
+        "id": "8da4ebd8-4932-4946-a2d7-e5a31edc88c7",
+        "video_id": "pKDVUu0aePM",
+        "title": "Pony Bradshaw | Josephine",
+        "channel": "Baggs | LR Baggs | Obsessive Audio Innovation"
+      },
+      "e060d97f-cbf4-4dec-bf11-23aa535becd3": {
+        "id": "e060d97f-cbf4-4dec-bf11-23aa535becd3",
+        "video_id": "1PIdqIm4SHI",
+        "title": "Daughter of Swords - Shining Woman (Official Music Video)",
+        "channel": "Daughter of Swords"
+      },
+      "9aeaeaaa-16d1-45c4-963f-80cc73d611c9": {
+        "id": "9aeaeaaa-16d1-45c4-963f-80cc73d611c9",
+        "video_id": "iy1qTo71chg",
+        "title": "Calexico and Iron & Wine - Midnight Sun",
+        "channel": "Sub Pop"
+      },
+      "9edd578d-e56a-4235-9207-d4b618c9c074": {
+        "id": "9edd578d-e56a-4235-9207-d4b618c9c074",
+        "video_id": "tGsknaGPmg0",
+        "title": "Emily Fairlight - Body Below",
+        "channel": "Fine Folk Music"
+      },
+      "b71132cf-d3d0-477e-9ad4-068b655191a7": {
+        "id": "b71132cf-d3d0-477e-9ad4-068b655191a7",
+        "video_id": "oe7-lOc0gAg",
+        "title": "Gina Malcolm - Blood Left (Official Music Video)",
+        "channel": "Gina Malcolm"
+      },
+      "d608715a-ffc6-4f5d-8e92-12585c6e766b": {
+        "id": "d608715a-ffc6-4f5d-8e92-12585c6e766b",
+        "video_id": "ExnNQbJFybg",
+        "title": "Tess Liautaud - Blue Mind (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "f3e741f5-5fee-48a6-8287-8c02efd1a544": {
+        "id": "f3e741f5-5fee-48a6-8287-8c02efd1a544",
+        "video_id": "12kKDqPdVls",
+        "title": "Real Estate - Flowers (Official Video)",
+        "channel": "realestateband"
+      },
+      "6664cd83-28ca-4fad-aaed-a6fdabf4edf8": {
+        "id": "6664cd83-28ca-4fad-aaed-a6fdabf4edf8",
+        "video_id": "FNDSD6ETluY",
+        "title": "Steffany Beck - Country Strong (Music Video)",
+        "channel": "Fine Folk Music"
+      },
+      "46e38240-679f-48ef-8e29-8a9ef9481918": {
+        "id": "46e38240-679f-48ef-8e29-8a9ef9481918",
+        "video_id": "3uA8W904aPU",
+        "title": "Steffany Beck & Miranda Easten - Hell & Back (Music Video)",
+        "channel": "Fine Folk Music"
+      }
+    },
+    "spectrum_freqs_hz": [
+      20.0, 28.3, 40.0, 56.6, 80.0, 113.1, 160.0, 226.3, 320.0, 452.6, 640.0, 905.1, 1280.0, 1810.2, 2560.0,
+      3620.4, 5120.0, 7240.8, 10240.0, 14481.5, 20480.0
+    ],
+    "track_spectra": {
+      "b71132cf-d3d0-477e-9ad4-068b655191a7": [
+        -17.0, -13.5, -4.0, 10.3, 13.4, 8.2, 6.2, -1.3, 0.2, -2.1, 1.4, 1.4, -0.6, -3.2, -6.9, -10.8, -14.7,
+        -19.0, -21.0, -72.6, -88.9
+      ],
+      "17a50ed1-a88b-4a66-ac41-77ad374e8270": [
+        -29.3, -17.1, 0.2, 0.3, 2.8, 2.5, 1.5, 2.2, -0.2, -2.6, 3.6, 0.8, -0.5, -4.0, -8.5, -12.4, -14.7,
+        -14.1, -11.7, -18.3, -34.0
+      ],
+      "7d031de6-5af1-415c-8c5c-694f59fb3e60": [
+        -21.1, -7.9, 4.5, 11.6, 8.1, 6.6, 8.0, 9.6, 5.8, 5.8, 5.2, 0.0, -1.9, -4.7, -7.4, -8.5, -8.3, -5.9,
+        -11.9, -19.9, -41.6
+      ],
+      "99ed497c-91d0-4fb9-89c7-bbbb1a42d744": [
+        -4.9, 1.5, 4.5, 5.6, 7.9, 6.9, 2.3, 6.7, 1.3, 6.5, 2.1, -0.0, -3.6, -2.1, -6.2, -4.9, -10.1, -10.4,
+        -12.2, -15.5, -28.8
+      ],
+      "f92905c7-fa69-4406-bc87-662872d16e16": [
+        -31.9, -30.3, -25.6, -8.7, 10.5, 6.3, 11.1, 2.5, 5.9, -1.5, 1.4, -3.6, -0.8, -2.0, -3.1, -6.0, -9.8,
+        -11.5, -16.4, -29.2, -57.5
+      ],
+      "effa2a48-ea93-4afc-91ca-a5f6ee095831": [
+        -27.1, -19.4, -4.2, 0.5, 8.7, 6.3, 9.8, 5.2, 5.2, 2.5, 1.5, -0.8, -2.2, -1.3, -1.9, 0.8, -2.7, -3.6,
+        -4.0, -8.7, -22.1
+      ],
+      "203f1ee7-05b3-4cb8-933b-42651ed67315": [
+        -17.1, -8.2, -2.9, 4.1, 6.0, 3.7, -3.0, 2.0, 0.8, 1.3, 0.3, -0.6, -1.6, 0.7, -4.2, -7.5, -11.1, -14.1,
+        -18.5, -28.7, -38.3
+      ],
+      "6664cd83-28ca-4fad-aaed-a6fdabf4edf8": [
+        -24.1, -14.9, -6.1, 1.7, 3.9, 1.8, -0.8, -0.0, -1.9, -1.3, -2.6, 1.6, -1.6, -0.7, -5.7, -4.5, -8.7,
+        -6.4, -8.7, -19.1, -36.6
+      ],
+      "6754e61f-eca8-40ee-8531-92b0009a2312": [
+        -19.1, -2.4, 8.5, 11.4, 1.6, 9.7, 5.2, 7.3, 6.6, 5.2, 2.7, -2.6, -3.1, -7.7, -8.7, -12.7, -16.5,
+        -15.5, -23.7, -30.4, -43.9
+      ],
+      "ac224fbb-3b30-40e4-9698-ff063c9edc24": [
+        -34.0, -25.5, -16.6, -27.8, -16.6, -2.9, -6.3, 4.4, 6.6, 1.3, 4.0, 3.3, -4.4, -3.7, -3.0, -3.3, -9.2,
+        -10.1, -16.2, -24.5, -38.1
+      ],
+      "980e276b-61c5-4de3-ae83-64dadafc71fa": [
+        -5.6, -1.9, -0.6, 1.0, 3.6, -3.2, 4.2, 3.4, 4.0, 2.9, 3.6, 2.1, -0.6, -2.4, -5.2, -4.3, -11.4, -9.2,
+        -11.6, -19.6, -40.2
+      ],
+      "378954b0-c65d-456a-8974-50d14477196d": [
+        -23.2, -14.3, -0.0, 3.8, 2.8, 0.1, 3.0, -0.8, 0.6, -0.4, 2.7, -2.0, -0.8, -0.7, -6.3, -7.1, -7.8,
+        -10.7, -17.4, -25.0, -49.9
+      ],
+      "b9ae97ec-fcc3-4b6d-8d86-95bb68f53cef": [
+        -23.7, -21.0, -10.0, 0.7, 3.5, 6.7, 3.4, 5.7, 3.0, 6.0, 1.8, 1.0, -3.0, -2.8, -7.0, -7.9, -10.2,
+        -12.9, -13.3, -21.1, -40.1
+      ],
+      "e2fad964-7c88-4c78-96f6-354999c4c86d": [
+        -6.3, 2.4, 4.4, 2.3, 3.0, 1.3, -2.2, 0.6, 2.2, -0.3, 2.8, -1.5, -0.4, -2.6, -8.7, -3.9, -6.3, -11.4,
+        -13.6, -18.0, -30.6
+      ],
+      "b52c2c9f-ba24-4308-98d3-4423c0a65585": [
+        -26.5, -25.2, -21.1, -3.3, 4.7, 4.0, 0.1, 0.5, 9.4, 0.5, 0.1, 4.1, 0.0, 0.2, -2.2, -5.2, -7.4, -6.5,
+        -8.5, -21.4, -44.3
+      ],
+      "e2a86fb5-4d1e-4e6e-82ec-0ee87b89bcb5": [
+        -27.2, -16.1, -6.2, 5.0, 0.3, 2.3, 0.9, -1.3, 3.1, 3.3, 3.9, 2.3, -3.4, -2.0, -8.3, -10.5, -16.6,
+        -13.3, -14.6, -23.2, -41.0
+      ],
+      "844ae662-7e78-416e-bf3a-7192e4dd5730": [
+        -19.3, -15.2, -1.8, 2.0, 8.7, 8.6, 7.4, 9.5, 2.3, 10.1, -0.0, 0.8, -3.1, -2.7, -7.1, -9.3, -12.8,
+        -11.2, -13.8, -24.3, -41.1
+      ],
+      "cfad1d50-6b8b-4bb7-b87b-b90b65684059": [
+        -23.2, -16.1, -4.6, 5.9, 2.8, -0.7, 9.5, 3.6, 5.3, 0.2, 1.5, 2.1, -3.2, -2.4, -8.1, -7.0, -10.0,
+        -10.8, -12.6, -20.3, -39.4
+      ],
+      "d608715a-ffc6-4f5d-8e92-12585c6e766b": [
+        -30.0, -19.1, -4.8, 0.7, -1.2, 0.2, 0.2, 1.0, 0.1, 1.4, 1.6, 1.0, -1.3, -3.5, -7.8, -9.1, -14.4,
+        -12.4, -16.8, -20.4, -36.1
+      ],
+      "d322539c-7746-4d95-9a23-d120ee60c210": [
+        -29.4, -16.4, -1.6, -7.7, 1.9, 5.4, 1.3, 6.5, 5.2, 7.2, 2.3, 1.6, -2.8, -1.9, -5.2, -7.6, -9.1, -9.4,
+        -14.8, -23.9, -41.6
+      ],
+      "75cc3bce-2631-4966-84f1-ff184c35edeb": [
+        -27.4, -21.1, -14.3, 3.9, 2.8, 5.5, 2.1, 1.8, 3.3, 3.0, 1.3, 2.2, 0.6, -2.1, -1.8, -4.2, -7.9, -10.1,
+        -14.7, -26.2, -55.4
+      ],
+      "16e0ea4d-bf46-4803-9bf7-3af636bb1bc2": [
+        -23.8, -11.7, 4.3, 5.5, 4.5, 6.7, 13.6, 4.6, 6.5, -1.1, 4.1, -0.2, -1.0, -4.3, -2.9, -1.7, -3.0, -4.2,
+        -6.1, -8.2, -22.2
+      ],
+      "88f2b6e8-9037-4651-a96b-6115af95a2cc": [
+        -23.7, -16.6, 3.5, 0.5, 7.1, -2.1, 1.7, -0.4, 3.4, -0.1, 2.4, -0.8, -4.5, -8.5, -13.6, -13.9, -15.0,
+        -15.4, -13.1, -25.4, -53.4
+      ],
+      "316ce05e-92ba-49c9-94c2-03d59ffff40e": [
+        -19.6, -12.8, 0.1, 7.1, 8.0, 4.5, 7.3, 3.8, 3.7, 3.4, 3.8, -0.5, -2.4, -2.7, -3.9, -9.4, -9.7, -7.0,
+        -9.3, -17.2, -31.3
+      ],
+      "ebbf05b0-7ae8-4a8c-ba2d-d2deceeae5ae": [
+        -21.4, -18.8, -8.1, -0.8, 0.2, 1.7, 0.7, 1.8, -1.7, -0.8, 3.5, 1.7, -1.1, -3.6, -6.0, -11.3, -17.3,
+        -15.0, -21.4, -27.4, -35.2
+      ],
+      "4e3b180f-4613-46d3-ace6-4bc180317927": [
+        -17.0, -16.1, -13.7, -9.4, 7.8, 9.9, 10.0, 7.7, 13.3, 3.2, 5.6, 0.3, -2.2, -6.1, -10.8, -12.9, -11.6,
+        -15.5, -16.3, -23.6, -46.0
+      ],
+      "d4597476-894f-4618-afe9-f00ab8760c91": [
+        -26.7, -7.0, -0.5, 4.0, 5.6, -0.8, -0.4, 7.4, -0.9, 6.5, 7.5, 1.4, -5.7, -1.1, -3.0, -4.7, -15.2,
+        -13.6, -14.7, -24.9, -39.5
+      ],
+      "46e38240-679f-48ef-8e29-8a9ef9481918": [
+        -23.0, -11.3, -1.8, 2.9, 4.7, 5.8, 0.8, 0.9, 1.1, 0.2, 2.0, -1.1, -1.8, -0.3, -3.2, -2.6, -5.6, -6.7,
+        -7.4, -13.3, -27.5
+      ],
+      "0bf1e00e-01ad-4d65-bd93-78cccf2f2cc8": [
+        -21.9, -18.9, -8.9, 3.5, 17.8, 8.9, 9.7, 13.3, 4.0, 7.7, -0.4, 2.2, -7.0, -1.2, -9.0, -9.3, -10.7,
+        -10.4, -12.2, -18.1, -39.0
+      ],
+      "ebf9e882-9aad-4f60-b7c7-09c310f81934": [
+        -1.5, 9.5, 9.8, 8.0, 7.8, 12.3, 0.7, 13.1, -2.8, 9.7, 2.8, -0.4, -3.6, -2.1, -3.7, -7.6, -8.8, -7.5,
+        -7.8, -14.3, -36.0
+      ],
+      "ca0fd286-e64b-4f64-ade3-919b0b0c0d42": [
+        -29.0, -20.9, -4.7, 2.5, 1.8, 3.4, 3.3, 4.4, 0.6, 0.9, 2.2, 1.5, -1.7, -1.7, -6.0, -7.9, -12.4, -10.3,
+        -12.7, -14.6, -31.2
+      ],
+      "7542ab3f-d7fe-4e0c-9409-3c65f61bfa7d": [
+        -27.0, -5.5, 6.6, 6.2, 9.1, 4.3, 0.6, 1.5, 1.7, -1.6, 0.4, -4.4, -0.9, -2.1, -2.8, -1.9, -10.8, -14.7,
+        -18.8, -29.9, -48.1
+      ],
+      "154a073d-62b5-416e-9733-93a9db18a874": [
+        -25.7, -17.6, -6.5, 5.0, 6.7, 7.3, 6.1, 5.7, 10.1, 5.7, 9.6, -2.2, 0.4, -5.6, -6.5, -12.4, -9.4,
+        -10.4, -9.0, -21.6, -44.6
+      ],
+      "7cf38981-3509-4c04-861c-8ad632046f57": [
+        -20.9, -18.8, -2.6, 6.9, 7.9, 5.6, 4.1, 1.9, 2.4, -1.8, -0.1, -0.2, -4.0, -0.0, -3.8, -2.2, -8.6,
+        -8.7, -8.7, -15.6, -39.1
+      ],
+      "bf22fadf-ae79-4c32-abaa-82a5b22cd130": [
+        -18.2, -11.5, -2.4, 4.1, 5.1, 7.0, 7.9, 8.7, 5.0, 6.4, 2.3, 0.5, -1.9, -2.8, -6.1, -8.7, -8.1, -12.5,
+        -11.5, -13.3, -30.8
+      ],
+      "c2594b4a-aa09-4338-9649-96e0aabd3a37": [
+        -12.7, -3.5, 2.3, 6.6, 5.9, 10.3, 4.7, 5.6, 7.8, -1.8, 6.8, -0.9, -1.7, -0.2, -3.4, -5.8, -9.6, -9.3,
+        -10.2, -20.3, -44.7
+      ],
+      "af05bb02-e9e4-41c7-8e99-297c404582d0": [
+        -27.6, -18.2, -6.3, 3.2, 6.1, 6.0, 4.3, 0.1, -0.2, -2.4, 1.7, 0.2, 0.4, -0.4, -3.4, -3.3, -5.5, -7.0,
+        -6.1, -14.7, -42.9
+      ],
+      "41630e45-5a87-45ad-9605-a97ca4b218f0": [
+        -28.7, -24.2, -7.1, 0.3, 3.7, 4.9, 4.1, 0.9, 3.2, 1.7, 2.1, 0.5, 0.2, -0.4, -4.8, -8.6, -10.5, -12.2,
+        -15.6, -24.8, -39.2
+      ],
+      "029e0e36-1c4f-4d7c-9958-3c6199bd98f0": [
+        -17.5, -5.1, 3.5, 4.8, 10.3, 10.4, 13.4, 7.1, 10.4, 0.9, 3.4, -1.5, 0.4, -2.2, -4.6, -5.6, -9.8,
+        -11.2, -12.7, -15.8, -29.5
+      ],
+      "f83053d6-6001-4ee1-a09e-4d99cc510f37": [
+        -11.9, 1.5, 5.5, 7.2, 9.9, 8.6, 6.1, 5.5, 4.1, 5.1, 2.8, 1.6, -1.8, -6.7, -8.0, -11.0, -10.9, -10.0,
+        -10.8, -20.4, -31.4
+      ],
+      "a22517bc-d020-4c3d-a505-facf9d67e8c6": [
+        -10.1, -3.1, -0.4, 0.3, 4.0, 0.7, 1.0, 0.8, -2.2, -1.5, 1.4, -0.6, -3.0, -0.9, -3.3, -5.2, -11.6,
+        -13.6, -14.3, -20.1, -28.6
+      ],
+      "d0f2b7fa-ed89-4337-9c24-1e7221bd1472": [
+        -24.2, -19.5, -0.9, 1.2, 2.5, 3.9, 4.2, 5.5, 2.9, 5.5, 0.5, 0.5, -2.1, -4.3, -5.1, -4.7, -3.2, -9.0,
+        -14.8, -23.4, -34.0
+      ],
+      "92f811e1-68a7-448c-84a4-cc1843431483": [
+        -22.1, -17.8, -6.5, -4.6, -5.0, -5.7, 6.5, 1.6, 0.7, 2.4, -1.5, 1.1, -2.8, -2.7, -5.2, -9.7, -10.1,
+        -10.9, -12.2, -23.3, -30.5
+      ],
+      "37426053-d364-4674-b023-f246f0b0d429": [
+        -21.8, -16.3, -7.9, 0.2, 4.8, 1.5, 4.3, -1.5, -4.2, -0.3, 4.9, 0.8, -1.0, 0.5, -5.0, -9.6, -17.4,
+        -17.7, -15.0, -22.7, -37.3
+      ],
+      "84698df1-7f07-43e3-83cc-8ddc55a21859": [
+        -18.3, -10.9, 0.2, 7.4, 11.1, 14.1, 12.4, 16.8, 9.7, 3.7, 2.9, -1.1, 1.2, -3.8, -2.7, -4.9, -7.6,
+        -11.3, -12.1, -22.8, -39.9
+      ],
+      "0b7d1537-c4df-486b-babf-ae6f1e953ce7": [
+        -24.4, -11.7, 3.4, 3.6, 3.5, 9.8, 6.7, 3.2, 2.7, 8.1, 2.4, 4.0, -2.3, -1.4, -6.5, -6.7, -8.4, -8.8,
+        -11.0, -17.8, -37.0
+      ],
+      "7b1ddb7d-6672-412a-923e-3ef57d741038": [
+        -34.3, -32.0, -17.8, -6.0, 3.2, 4.9, 4.1, 1.6, 7.0, 0.6, 5.4, -1.9, -0.4, -3.9, -2.6, -7.2, -11.9,
+        -11.8, -12.4, -14.0, -29.7
+      ],
+      "55be8e66-833a-4e5c-963c-fee3feb1fba7": [
+        -26.7, -20.2, -10.1, 7.5, 10.8, 10.4, 8.1, 4.4, 9.4, 3.4, 3.4, -2.0, -1.4, -2.5, -2.8, -3.0, -8.3,
+        -9.1, -7.9, -17.7, -27.7
+      ],
+      "81d90fee-5658-46e2-9d43-a925cdcb0456": [
+        -17.4, -15.5, -1.4, 4.8, 10.3, 13.6, 12.9, 12.3, 12.6, 7.6, 6.0, -3.6, -3.9, -4.2, -4.8, -6.3, -6.0,
+        -9.7, -6.4, -12.8, -28.9
+      ],
+      "02df53ea-b684-472a-af32-ff126a22cf71": [
+        -29.9, -24.7, -9.2, 6.1, 8.5, 4.9, 0.1, 3.3, 0.1, 1.2, -1.4, 0.6, -1.7, -1.5, -4.4, -5.9, -10.6, -8.7,
+        -12.8, -16.4, -29.7
+      ],
+      "67e9b511-c83c-4b2a-85f1-af4184d4294e": [
+        -31.2, -19.4, -5.6, 0.9, 10.7, 6.9, 9.1, 6.4, 3.6, 6.4, 2.9, 0.9, -2.9, -4.3, -5.5, -8.0, -9.9, -10.9,
+        -14.7, -22.5, -35.7
+      ],
+      "defbc0a5-26fe-4954-9ebe-a1f8c417e263": [
+        -22.8, -15.3, -2.5, 2.3, -0.9, -1.4, -2.5, -1.8, 3.8, -1.6, 2.7, 2.3, 0.5, -0.3, -3.6, -5.7, -7.8,
+        -8.7, -9.6, -18.3, -41.2
+      ],
+      "9303e9fd-0069-429c-b805-38eebcdd9727": [
+        -27.4, -17.1, -2.1, 6.8, 7.3, 9.4, 6.7, 2.1, 1.7, 0.2, 2.3, -0.9, -1.0, -2.3, -2.5, -2.9, -5.7, -8.4,
+        -7.4, -17.4, -35.8
+      ],
+      "0d957798-6b0f-4602-a839-d74842207fd8": [
+        -30.8, -26.8, -2.9, 7.6, 0.4, 0.8, 4.9, 0.4, 0.5, -3.8, 3.3, -0.8, 0.7, -2.5, 0.4, -0.1, -0.1, -0.2,
+        -3.0, -9.9, -26.7
+      ],
+      "5d34a9b2-017e-45c4-a3a0-a45c946bf7f4": [
+        -27.5, -19.8, -8.5, -2.8, 1.2, 2.1, 2.6, -0.2, 6.9, 1.7, 5.7, -1.7, -1.6, -4.4, -5.8, -10.3, -13.2,
+        -11.7, -16.5, -23.5, -34.1
+      ],
+      "c6a254a1-7d2e-49b0-badd-045b3bca831e": [
+        -37.1, -36.2, -34.4, -30.6, -23.6, -8.4, -4.4, 7.3, 8.0, 6.9, -0.5, -0.8, -5.4, -0.8, -6.3, -8.6,
+        -16.9, -14.6, -11.5, -24.3, -54.1
+      ],
+      "f10566d8-15e6-40cd-b9d2-8f20a69498b2": [
+        -17.2, -5.5, 3.3, 4.9, 5.3, 4.8, -2.1, -0.6, 1.3, -2.8, 1.7, -1.2, -2.2, 0.0, -5.3, -5.5, -8.0, -8.3,
+        -11.4, -21.3, -43.5
+      ],
+      "6f4b2c9e-b699-423b-b17b-ce0661841ffc": [
+        -34.9, -22.8, -2.5, 3.1, 3.0, 3.7, 0.6, 4.4, 1.5, -1.6, 4.9, -3.5, -1.4, -1.7, -0.6, -5.4, -11.6,
+        -18.0, -20.1, -21.4, -32.2
+      ],
+      "a4d1ed5b-9c09-404e-b73b-ab17616278de": [
+        -37.4, -35.8, -32.4, -25.1, -17.8, -10.0, 1.8, 5.4, 3.1, -1.3, 3.8, -0.6, 1.1, -5.9, -9.6, -8.2,
+        -13.9, -13.0, -14.3, -17.7, -33.5
+      ],
+      "38825a8f-0368-4cf1-a6a7-3cffb6218517": [
+        -31.7, -17.5, 0.5, -2.0, 3.1, 1.4, 3.7, 1.8, 6.5, -0.2, 6.4, 4.9, -0.4, -2.2, -7.1, -11.4, -12.3,
+        -10.1, -10.1, -19.9, -41.0
+      ],
+      "bf7e774b-879c-41ec-acd1-7d2523755d57": [
+        -22.7, -11.4, -4.9, -0.9, 7.7, 1.7, 3.4, -0.6, 4.7, 1.6, 3.4, 2.5, -1.0, -2.8, -7.4, -9.4, -13.2,
+        -14.8, -16.5, -20.1, -34.2
+      ],
+      "d3473e70-f336-4f81-bfff-eac1e11124b5": [
+        -32.6, -26.9, -25.2, -23.9, -8.7, -1.5, 1.2, 3.2, 2.0, 4.8, 2.7, 2.1, -1.3, -3.4, -5.2, -6.3, -6.9,
+        -11.9, -12.2, -23.2, -48.9
+      ],
+      "0ae367eb-21a5-46c9-967c-0ac99ba4c435": [
+        -21.8, -9.4, 0.8, 7.2, 6.5, 5.1, 2.4, 2.2, 4.5, 2.3, 6.9, -0.1, -2.0, -4.8, -8.0, -10.2, -15.2, -13.3,
+        -14.8, -16.6, -32.7
+      ],
+      "2806df31-fccd-4688-9e2b-660b4d9c957a": [
+        -25.0, -20.4, -18.6, -7.9, 7.2, 4.7, 8.1, 3.4, 4.0, 1.3, 3.5, -1.0, 0.0, -3.9, -2.1, -9.7, -12.8,
+        -10.9, -16.5, -25.1, -46.5
+      ],
+      "f3e741f5-5fee-48a6-8287-8c02efd1a544": [
+        -18.4, -8.5, 1.7, 6.2, 6.3, 10.3, 5.7, 7.1, 2.6, 5.5, 1.9, 0.6, -2.7, -3.2, -6.2, -8.6, -8.4, -12.2,
+        -15.4, -28.1, -41.4
+      ],
+      "141da03f-cf68-4d02-bcea-710cb85d63db": [
+        -23.1, -16.7, -10.6, -1.4, 2.3, 5.7, 6.8, 6.3, 4.9, 1.2, 1.0, -0.0, -2.9, -3.5, -6.5, -10.1, -10.9,
+        -11.1, -11.1, -15.6, -34.4
+      ],
+      "d6067d7c-abfb-4814-943d-99922315225d": [
+        -23.5, -10.6, 2.6, 8.8, 13.3, 4.4, 5.4, 7.4, 8.0, 9.3, -1.9, 6.6, -2.1, -2.3, -9.5, -11.8, -14.1,
+        -15.7, -17.8, -21.2, -37.3
+      ],
+      "81bbf623-d8c5-47e0-943e-cdce197fcf22": [
+        -27.5, -24.5, -25.0, -6.9, 1.7, 1.1, -0.6, -0.6, 2.4, 5.4, 1.2, 1.2, -1.8, -7.4, -5.7, -7.8, -15.5,
+        -12.9, -21.5, -38.3, -66.4
+      ],
+      "347ecbc0-29b9-456c-8d9f-4a084f5a084b": [
+        -31.7, -19.0, -4.3, 0.1, -2.4, -0.5, -1.1, -0.0, 2.6, -1.3, 0.9, 1.9, -2.4, -2.3, -6.8, -6.5, -17.5,
+        -14.3, -17.4, -25.1, -34.4
+      ],
+      "6bcd332d-8cd1-4380-a2c4-d80ad5409a28": [
+        -22.8, -20.3, -13.4, 10.7, 10.5, 2.9, 2.2, 7.6, 1.6, 3.6, 1.9, 3.5, -2.1, -2.6, -9.9, -8.7, -15.5,
+        -14.2, -14.8, -22.0, -51.2
+      ],
+      "96a95de7-b692-48f9-b9f2-d7f81f308ecb": [
+        -35.1, -32.1, -29.6, -23.6, -8.7, 4.7, 6.2, 7.8, 1.9, 2.1, 1.7, 1.6, -1.2, -3.2, -10.1, -9.6, -13.3,
+        -15.1, -16.3, -29.5, -53.8
+      ],
+      "356b11ef-76cd-4221-a89a-dca54009e6e0": [
+        -23.5, -9.5, 4.9, 5.4, 11.7, 7.1, 8.9, 3.8, 3.2, 4.8, 4.5, -1.7, 0.5, -2.4, -2.3, -8.9, -11.3, -14.2,
+        -19.5, -28.5, -53.6
+      ],
+      "444237fc-ecf9-4ff6-8c0b-c1c0a82a4bb7": [
+        -21.1, -13.3, 4.3, 10.8, 9.0, 4.5, 3.8, 3.1, 5.1, 11.0, 3.2, 2.0, -3.3, -4.3, -8.2, -9.8, -11.2,
+        -11.4, -11.0, -15.6, -28.2
+      ],
+      "320966c9-0872-41ba-9e90-5096ef7f80b3": [
+        -11.8, -8.2, -3.0, 1.1, 3.8, 1.2, -3.4, 2.8, -3.1, 2.0, 1.5, 2.4, -2.9, -2.0, -11.5, -13.9, -16.8,
+        -16.1, -16.2, -23.6, -41.4
+      ],
+      "e060d97f-cbf4-4dec-bf11-23aa535becd3": [
+        -34.1, -24.6, -7.5, -0.9, 2.2, 2.9, -0.5, 0.0, 1.4, 4.1, -0.0, 2.0, -5.0, -4.6, -6.7, -10.0, -13.2,
+        -15.3, -11.4, -20.0, -36.8
+      ],
+      "6162a683-34d5-49db-8fb3-c98a7147ab72": [
+        -21.7, -14.7, 0.9, 2.5, 2.6, 1.8, 5.7, 3.3, 1.7, -3.3, 1.0, 6.2, -2.1, -3.1, -5.0, -7.1, -1.0, -12.2,
+        -18.9, -33.1, -47.8
+      ],
+      "dbff7890-6552-400b-a679-29528a2f4421": [
+        -16.9, -5.2, -4.0, 8.8, 6.9, 8.5, 9.4, 1.1, 12.4, 0.7, 7.6, -1.0, -3.4, -5.7, -7.1, -10.7, -10.7,
+        -11.7, -9.8, -18.4, -34.2
+      ],
+      "aca2bc35-0faa-405d-bbdd-51eea0c1c0df": [
+        -17.8, -15.5, -16.6, -16.0, -3.4, 2.1, 2.6, 6.2, 0.8, 2.0, 3.6, 1.2, -3.2, -2.9, -3.5, -1.8, -6.9,
+        -5.8, -9.9, -15.3, -26.9
+      ],
+      "8da4ebd8-4932-4946-a2d7-e5a31edc88c7": [
+        -31.1, -21.1, -8.5, 5.2, -3.9, 2.4, -2.5, 0.5, 3.0, 0.1, 1.8, -1.1, -1.8, -1.1, -4.7, -8.5, -14.1,
+        -16.8, -16.8, -26.9, -50.9
+      ],
+      "3f169d4c-2e4c-4353-9ad3-09f6532d1f45": [
+        -24.9, -25.8, -10.3, 1.5, -0.6, -4.7, -2.7, -0.1, -0.1, 5.0, 2.4, 3.1, -3.0, -6.0, -5.9, -7.3, -14.0,
+        -13.4, -12.2, -17.1, -39.0
+      ],
+      "b48cdabd-25d1-4b67-9f95-fcaa3bc7aebf": [
+        -3.7, 0.4, -3.9, 0.4, 4.4, 6.3, 9.9, 8.1, 5.9, 6.6, 4.0, 0.3, -3.6, -3.4, -6.1, -8.8, -7.8, -10.9,
+        -14.3, -21.2, -35.3
+      ],
+      "c4cc72a3-4bfb-4316-ac33-1e12425d4267": [
+        -40.9, -37.4, -33.3, -31.7, -32.7, -19.7, -9.2, -6.1, 3.6, 5.3, 2.1, -1.8, -2.4, -8.9, -8.9, -7.4,
+        -8.8, -13.4, -15.7, -26.6, -57.5
+      ],
+      "9aeaeaaa-16d1-45c4-963f-80cc73d611c9": [
+        -20.1, -3.5, -0.6, -2.3, 3.0, 2.4, 6.6, 3.4, 5.2, 2.3, 2.2, -0.3, -0.8, -2.4, -1.2, -6.5, -9.0, -9.5,
+        -17.4, -27.5, -40.9
+      ],
+      "33764f61-02a6-47d8-b08e-430df7d34392": [
+        -28.8, -5.7, 3.9, 4.6, 4.2, 4.7, 2.3, 4.7, 6.3, 1.8, 2.4, 3.4, -2.4, -5.0, -4.3, -10.1, -10.7, -12.9,
+        -15.5, -26.1, -42.7
+      ],
+      "56b06e2c-2e92-4f99-9cde-f5430fc98386": [
+        -39.2, -37.6, -33.3, -27.3, -20.7, 4.0, 5.2, 0.9, 3.0, -1.0, 8.3, -1.0, -4.7, -8.2, -10.9, -13.9,
+        -16.6, -16.9, -16.0, -32.0, -56.2
+      ],
+      "578b390f-7744-4bd9-8b63-d88928483022": [
+        -22.6, -22.6, -24.9, -16.3, 5.8, 5.2, 2.7, 5.9, 7.2, 5.9, 2.7, -1.5, -2.7, -2.4, -6.3, -11.6, -15.8,
+        -12.5, -15.2, -26.2, -39.8
+      ],
+      "fa2a893b-4941-411f-aa53-8fc1cd1c0624": [
+        -27.3, -18.9, -3.0, 4.2, 1.9, 2.1, 4.8, 5.8, 7.8, -0.4, 5.2, -1.7, 1.6, -6.1, -5.8, -10.8, -11.7,
+        -10.2, -7.0, -13.4, -20.3
+      ],
+      "fa49e653-2ec8-4ba0-94d3-add7989b9da7": [
+        -24.3, -18.7, -1.3, 10.0, -0.1, 5.1, -2.1, 0.0, 11.7, 4.7, 10.0, 3.4, -3.2, -3.7, -13.1, -15.3, -18.7,
+        -16.2, -17.6, -19.6, -34.7
+      ],
+      "9edd578d-e56a-4235-9207-d4b618c9c074": [
+        -16.2, -0.9, -2.9, -2.0, 7.4, 0.1, 2.7, -3.2, -7.3, 4.7, 1.6, -1.4, -5.9, -3.5, -8.6, -10.5, -12.6,
+        -10.5, -14.8, -18.5, -24.3
+      ],
+      "cfaa0cf8-6872-43c1-8d25-4bec304e09a1": [
+        -27.9, -24.7, -8.8, 9.8, 10.5, 8.1, 6.1, 6.0, 3.1, -1.2, -0.2, -0.4, -1.4, -0.2, -1.4, -2.3, -3.9,
+        -6.1, -5.1, -8.2, -26.5
+      ],
+      "f0f6557f-0430-4382-8cce-14e1ee02fd56": [
+        -30.1, -23.7, -5.7, -6.2, 1.7, -0.5, 4.9, -1.6, 3.2, 1.3, 3.0, -0.7, -1.4, -2.7, -5.2, -8.9, -16.1,
+        -17.8, -18.9, -25.4, -35.7
+      ],
+      "c1e5891c-f1bc-4fd5-adcd-18de8bfc0e32": [
+        -30.3, -24.4, -2.5, 9.0, 3.7, 8.9, 1.8, 6.2, 8.7, 3.6, 5.4, 3.2, -3.9, -3.2, -4.2, -9.2, -10.7, -13.4,
+        -11.2, -19.6, -32.6
+      ],
+      "f3d146dd-96f0-460e-b83e-993ca2f43175": [
+        -33.2, -29.3, -16.2, 5.7, -2.1, 1.8, 0.8, -0.7, 10.6, 0.0, 6.6, 1.2, -2.2, -10.0, -6.1, -6.4, -9.9,
+        -12.6, -16.6, -24.2, -41.3
+      ],
+      "31dc8320-9da1-4aac-8837-26de8a48baad": [
+        -13.9, -12.2, -1.6, 9.0, 6.1, 3.0, 5.2, 2.9, 0.9, 0.6, 0.8, -0.3, -0.5, -0.4, -2.6, -5.0, -7.7, -6.7,
+        -6.4, -14.1, -33.9
+      ]
+    }
+  },
+  "recommendations": {
+    "recommender": "harman-personal/1",
+    "sound_profile_version": "sound-profile/3",
+    "reference_target": {
+      "name": "harman-ie-2019",
+      "label": "Harman in-ear 2019",
+      "citation": "Olive, Welti & Khonsaripour, Harman in-ear target (2019 revision), following 'A Statistical Model that Predicts Listeners' Preference Ratings of In-Ear Headphones', AES 143rd Convention (2017). Numeric curve as distributed by AutoEq.",
+      "rig_family": "iec60318-4"
+    },
+    "dataset": {
+      "measurements": 203,
+      "sources": ["oratory1990 (via AutoEq) (203)"]
+    },
+    "constraints": {
+      "budget_min": null,
+      "budget_max": null,
+      "currency": null,
+      "rig_family": "iec60318-4"
+    },
+    "items": [
+      {
+        "iem_id": "5c2773c5-c9df-4e49-9607-be2db1e438e1",
+        "brand": "Truthear",
+        "model": "x Crinacle Zero RED",
+        "slug": "truthear-x-crinacle-zero-red",
+        "rank": 1,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 84.6,
+          "low": 78.8,
+          "high": 89.1
+        },
+        "population_preference": 85.5,
+        "price": null,
+        "driver_config": null,
+        "image": {
+          "path": "originals/truthear-x-crinacle-zero-red/43f7efdabb0c6b06.jpg",
+          "source": "Headphones.com",
+          "source_url": "https://headphones.com/products/truthear-x-crinacle-zero-red-in-ear-headphones",
+          "credit": "Headphones.com product photography; photographer unknown"
+        },
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -1.58,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.96,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": -1.11,
+            "tolerance_db": 1.04,
+            "fit": "below",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -1.26,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 1.14,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -1.96
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -1.32
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.06
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.41
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -1.44
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -2.42
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -2.86
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -2.0
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 2.11
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 1.0 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.96,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.3 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -1.26,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "mismatch",
+            "region": "vocals",
+            "message": "Vocals and presence: 1.1 dB below your target (more distant vocals), outside your ±1.0 dB range.",
+            "error_db": -1.11,
+            "tolerance_db": 1.04,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 85 across the targets your evidence allows (80% range 79-89); 86 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43ACB",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Truthear x Crinacle Zero RED.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "21ae7bbc-2429-4e6b-97c7-9317b1def83e",
+        "brand": "AKG",
+        "model": "N400",
+        "slug": "akg-n400",
+        "rank": 2,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 84.0,
+          "low": 78.3,
+          "high": 88.7
+        },
+        "population_preference": 89.2,
+        "price": null,
+        "driver_config": null,
+        "image": null,
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -0.11,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.96,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": -0.63,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": 0.64,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": -0.23,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -0.29
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -0.02
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.04
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.46
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -1.25
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.44
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -0.94
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": 2.73
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": -3.19
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 1.0 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.96,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 0.6 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": 0.64,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 84 across the targets your evidence allows (80% range 78-89); 89 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/AKG N400.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "a098196a-c9a1-44de-9749-03091a7cdf42",
+        "brand": "Samsung",
+        "model": "Galaxy Buds2 Pro",
+        "slug": "samsung-galaxy-buds2-pro",
+        "rank": 3,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 83.9,
+          "low": 76.8,
+          "high": 89.3
+        },
+        "population_preference": 85.3,
+        "price": null,
+        "driver_config": null,
+        "image": null,
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": 0.11,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.41,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": -0.1,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -1.56,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 4.2,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": 0.11
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -0.01
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.6
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.31
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -0.96
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -0.42
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -1.88
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -1.72
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 4.75
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.4 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.41,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.6 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -1.56,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 84 across the targets your evidence allows (80% range 77-89); 85 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": "air",
+            "message": "Above 10 kHz it measures +4.2 dB from your target, but couplers are unreliable there, so this isn't scored.",
+            "error_db": 4.2,
+            "tolerance_db": null,
+            "status": "measured"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Samsung Galaxy Buds2 Pro.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "5cf2ff1d-d513-452f-ade5-1ec6c6cbe4db",
+        "brand": "7Hz",
+        "model": "Salnotes Zero",
+        "slug": "7hz-salnotes-zero",
+        "rank": 4,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 83.5,
+          "low": 77.9,
+          "high": 88.2
+        },
+        "population_preference": 84.0,
+        "price": {
+          "amount": "22.09",
+          "currency": "USD",
+          "source": "Linsoul (first listed variant)",
+          "observed_at": "2026-11-12T05:30:00+05:30"
+        },
+        "driver_config": {
+          "dynamic": 1
+        },
+        "image": {
+          "path": "originals/7hz-salnotes-zero/cc122038c4f3e46f.jpg",
+          "source": "Linsoul",
+          "source_url": "https://www.linsoul.com/products/7hz-salnotes-zero",
+          "credit": "Linsoul product photography; photographer unknown"
+        },
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -0.95,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.38,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": -0.13,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -1.56,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 0.84,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -1.6
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -0.41
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.59
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.38
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -0.25
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.86
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -2.59
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -3.34
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 2.22
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.4 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.38,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.6 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -1.56,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 84 across the targets your evidence allows (80% range 78-88); 84 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/7Hz Salnotes Zero.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "76d93043-c24b-4fca-b052-75e5875f2f29",
+        "brand": "AKG",
+        "model": "N5005",
+        "slug": "akg-n5005",
+        "rank": 5,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 83.1,
+          "low": 77.5,
+          "high": 87.2
+        },
+        "population_preference": 86.9,
+        "price": null,
+        "driver_config": null,
+        "image": null,
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -0.62,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.57,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": 0.15,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -0.03,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 1.97,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -0.8
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -0.54
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.43
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.93
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -0.36
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -0.84
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -0.77
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -3.24
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 4.39
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.6 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.57,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 0.0 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -0.03,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 83 across the targets your evidence allows (80% range 78-87); 87 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/AKG N5005.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "0f56127f-fdfa-4562-bdf0-5a6162c6fb27",
+        "brand": "Moondrop",
+        "model": "Chu",
+        "slug": "moondrop-chu",
+        "rank": 6,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 82.6,
+          "low": 75.4,
+          "high": 88.1
+        },
+        "population_preference": 85.4,
+        "price": null,
+        "driver_config": null,
+        "image": {
+          "path": "moondrop-chu.jpg",
+          "source": "Moondrop",
+          "source_url": "https://moondroplab.com/en/products/chu",
+          "credit": "Moondrop, manufacturer product photograph"
+        },
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -1.17,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.24,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": 0.31,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": 0.31,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 2.02,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -2.08
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": -0.36
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.74
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.24
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": 0.23
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.43
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -0.74
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -2.71
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 4.45
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.2 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.24,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 0.3 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": 0.31,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 83 across the targets your evidence allows (80% range 75-88); 85 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Moondrop Chu.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "4754d009-ef31-45be-a63f-83b2eed7425f",
+        "brand": "Simgot",
+        "model": "Audio EW100P",
+        "slug": "simgot-audio-ew100p",
+        "rank": 7,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 82.4,
+          "low": 76.8,
+          "high": 87.7
+        },
+        "population_preference": 83.4,
+        "price": null,
+        "driver_config": null,
+        "image": null,
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -0.72,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": 0.09,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": 0.03,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -1.01,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 4.42,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -2.14
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": 0.58
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 1.05
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.32
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -0.33
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.2
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -1.79
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -2.62
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 6.74
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.1 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": 0.09,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.0 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -1.01,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 82 across the targets your evidence allows (80% range 77-88); 83 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": "air",
+            "message": "Above 10 kHz it measures +4.4 dB from your target, but couplers are unreliable there, so this isn't scored.",
+            "error_db": 4.42,
+            "tolerance_db": null,
+            "status": "measured"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Simgot Audio EW100P.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "ddcb2d7e-1bba-4093-ae6b-0427d18f5014",
+        "brand": "Moondrop",
+        "model": "x Crinacle Blessing2 Dusk",
+        "slug": "moondrop-x-crinacle-blessing2-dusk",
+        "rank": 8,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 82.1,
+          "low": 76.9,
+          "high": 86.8
+        },
+        "population_preference": 87.0,
+        "price": null,
+        "driver_config": null,
+        "image": {
+          "path": "originals/moondrop-x-crinacle-blessing2-dusk/3ae862f2d729e17f.jpg",
+          "source": "ShenzhenAudio",
+          "source_url": "https://shenzhenaudio.com/products/moondrop-x-crinacle-blessing2-dusk-1dd-4ba-in-ear-monitor-earphone",
+          "credit": "ShenzhenAudio product photography; photographer unknown"
+        },
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": 0.25,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.5,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": -0.12,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": 1.15,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": 2.8,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -0.46
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": 0.83
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.47
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": 0.21
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": -0.31
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.65
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -0.97
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": 1.89
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 3.09
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.5 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.5,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.1 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": 1.15,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 82 across the targets your evidence allows (80% range 77-87); 87 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Moondrop x Crinacle Blessing2 Dusk.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      },
+      {
+        "iem_id": "8aceefd4-1200-4182-9e84-d02f50585ffd",
+        "brand": "Truthear",
+        "model": "Gate",
+        "slug": "truthear-gate",
+        "rank": 9,
+        "match": "close",
+        "predicted_preference": {
+          "mean": 81.8,
+          "low": 75.9,
+          "high": 86.8
+        },
+        "population_preference": 83.5,
+        "price": null,
+        "driver_config": null,
+        "image": {
+          "path": "originals/truthear-gate/fdc5620d7338a2c8.png",
+          "source": "ShenzhenAudio",
+          "source_url": "https://shenzhenaudio.com/products/truthear-gate-dynamic-driver-in-ear-headphone",
+          "credit": "ShenzhenAudio product photography; photographer unknown"
+        },
+        "regions": [
+          {
+            "region": "bass",
+            "label": "Bass",
+            "low_hz": 20.0,
+            "high_hz": 200.0,
+            "error_db": -0.23,
+            "tolerance_db": 2.13,
+            "fit": "within",
+            "target_db": -0.14,
+            "target_basis": "your music"
+          },
+          {
+            "region": "lower_mids",
+            "label": "Lower mids",
+            "low_hz": 200.0,
+            "high_hz": 500.0,
+            "error_db": -0.15,
+            "tolerance_db": 1.09,
+            "fit": "within",
+            "target_db": 1.29,
+            "target_basis": "your music"
+          },
+          {
+            "region": "vocals",
+            "label": "Vocals and presence",
+            "low_hz": 1200.0,
+            "high_hz": 5000.0,
+            "error_db": 0.43,
+            "tolerance_db": 1.04,
+            "fit": "within",
+            "target_db": -0.75,
+            "target_basis": "your music"
+          },
+          {
+            "region": "treble",
+            "label": "Treble",
+            "low_hz": 5000.0,
+            "high_hz": 10000.0,
+            "error_db": -1.13,
+            "tolerance_db": 1.76,
+            "fit": "within",
+            "target_db": -0.99,
+            "target_basis": "your music"
+          },
+          {
+            "region": "air",
+            "label": "Air",
+            "low_hz": 10000.0,
+            "high_hz": 20000.0,
+            "error_db": -0.6,
+            "tolerance_db": 1.78,
+            "fit": "unreliable",
+            "target_db": -0.47,
+            "target_basis": "your music"
+          }
+        ],
+        "bands": [
+          {
+            "band": "sub_bass",
+            "center_hz": 34.6,
+            "measured_db": -0.86
+          },
+          {
+            "band": "mid_bass",
+            "center_hz": 109.5,
+            "measured_db": 0.28
+          },
+          {
+            "band": "lower_mids",
+            "center_hz": 316.2,
+            "measured_db": 0.81
+          },
+          {
+            "band": "mids",
+            "center_hz": 774.6,
+            "measured_db": -0.09
+          },
+          {
+            "band": "upper_mids",
+            "center_hz": 1897.4,
+            "measured_db": 0.36
+          },
+          {
+            "band": "presence",
+            "center_hz": 3873.0,
+            "measured_db": -1.42
+          },
+          {
+            "band": "lower_treble",
+            "center_hz": 6324.6,
+            "measured_db": -1.94
+          },
+          {
+            "band": "upper_treble",
+            "center_hz": 9798.0,
+            "measured_db": -5.65
+          },
+          {
+            "band": "air",
+            "center_hz": 15491.9,
+            "measured_db": 2.43
+          }
+        ],
+        "reasons": [
+          {
+            "kind": "match",
+            "region": "lower_mids",
+            "message": "Lower mids: within 0.1 dB of your target, inside your ±1.1 dB range; your target here is +1.3 dB from the reference, from your music.",
+            "error_db": -0.15,
+            "tolerance_db": 1.09,
+            "status": "derived"
+          },
+          {
+            "kind": "match",
+            "region": "treble",
+            "message": "Treble: within 1.1 dB of your target, inside your ±1.8 dB range; your target here is -1.0 dB from the reference, from your music.",
+            "error_db": -1.13,
+            "tolerance_db": 1.76,
+            "status": "derived"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "Expected rating 82 across the targets your evidence allows (80% range 76-87); 84 for the average listener against the reference target. Olive et al. in-ear model, 0-100 scale.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "model_inferred"
+          },
+          {
+            "kind": "note",
+            "region": null,
+            "message": "No verified price, so budget wasn't checked.",
+            "error_db": null,
+            "tolerance_db": null,
+            "status": "derived"
+          }
+        ],
+        "measurement": {
+          "source": "oratory1990 (via AutoEq)",
+          "rig": "GRAS 43AC",
+          "rig_family": "iec60318-4",
+          "variant": null,
+          "source_ref": "AutoEq@7ae0f56d53074872b028649617a22bbb4232feb7:measurements/oratory1990/data/in-ear/Truthear Gate.csv",
+          "license": "Measurement by oratory1990, redistributed in AutoEq (MIT-licensed project). Used for non-commercial research with attribution; confirm permission before any other use."
+        }
+      }
+    ],
+    "notes": []
+  }
+}

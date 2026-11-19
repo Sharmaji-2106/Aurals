@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AURALS — How it works</title>
+<style>
+  @page { size: A4; margin: 17mm 16mm 18mm 16mm; }
+  @page :first { margin: 0; }
+  :root {
+    --ink: #1b1622; --muted: #5b5363; --faint: #8b8392; --rule: #e6e0e8;
+    --coral: #e2603f; --gold: #c98a2e; --violet: #6b56c9; --wash: #faf6f2; --code: #f3eef4;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 10.2pt; line-height: 1.5; margin: 0; }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; color: var(--ink); line-height: 1.15; }
+  h1 { font-size: 24pt; margin: 0 0 4mm; break-before: page; padding-top: 2mm; }
+  h1.flow { break-before: auto; margin-top: 12mm; }
+  h1 .num { color: var(--coral); font-size: 13pt; display: block; letter-spacing: 0.18em; font-family: "Segoe UI", Arial, sans-serif; margin-bottom: 2mm; }
+  h2 { font-size: 15pt; margin: 7mm 0 2mm; break-after: avoid; }
+  h3 { font-size: 11.5pt; margin: 5mm 0 1.5mm; break-after: avoid; font-family: "Segoe UI", Arial, sans-serif; font-weight: 600; }
+  p { margin: 0 0 2.6mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 5.5mm; }
+  li { margin: 0 0 1.2mm; }
+  strong { font-weight: 600; }
+  code { font-family: Consolas, "Cascadia Mono", monospace; font-size: 8.6pt; background: var(--code); padding: 0.2mm 1.2mm; border-radius: 1mm; }
+  table { width: 100%; border-collapse: collapse; margin: 2mm 0 4mm; font-size: 9pt; break-inside: auto; }
+  tr { break-inside: avoid; }
+  th { text-align: left; font-weight: 600; color: var(--muted); border-bottom: 1.4px solid var(--ink); padding: 1.6mm 2mm; font-size: 8.4pt; letter-spacing: 0.04em; text-transform: uppercase; }
+  td { border-bottom: 1px solid var(--rule); padding: 1.6mm 2mm; vertical-align: top; }
+  td:first-child { font-weight: 600; }
+  .lede { font-size: 11.5pt; color: var(--muted); }
+  .box { background: var(--wash); border-left: 3px solid var(--coral); padding: 3mm 4mm; margin: 3mm 0 4mm; break-inside: avoid; }
+  .box.say { border-left-color: var(--violet); }
+  .box.warn { border-left-color: var(--gold); }
+  .box h3 { margin-top: 0; }
+  .tag { display: inline-block; font-size: 7.6pt; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; background: var(--violet); border-radius: 1mm; padding: 0.3mm 1.6mm; margin-right: 1mm; vertical-align: 1px; }
+  .tag.c { background: var(--coral); } .tag.g { background: var(--gold); } .tag.k { background: #3a3340; }
+  figure { margin: 3mm 0 5mm; break-inside: avoid; }
+  figure img { max-width: 100%; max-height: 100mm; width: auto; display: block; margin: 0 auto; border-radius: 1.5mm; }
+  figcaption { font-size: 8.4pt; color: var(--faint); margin-top: 1.4mm; }
+  .formula { font-family: Georgia, serif; font-size: 12pt; text-align: center; margin: 3mm 0; padding: 3mm; background: var(--wash); border-radius: 1.5mm; break-inside: avoid; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .page-tech { font-size: 9pt; color: var(--muted); margin: -1mm 0 2mm; }
+  .qa p { margin-bottom: 1.2mm; }
+  .qa .q { font-weight: 600; margin-top: 3.4mm; }
+  .toc { columns: 2; column-gap: 8mm; font-size: 10pt; }
+  .toc div { margin-bottom: 1.6mm; break-inside: avoid; }
+  .toc span { color: var(--coral); display: inline-block; width: 7mm; }
+  /* Cover */
+  .cover { height: 297mm; width: 210mm; display: flex; flex-direction: column; justify-content: space-between; background: radial-gradient(120% 70% at 70% 100%, #f7c58a 0%, #e8805e 32%, #6e3f6e 64%, #1b1426 100%); color: #fff7ef; margin: 0; padding: 34mm 24mm 26mm; overflow: hidden; }
+  .cover h1 { color: #fff7ef; font-size: 48pt; break-before: avoid; margin: 0; letter-spacing: 0.02em; }
+  .cover .sub { font-size: 16pt; font-family: Georgia, serif; margin-top: 4mm; opacity: 0.92; }
+  .cover .meta { font-size: 10pt; opacity: 0.85; line-height: 1.7; }
+  .cover .eyebrow { letter-spacing: 0.3em; font-size: 9pt; text-transform: uppercase; opacity: 0.8; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="eyebrow">Technical report &amp; demo guide</div>
+    <h1>AURALS</h1>
+    <div class="sub">How it works — every page, every animation,<br />every model, and the questions you will be asked.</div>
+  </div>
+  <div class="meta">
+    State of the codebase on 15 November 2026 (development build).<br />
+    Numbers in this report were read from the running system and its source code on that date.<br />
+    Code identifiers still use the working name <em>auralis</em>.
+  </div>
+</section>
+
+<h1><span class="num">CONTENTS</span>What is in this report</h1>
+<div class="toc">
+  <div><span>0</span>The 60-second version</div>
+  <div><span>1</span>Technology stack</div>
+  <div><span>2</span>Architecture</div>
+  <div><span>3</span>The journey, page by page</div>
+  <div><span>4</span>How the music is measured</div>
+  <div><span>5</span>The sound profile (the Bayesian model)</div>
+  <div><span>6</span>How earphones are ranked</div>
+  <div><span>7</span>Hearing an earphone on your own music</div>
+  <div><span>8</span>The data and where it came from</div>
+  <div><span>9</span>The Blender films</div>
+  <div><span>10</span>Glossary of animation techniques</div>
+  <div><span>11</span>Privacy and security</div>
+  <div><span>12</span>Testing and quality</div>
+  <div><span>13</span>Questions you will likely be asked</div>
+  <div><span>14</span>Honest limitations</div>
+</div>
+<div class="box say" style="margin-top:8mm">
+  <h3>How to use this</h3>
+  Read section 0 until you can say it without looking. Sections 3, 5 and 6 are what most questions come back to. Section 13 is a rehearsal list; section 14 is what to say when someone finds the edge of the work — saying it first is stronger than being caught by it.
+</div>
+
+<!-- ================================================================== 0 -->
+<h1><span class="num">SECTION 0</span>The 60-second version</h1>
+<p class="lede">AURALS finds the in-ear earphones that match the way you like music to sound — from the music itself, not from a quiz alone.</p>
+<ol>
+  <li><strong>You paste your music</strong> (YouTube songs or playlists, or a Spotify playlist). AURALS downloads each song temporarily, <strong>measures the audio</strong> — its spectrum across nine frequency bands, loudness, dynamics, stereo width, rhythm — and deletes the audio.</li>
+  <li><strong>You listen and answer.</strong> A short listening session (seven named sound shapes, then an adaptive A/B "tuning duel" on the best 20 seconds of one of your own songs) and nine plain-language questions, each illustrated with a different song from your playlist.</li>
+  <li><strong>A Bayesian model combines the three</strong> into your <em>sound profile</em>: how many decibels more or less bass, warmth, vocals, treble and air you want than the Harman in-ear 2019 reference target — with an uncertainty for each.</li>
+  <li><strong>787 measured in-ear monitors are scored</strong> against that personal target with the published Olive, Welti &amp; Khonsaripour (2017) in-ear preference model, 256 times each to carry your uncertainty, and ranked by their expected score.</li>
+  <li><strong>You can hear any of them on your own music</strong> (a filter built from its measured response, level-matched), read what owners say, and see where to buy it in India, in rupees.</li>
+</ol>
+<div class="box">
+  <h3>Three sentences to remember</h3>
+  <ul style="margin-bottom:0">
+    <li><strong>Nothing is invented.</strong> Every number is computed from a measurement with a named source; where something is unknown, the interface says so instead of filling the gap.</li>
+    <li><strong>No fixed weights.</strong> Music, answers and listening are combined by precision (how informative each one is), so the balance follows from the evidence, not from a chosen percentage.</li>
+    <li><strong>A published model ranks.</strong> The ranking is Olive et al.'s in-ear preference model applied to your personal target, with an 80&nbsp;% range — not a black box.</li>
+  </ul>
+</div>
+
+<!-- ================================================================== 1 -->
+<h1><span class="num">SECTION 1</span>Technology stack</h1>
+<h2>Frontend (the website)</h2>
+<table>
+  <tr><th style="width:24%">Technology</th><th style="width:14%">Version</th><th>What it does here</th></tr>
+  <tr><td>Next.js (App Router)</td><td>16.3.5</td><td>The web framework: routing, server/client components, static assets (films, images), and a rewrite that forwards <code>/api/*</code> to the Python API so the browser talks to one origin.</td></tr>
+  <tr><td>React + React Compiler</td><td>19.2.8 / 1.0</td><td>UI. The React Compiler memoises components automatically (no hand-written <code>useMemo</code>).</td></tr>
+  <tr><td>TypeScript</td><td>5.9</td><td>Types end to end. API types are <em>generated</em> from the backend's OpenAPI schema (openapi-typescript 7.13), so a backend change that breaks the frontend fails the type check.</td></tr>
+  <tr><td>Tailwind CSS</td><td>4.3</td><td>Styling: design tokens (colours like <code>sunset</code>, <code>ember</code>), utility classes.</td></tr>
+  <tr><td>Motion (motion/react)</td><td>13.4</td><td>Most UI animation: enter/exit, springs, scroll-linked values (<code>useScroll</code>), shared-element "layout" animation (<code>layoutId</code>), SVG path drawing and morphing. Motion is the library formerly called Framer Motion.</td></tr>
+  <tr><td>three.js + React Three Fiber + drei</td><td>0.187 / 9.8 / 10.7</td><td>Real-time 3D: the Sound Card (a physical card with engraved artwork) and the Listening Edition (a 3D book on a terrace).</td></tr>
+  <tr><td>WebGL / GLSL (own helper)</td><td>—</td><td><code>lib/grain/gl.ts</code>: a small helper for full-screen fragment shaders and GPU point clouds — the Afterglow background, the live evening sky, the analysis "Arrival" particles.</td></tr>
+  <tr><td>Canvas 2D</td><td>—</td><td>Playing the Blender films frame by frame, reading product-photo colours, rasterising book pages and card faces into textures.</td></tr>
+  <tr><td>SVG</td><td>—</td><td>Every chart (frequency responses, the Signature Stage), the pen-drawn wordmark, the research constellation, the name transition.</td></tr>
+  <tr><td>Web Audio API</td><td>—</td><td>All in-browser sound: the A/B tuning duel (biquad filters), listening through an earphone (convolution with an FIR filter), loudness matching (offline rendering), "hear this band" pink noise.</td></tr>
+  <tr><td>TanStack Query + openapi-fetch</td><td>5.103 / 0.17</td><td>Data fetching, caching and polling of job progress.</td></tr>
+  <tr><td>opentype.js, qrcode-generator</td><td>1.3 / 1.4</td><td>Sound Card text turned into vector outlines (so it can be engraved); the QR code on the card's back.</td></tr>
+  <tr><td>lucide-react</td><td>1.47</td><td>Icons.</td></tr>
+</table>
+<h2>Backend (the API, the analysis, the models)</h2>
+<table>
+  <tr><th style="width:24%">Technology</th><th style="width:14%">Version</th><th>What it does here</th></tr>
+  <tr><td>Python</td><td>3.13</td><td>Everything server-side.</td></tr>
+  <tr><td>FastAPI + Uvicorn</td><td>≥0.141</td><td>The JSON API (<code>/api/...</code>), with an automatic OpenAPI schema.</td></tr>
+  <tr><td>Pydantic 2 + pydantic-settings</td><td>≥2.11</td><td>Request/response validation; configuration from <code>AURALIS_*</code> environment variables; secrets as <code>SecretStr</code>.</td></tr>
+  <tr><td>PostgreSQL + SQLAlchemy 2 + psycopg 3</td><td>—</td><td>The database and ORM. Also the job queue (no Redis/Celery needed).</td></tr>
+  <tr><td>Alembic</td><td>≥1.16</td><td>Database migrations.</td></tr>
+  <tr><td>yt-dlp</td><td>2026.8</td><td>Reads YouTube metadata and downloads audio temporarily — restricted to YouTube extractors and to canonical URLs AURALS builds itself.</td></tr>
+  <tr><td>PyAV</td><td>≥15</td><td>Decodes audio with a bundled FFmpeg (no system install).</td></tr>
+  <tr><td>NumPy, SciPy, librosa, soxr</td><td>—</td><td>Signal processing: STFT spectra, loudness filters, tempo (<code>beat_track</code>), onsets, harmonic/percussive separation (HPSS), mel/MFCC, resampling.</td></tr>
+  <tr><td>scikit-learn</td><td>≥1.7</td><td>K-means clustering and silhouette scores to find "listening modes" in a library.</td></tr>
+  <tr><td>LLM (optional)</td><td>—</td><td>Google Gemini (default <code>gemini-3.5-flash-lite</code>) or Anthropic Claude, used only to <em>label</em> quoted review passages with a topic and stance. Off unless a key is configured.</td></tr>
+</table>
+<h2>Production, testing and tooling</h2>
+<table>
+  <tr><th style="width:24%">Tool</th><th>Use</th></tr>
+  <tr><td>Blender 5.2.3 (Cycles, OptiX)</td><td>Path-traced films for the homepage and the departure transition, rendered on an NVIDIA RTX 3090; the book's terrace (light baked in Blender).</td></tr>
+  <tr><td>Physical Atmosphere² 3.0.9</td><td>Blender add-on: a physically based sky — sun, scattering, volumetric clouds, stars, Milky Way, moon.</td></tr>
+  <tr><td>Physical Open Waters 1.2.3</td><td>Blender add-on: an ocean driven by a physical wave spectrum (wind speed, wavelengths, choppiness).</td></tr>
+  <tr><td>OpenCV + NumPy + Pillow</td><td>The film's colour grade (bloom, split-tone, vignette, de-streak, dither) and WebP packaging.</td></tr>
+  <tr><td>pytest, Vitest, Playwright</td><td>259 backend tests, 101 frontend unit tests, end-to-end browser tests on desktop Chrome and a Pixel 7 profile.</td></tr>
+  <tr><td>ruff, mypy, ESLint, Prettier</td><td>Linting, static types and formatting on both sides.</td></tr>
+  <tr><td><code>scripts/dev.py</code>, <code>Start-Auralis.cmd</code></td><td>One command starts PostgreSQL, the API, 9 worker processes and the web app; optional ngrok tunnel for showing it remotely.</td></tr>
+</table>
+
+<!-- ================================================================== 2 -->
+<h1><span class="num">SECTION 2</span>Architecture</h1>
+<svg viewBox="0 0 760 300" width="86%" style="margin:1mm auto 3mm; display:block" font-family="Segoe UI, Arial" font-size="12">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5b5363"/></marker></defs>
+  <rect x="10" y="20" width="200" height="120" rx="10" fill="#faf6f2" stroke="#e2603f"/>
+  <text x="110" y="45" text-anchor="middle" font-weight="600">Browser</text>
+  <text x="110" y="66" text-anchor="middle" fill="#5b5363">Next.js / React 19</text>
+  <text x="110" y="84" text-anchor="middle" fill="#5b5363">three.js · WebGL · Canvas</text>
+  <text x="110" y="102" text-anchor="middle" fill="#5b5363">Web Audio (filters, FIR)</text>
+  <text x="110" y="120" text-anchor="middle" fill="#5b5363">polls job progress</text>
+  <rect x="280" y="20" width="200" height="120" rx="10" fill="#faf6f2" stroke="#6b56c9"/>
+  <text x="380" y="45" text-anchor="middle" font-weight="600">Next.js server :3000</text>
+  <text x="380" y="66" text-anchor="middle" fill="#5b5363">pages, films (WebP),</text>
+  <text x="380" y="84" text-anchor="middle" fill="#5b5363">images, fonts</text>
+  <text x="380" y="102" text-anchor="middle" fill="#5b5363">rewrites /api/* →</text>
+  <rect x="550" y="20" width="200" height="120" rx="10" fill="#faf6f2" stroke="#6b56c9"/>
+  <text x="650" y="45" text-anchor="middle" font-weight="600">FastAPI :8000</text>
+  <text x="650" y="66" text-anchor="middle" fill="#5b5363">sessions · music · tuning</text>
+  <text x="650" y="84" text-anchor="middle" fill="#5b5363">sound profile · recommend</text>
+  <text x="650" y="102" text-anchor="middle" fill="#5b5363">store · listen · research</text>
+  <rect x="550" y="180" width="200" height="90" rx="10" fill="#faf6f2" stroke="#c98a2e"/>
+  <text x="650" y="205" text-anchor="middle" font-weight="600">PostgreSQL</text>
+  <text x="650" y="226" text-anchor="middle" fill="#5b5363">catalogue · profiles · analyses</text>
+  <text x="650" y="244" text-anchor="middle" fill="#5b5363">job queue (SKIP LOCKED)</text>
+  <rect x="280" y="180" width="200" height="90" rx="10" fill="#faf6f2" stroke="#c98a2e"/>
+  <text x="380" y="205" text-anchor="middle" font-weight="600">Worker processes ×9</text>
+  <text x="380" y="226" text-anchor="middle" fill="#5b5363">download → decode → measure</text>
+  <text x="380" y="244" text-anchor="middle" fill="#5b5363">examples · research</text>
+  <rect x="10" y="180" width="200" height="90" rx="10" fill="#fff" stroke="#8b8392" stroke-dasharray="4 4"/>
+  <text x="110" y="205" text-anchor="middle" font-weight="600">Outside services</text>
+  <text x="110" y="226" text-anchor="middle" fill="#5b5363">YouTube (yt-dlp)</text>
+  <text x="110" y="244" text-anchor="middle" fill="#5b5363">optional: LLM, Reddit</text>
+  <path d="M210 80H278" stroke="#5b5363" marker-end="url(#a)"/>
+  <path d="M480 80H548" stroke="#5b5363" marker-end="url(#a)"/>
+  <path d="M650 140V178" stroke="#5b5363" marker-end="url(#a)"/>
+  <path d="M548 225H482" stroke="#5b5363" marker-end="url(#a)"/>
+  <path d="M278 225H212" stroke="#5b5363" marker-end="url(#a)"/>
+</svg>
+<h3>How a request flows</h3>
+<ul>
+  <li>The browser only ever talks to <strong>one origin</strong> (port 3000). Next.js forwards <code>/api/*</code> to FastAPI, so the session cookie is first-party.</li>
+  <li><strong>Slow work is a job.</strong> Pasting a playlist creates a <em>submission</em>; the API enqueues <code>music.ingest</code>, which selects tracks and enqueues one <code>music.analyze_track</code> per song. Workers claim jobs with <code>SELECT … FOR UPDATE SKIP LOCKED</code> (so two workers never take the same job), keep a heartbeat while they work, retry with back-off, and stale jobs from a dead worker are recovered.</li>
+  <li><strong>Progress without WebSockets.</strong> Each step commits its own state to the database; the page polls (every 0.4 s while resolving, 1.5 s while analysing). Simple, robust, and a refresh just picks up where it was.</li>
+  <li><strong>Processes, not threads</strong>, for analysis: it is CPU-bound and Python's GIL would serialise threads.</li>
+  <li><strong>Caching:</strong> a song's measurement is shared by everyone who submits it (1,488 analyses cached), versioned by analyser version so a change in the measurement code re-analyses on demand.</li>
+</ul>
+<h3>Backend modules at a glance</h3>
+<table>
+  <tr><th style="width:22%">Module</th><th>Responsibility</th></tr>
+  <tr><td>auth</td><td>Anonymous-first sessions (name only), HttpOnly cookie.</td></tr>
+  <tr><td>music</td><td>URL parsing, YouTube/Spotify import, track selection, the ingest/analyse pipeline.</td></tr>
+  <tr><td>analysis</td><td>Decode, STFT spectra, loudness, descriptors, curation (duplicates, outliers, clusters), library aggregate.</td></tr>
+  <tr><td>questionnaire, tuning</td><td>The nine questions; the listening session (shapes, duel, devices, per-question examples from your songs).</td></tr>
+  <tr><td>sound_profile</td><td>The Bayesian fusion model (<code>sound-profile/3</code>) and its documented assumptions.</td></tr>
+  <tr><td>acoustics, iem</td><td>Frequency-response processing, the Olive model, catalogue import with provenance, photos, prices.</td></tr>
+  <tr><td>recommend</td><td><code>harman-personal/1</code> ranking, rig conversion, a simpler comparator for evaluation.</td></tr>
+  <tr><td>store</td><td>The store's catalogue browsing and the listening curve for any earphone.</td></tr>
+  <tr><td>reviews, research</td><td>Publication reviews and community (Reddit) evidence, relevance filtering, LLM labelling.</td></tr>
+  <tr><td>jobs</td><td>The Postgres job queue, worker processes, registry.</td></tr>
+  <tr><td>evaluation</td><td>Offline checks: is the representation stable, how much each assumption matters.</td></tr>
+</table>
+
+<!-- ================================================================== 3 -->
+<h1 class="flow"><span class="num">SECTION 3</span>The journey, page by page</h1>
+<p class="lede">The site is set across one evening. The homepage is the real place — a sea at sunset. Every other page keeps only its light, and the journey's pages move through the hours: golden hour when you start, sunset on your music, dusk while it is measured, blue hour while you listen, night when you meet your sound.</p>
+<table>
+  <tr><th style="width:20%">Route</th><th style="width:22%">Name in the product</th><th>What happens</th></tr>
+  <tr><td>/</td><td>Home</td><td>The sea film plays with your scroll.</td></tr>
+  <tr><td>→ transition</td><td>The Ascent</td><td>The camera dives over the waves, rises into the sun, the light opens onto the next page.</td></tr>
+  <tr><td>/start</td><td>Name</td><td>"What should we call you?" — creates your anonymous profile.</td></tr>
+  <tr><td>→ transition</td><td>The Name</td><td>Your name is written large; a line beneath it starts listening.</td></tr>
+  <tr><td>/music</td><td>01 Music</td><td>Paste songs and playlists.</td></tr>
+  <tr><td>/analysis/[id]</td><td>02 Signal</td><td>Your songs are measured, live.</td></tr>
+  <tr><td>/tune</td><td>03 Preferences</td><td>Listening session, then nine questions.</td></tr>
+  <tr><td>/world</td><td>03 Preferences</td><td>Where you listen, budget.</td></tr>
+  <tr><td>/match</td><td>04 Your sound</td><td>Sound Card, your matches, the community, your music's fingerprint.</td></tr>
+  <tr><td>/card, /edition</td><td>Sound Card, Listening Edition</td><td>Your card on its own; the printed book.</td></tr>
+  <tr><td>/research/[slug]</td><td>Community</td><td>What owners and reviewers said about one earphone.</td></tr>
+  <tr><td>/store, /store/[slug]</td><td>The store</td><td>Every product, with rupee prices — and the listening bar.</td></tr>
+  <tr><td>/method</td><td>Method</td><td>The method, explained chapter by chapter.</td></tr>
+</table>
+
+<h2>Home — the sea film</h2>
+<p class="page-tech"><span class="tag c">Blender film</span><span class="tag">Canvas 2D</span><span class="tag">Motion useScroll + useSpring</span><span class="tag k">SVG</span></p>
+<p><strong>What you see.</strong> A path-traced film of open sea plays as you scroll: golden hour behind the hero, the sun touching the water as you reach "how it works", a violet dusk through the nine bands, and at the bottom a night of stars, a crescent moon with its path on the water and a distant coast lighting up. The AURALS wordmark writes itself like a pen stroke; the hero's words lift away and one line, "Every song you love has a shape.", crosses the shot.</p>
+<p><strong>How.</strong> 144 frames (1920×1080) rendered in Blender, graded in Python and saved as WebP (29.7 MB). <code>LandingScene</code> fixes a <code>&lt;canvas&gt;</code> behind the whole page. Motion's <code>useScroll</code> gives the scroll position 0–1; a spring (<code>useSpring</code>, stiffness 40, damping 24) smooths it so the light changes with inertia; <code>FilmCanvas</code> maps it to a frame, draws the nearest loaded frame and cross-fades in the next one for sub-frame smoothness. Frames load nearest-first, six at a time. A colour veil whose opacity follows the scroll keeps the text readable. This technique is called a <strong>scroll-scrubbed image sequence</strong> (the one Apple uses on product pages).</p>
+<p><strong>Other pieces.</strong> The wordmark is SVG paths from a pointed-pen model (<code>design/brand/wordmark.py</code>), animated by stroke drawing. "Hear this band" in the band explorer plays pink noise band-limited to that band through Web Audio. If the film is missing, a live GLSL shader sky (<code>EveningSky</code>) plays the same hours instead.</p>
+<figure><img src="img/home-sequence.jpg" /><figcaption>The homepage: one film plays across the whole scroll — golden hour at the top, sunset, dusk, and night at the bottom.</figcaption></figure>
+<figure><img src="img/film-arc.jpg" /><figcaption>The film's arc, every 13th frame: golden hour → sunset → afterglow → dusk → night with the moon.</figcaption></figure>
+
+<h2>The Ascent — leaving the homepage</h2>
+<p class="page-tech"><span class="tag c">Blender film</span><span class="tag">Canvas 2D</span><span class="tag k">CSS radial bloom</span></p>
+<p>Pressing <em>Build my sound profile</em> plays a second film rendered from the <strong>same Blender scene</strong>: its first frame is the homepage's first frame, so the cut is invisible. The camera skims fast over the swells (with motion blur), rises to about 48 m and turns into the sun; then the sun "blooms" over the screen (a scaled, fading radial gradient), the light settles into the name page's own dusk colour, and the name page comes up out of it — dark onto dark, so there is no muddy frame between gold and the page.</p>
+<p>If you press it lower down the page — at sunset or at night — the homepage film first <strong>runs back to golden hour</strong> (about 0.4–1.2 s), so time never jumps. The ascent's 96 frames are prefetched 2.5 s after the homepage settles, the next route is prefetched, and the overlay waits until the next page has mounted (up to a 0.9 s grace) so the reveal never lands on a blank frame. With "reduce motion" switched on, it is a plain fade.</p>
+<figure><img src="img/ascent.jpg" /><figcaption>The ascent: skimming the swells, lifting, the sun dead ahead over its glitter path.</figcaption></figure>
+
+<h2>/start — your name</h2>
+<p class="page-tech"><span class="tag">Motion</span><span class="tag k">CSS transforms</span></p>
+<p>One field: your name. That creates an <strong>anonymous profile</strong>: a random 256-bit token in an HttpOnly cookie, of which only a SHA-256 hash is stored. No email, no password; everything can be deleted. Text rises line by line; a spectral underline grows when the field has focus.</p>
+
+<h2>The Name — from your name to your music</h2>
+<p class="page-tech"><span class="tag">Motion stagger</span><span class="tag k">SVG pathLength</span><span class="tag k">SVG path morphing</span></p>
+<p>After you submit, your name is written large, letter by letter (staggered fade, rise and un-blur). A line in the product's colours draws itself beneath it (<strong>SVG path drawing</strong> with <code>pathLength</code>), then <strong>morphs</strong> into a pulsing waveform — as if it had started listening — with "Now, the music you love." Then everything lifts and blurs away into the playlist page. The morph works because both shapes are 96-point polylines, so each point can be interpolated.</p>
+<figure><img src="img/name-rite.jpg" /><figcaption>The name transition: the line draws, turns into a listening waveform, and the playlist page arrives ("Nice to meet you, …").</figcaption></figure>
+
+<h2>/music — your playlist</h2>
+<p class="page-tech"><span class="tag">Motion</span><span class="tag k">SVG</span></p>
+<ul>
+  <li>Paste YouTube songs or playlists, or a Spotify playlist. A client-side parser gives instant feedback; <strong>the server re-validates everything</strong> and reduces input to a (kind, id) pair, then builds canonical URLs itself.</li>
+  <li>Titles and artwork appear instantly through the platforms' public oEmbed endpoints.</li>
+  <li><strong>Spotify</strong>: AURALS reads the playlist's track list, then measures each song from YouTube — Spotify audio is DRM-protected and its 30-second preview is not the recording.</li>
+  <li>Up to 120 songs per submission; larger playlists are sampled evenly. Live streams, long mixes and altered uploads (sped-up, slowed, 8D…) are set aside before anything is downloaded.</li>
+  <li>The visual idea is a record in its sleeve: a playlist shows the edge of the disc beside the cover.</li>
+</ul>
+
+<h2>/analysis — Signal</h2>
+<p class="page-tech"><span class="tag c">WebGL particles (GLSL)</span><span class="tag">Motion</span><span class="tag k">SVG</span></p>
+<p><strong>Arrival.</strong> The songs that were imported ride past as a wall of covers, come apart into grain, the grain drifts on a <strong>divergence-free (curl-noise) flow</strong> — shearing and folding the way ink does in water — and is drawn into the outline of a pair of headphones. This is GPU particles in a GLSL shader through the project's own WebGL helper.</p>
+<p><strong>The scanner.</strong> Spinning records for the songs in progress; on the <strong>Signature Stage</strong> (the product's recurring log-frequency chart, 20 Hz–20 kHz) each finished song adds its own spectrum trace, and your <em>listening signature</em> (median, with the middle half shaded) sharpens as they accumulate. A track list with tiny spectra, and a brightness × energy "listening map". Everything is real backend progress, polled.</p>
+
+<h2>/tune — Preferences: listening first, then questions</h2>
+<p class="page-tech"><span class="tag c">Web Audio</span><span class="tag">Motion layoutId</span><span class="tag k">SVG</span></p>
+<ol>
+  <li><strong>Set up.</strong> "What are you listening on?" — a picker with product photos and a headphones shelf. If your earphones are measured on the reference rig, their sound can be accounted for exactly.</li>
+  <li><strong>Shapes.</strong> The best 20 seconds of the most-watched song in your playlist, played live in seven named shapes: Balanced, Warm, U-shaped, V-shaped, Bright, Bass-heavy, Vocal-forward. You pick the one that sounds like you.</li>
+  <li><strong>The tuning duel.</strong> 8 adaptive A/B trials. Each plays the same clip in two tunings that differ on one dimension (your current estimate moved up or down), loudness-matched, in random order. One trial is repeated unannounced to measure your consistency. Switching A/B is a 40 ms cross-fade while the music keeps playing.</li>
+  <li><strong>Choose your own song</strong> at any point (Song Studio): any song from your playlist or a file from your device — decoded in the browser, never uploaded — and drag a 20-second window to the part you want.</li>
+  <li><strong>Nine questions</strong>: bass amount, bass character, vocals, treble feel, tone, energy, detail, soundstage, naturalness. Each tonal question plays <em>a different song from your playlist</em>, at the moment that shows off what it asks about (the heaviest bass, the most forward vocal, the brightest stretch), with an A/B of the change. Every answer can be "not sure".</li>
+</ol>
+<p><strong>How the audio works.</strong> Two parallel chains of six biquad filters (one per tonal dimension) and a fader each; level matching renders each version offline and compares its <strong>K-weighted loudness</strong> (the ITU-R BS.1770 pre-filter) with the original, so a louder version can never win just for being louder.</p>
+
+<h2>/world — where you listen</h2>
+<p class="page-tech"><span class="tag">Motion</span><span class="tag k">SVG</span></p>
+<p>Eight listening contexts (commuting, the gym, focus, and so on) with small motifs that move only while hovered or chosen, and a budget in your currency. Context is shown beside the results; it does not change the ranking (the code says so, and so does the page).</p>
+
+<h2>/match — your sound</h2>
+<p class="page-tech"><span class="tag c">three.js / R3F</span><span class="tag c">custom shaders</span><span class="tag">Motion layoutId</span><span class="tag k">opentype.js</span></p>
+<p>Composed as a sequence of rooms: <strong>the Sound Card</strong> and your top earphone; <strong>the recommended collection</strong> as a ranked index; <strong>the listening community</strong>; <strong>your music's fingerprint</strong> (the real covers of the songs measured, each with its own spectrum); and <strong>under the surface</strong> (the profile, what shaped it, each earphone's measurement against your target).</p>
+<h3>The Sound Card</h3>
+<ul>
+  <li>A 3D card in React Three Fiber, in one of <strong>14 finishes</strong>: Neon Night, Ember, Golden Hour, Velvet Room, Tide Pool, Salt Flat, Aurora, Obsidian, Chrome, Jade Garden, Coral Coast, Midnight Drive, Sakura, Ultraviolet — materials from acrylic and anodised metal to brass, glass, pearl, chrome and glazed ceramic.</li>
+  <li><strong>The Commission</strong> picks the finish: each finish has a character written in the same measured terms the analyser reports (brightness, warmth, energy, dynamics, width, density), and your library's measurements choose the nearest.</li>
+  <li>The artwork is <strong>engraved into the surface</strong>: card faces are painted on a canvas into half-float textures, and a custom shader reads them (where the mark is, when the reveal reaches it, whether it is foil). Text is turned into vector outlines with opentype.js. The front shows your sound as one line, three words for what stands out, and your best match; the back has a QR code that opens <code>/card</code> (it holds only the address — nothing about you).</li>
+</ul>
+<figure><img src="img/card.jpg" /><figcaption>Left: Sound Cards for four sample libraries — each library gets its own finish. Right: the card as the opening of the results page, explained part by part, with the 14-finish strip.</figcaption></figure>
+<h3>Recommendations</h3>
+<p>Everything shown is the engine's output: rank, predicted rating with its 80&nbsp;% range, region-by-region reasons generated from computed numbers, and the measurement each rests on. Selecting a match morphs between list and detail with Motion's shared-element <code>layoutId</code>. Each has a <strong>Listen</strong> button (section 7).</p>
+
+<h2>/edition — the Listening Edition (a 3D book)</h2>
+<p class="page-tech"><span class="tag c">three.js / R3F</span><span class="tag c">Blender-baked lighting</span><span class="tag k">SVG → textures</span><span class="tag">Web Audio</span></p>
+<ul>
+  <li>A 24 × 30 cm art book is read on an <strong>oceanfront terrace at sunset</strong>. The terrace was built and lit in Blender, and its global illumination is <strong>baked into textures</strong>, because a browser cannot compute that light every frame.</li>
+  <li>Each <strong>page leaf is modelled like paper</strong>: a chain of short rigid segments that bends but does not stretch. The cover hinges on a leather joint and a flexing spine.</li>
+  <li>Pages are SVG, rasterised into textures for the 3D leaves; at the end the <em>same</em> SVG becomes the real web page, so the hand-off from 3D to the page is invisible.</li>
+  <li>The last spread is your top earphone: its catalogue photo, cut out in the browser (a flood-fill from the white studio background), on a backdrop in its own colours.</li>
+  <li>Everything is a function of one clock (<code>lib/playback</code>), so pause, replay, skip and scrub are just operations on that clock. Optional, quiet sound is synthesised with Web Audio — no recordings.</li>
+</ul>
+
+<figure><img src="img/edition.jpg" /><figcaption>The Listening Edition: the book opening on the terrace at sunset, and the last spread — the listener's top earphone, photographed.</figcaption></figure>
+
+<h2>/research — the community</h2>
+<p class="page-tech"><span class="tag k">SVG constellation</span><span class="tag">Motion</span><span class="tag g">optional LLM</span></p>
+<p>An <strong>evidence constellation</strong>: sources on an outer ring, the themes they raise on an inner ring, and an edge only where a quoted passage actually talks about that theme. Three short phases (sources arrive, a trace runs from a source to a passage, themes gather), then an interactive graph. The evidence is 5 hand-gathered publication reviews and 40 Reddit discussions. Reddit retrieval is <strong>off by default</strong> (opt-in; it uses a third-party scraper, and that decision is recorded in the code). A relevance filter makes sure a thread is about <em>this</em> product (a "Nova" thread could be about two different earphones). An LLM only <em>labels</em> each quoted passage with a topic and a stance; it never writes text that is shown, and it can only discard, never add.</p>
+
+<h2>/store — every product, in rupees</h2>
+<p class="page-tech"><span class="tag">Motion layoutId</span><span class="tag k">Canvas palette reader</span><span class="tag k">SVG chart</span><span class="tag c">Web Audio FIR</span></p>
+<ul>
+  <li><strong>2,541 products</strong> (earphones and headphones), loaded a page at a time as you scroll, filtered by kind, brand, rupee price band and "with photo", sorted, and — once you have a profile — scored for you.</li>
+  <li>Product photos stand on a backdrop <strong>in the product's own colours</strong>: the palette reader looks at the pixels and tells three kinds of photo apart (a transparent cutout, a white studio sweep, a scene) before deciding which pixels are product. It only chooses the backdrop; the photo is never recoloured.</li>
+  <li>Where to buy in India first (cheapest first, each with the date it was seen), then abroad. The frequency response against the target (and your target) as an SVG chart.</li>
+  <li><strong>Listen</strong> on any measured in-ear — the listening bar (section 7).</li>
+</ul>
+<figure><img src="img/store-listen.jpg" /><figcaption>A product page with the listening bar: "Listening through Moondrop Aria 2", the As-it-is / Through switch, the shape being applied, the song, and what it all means.</figcaption></figure>
+
+<h2>Everywhere else</h2>
+<ul>
+  <li><strong>Afterglow</strong> — every page except home has a GLSL fragment-shader background: slow, silky folds of colour in the palette of that page's hour. No horizon, no objects — only the light that is left once the beach is gone.</li>
+  <li><strong>The header's progress rail</strong> — the four stages; a small sun travels along a horizon line to the stage you are on; the underline moves between stages with a shared-element animation.</li>
+  <li><strong>One transition controller</strong> (<code>SpectralTransitionProvider</code>) owns every departure: it runs a clock, loads the next route behind the overlay at the right moment, and only reveals it once it has mounted.</li>
+</ul>
+
+<!-- ================================================================== 4 -->
+<h1><span class="num">SECTION 4</span>How the music is measured</h1>
+<p class="lede">Two layers are kept strictly apart: what is <strong>measured</strong> (a reproducible number from the decoded audio) and what is <strong>interpreted</strong> (a heuristic score). Interpretation never happens in the measurement code.</p>
+<h2>The pipeline for one song</h2>
+<ol>
+  <li><strong>Acquire.</strong> yt-dlp downloads the audio to a temporary file (YouTube extractors only, canonical URL only). Up to 600 s of each song is analysed.</li>
+  <li><strong>Decode.</strong> PyAV (bundled FFmpeg) to PCM; the codec and its sample rate are recorded.</li>
+  <li><strong>Measure</strong> (the measured layer, <code>TrackFeatures</code>):
+    <ul>
+      <li><strong>Long-term spectrum</strong> by a streaming STFT: FFT size 8192 (about 5.4 Hz per bin at 44.1 kHz — enough to resolve sub-bass), hop 4096, processed in chunks so a ten-minute track costs tens of megabytes.</li>
+      <li><strong>Nine band levels</strong> (sub-bass, mid-bass, lower mids, mids, upper mids, presence, lower treble, upper treble, air), as power per octave relative to 500 Hz–2 kHz.</li>
+      <li><strong>Loudness</strong> to ITU-R BS.1770 (integrated LUFS) and EBU Tech 3342 (loudness range), sample peak, peak-to-loudness ratio.</li>
+      <li><strong>Effective bandwidth</strong> — detects a lossy codec's cut-off, so the codec, not the music, is never mistaken for "no air".</li>
+      <li>Spectral centroid (10th/50th/90th percentile), roll-off, flatness; stereo side-to-mid ratio; tempo (<code>librosa.beat.beat_track</code>), onset rate, percussive ratio (harmonic/percussive separation, HPSS); 20 MFCC means and spreads.</li>
+    </ul>
+  </li>
+  <li><strong>Delete the audio.</strong> Only the numbers are kept.</li>
+</ol>
+<h2>From songs to a library</h2>
+<ul>
+  <li><strong>Descriptors</strong> (the heuristic layer): brightness, warmth, energy, dynamics, density, width — each a logistic of a <em>robust z-score</em> against a reference corpus (corpus median and IQR/1.349, in <code>calibration.json</code>), so 0.5 means "typical music".</li>
+  <li><strong>Curation:</strong> the same recording uploaded twice counts once; with 8+ songs, outliers (a podcast, rain sounds) are found by robust z-scores (median and MAD); with 10+ songs, distinct <em>listening modes</em> are found by k-means (up to 5 clusters), kept only if the silhouette score is at least 0.12.</li>
+  <li><strong>Aggregate:</strong> each band's balance across the library is a <em>weighted median</em> (robust to one extreme recording) with a <strong>bootstrap standard error</strong> — so a small or inconsistent library is automatically treated as weaker evidence. This band balance (in corpus-spread units, ẑ ± SE) is what the sound profile uses as "music evidence".</li>
+</ul>
+
+<!-- ================================================================== 5 -->
+<h1><span class="num">SECTION 5</span>The sound profile — the Bayesian model</h1>
+<p class="lede">Model <code>sound-profile/3</code>. For each of six tonal dimensions — sub-bass, mid-bass, warmth, vocal presence, treble, air — it estimates how many dB above or below the Harman in-ear 2019 target you want, as a <strong>Gaussian belief</strong> (a best guess and a spread). It also estimates energy, treble tolerance, detail, soundstage and naturalness, but those don't drive the ranking.</p>
+<h2>The four inputs</h2>
+<table>
+  <tr><th style="width:18%">Source</th><th>How it enters</th><th style="width:30%">Strength (documented assumption)</th></tr>
+  <tr><td>Population prior</td><td>θ ~ N(0, σ²): before any evidence, you are a typical listener.</td><td>σ = 3 dB bass, 2.5 dB treble &amp; air, 1.5 dB mids — from Harman's listener research (Olive 2022; Olive &amp; Welti 2015).</td></tr>
+  <tr><td>Your music</td><td>Library balance ẑ shifts the prior under a bivariate-normal link with correlation ρ: θ | music ~ N(ρσẑ, σ²(1−ρ²) + ρ²σ²·SE²).</td><td>ρ = 0.837, chosen so that a large library is exactly as informative as one direct answer. A <em>hypothesis</em>: no study has measured it.</td></tr>
+  <tr><td>Your answers</td><td>Each answer maps to a value in dB (bass: −3, −2, 0, +2.5, +5 dB) and is an observation y = θ + ε with Var ε = σ²(1−r)/r.</td><td>r = 0.70 (reliability of a single self-report item, Wanous et al. 1997); 0.35 for an answer inferred from a neighbouring question.</td></tr>
+  <tr><td>Your listening</td><td>Each duel choice updates a belief by a probit (Thurstone) model with assumed-density filtering — the closed-form update used in TrueSkill-style ratings. The shape pick is one wide observation (±3 dB).</td><td>Choice noise 8 dB²; consistent on the repeated trial → ×0.8 noise; inconsistent → ×1.8. Unknown device → +2.5 dB spread.</td></tr>
+</table>
+<div class="formula">posterior precision = prior/music precision + Σ answer precisions + Σ listening precisions<br />posterior mean = precision-weighted average of all of them</div>
+<p>This is the whole idea: <strong>nothing about the balance is fixed</strong>. A source with a smaller variance counts for more, automatically. If your device is known and measured on the reference rig, its own deviation from the target is added back to your listening choices (you chose a change <em>relative to what you were wearing</em>).</p>
+<h2>What the weights actually come out as</h2>
+<p>Computed with the project's own code for a typical listener — a large playlist, all questions answered, the full duel, earphones not identified:</p>
+<table>
+  <tr><th>Dimension</th><th>Population</th><th>Music</th><th>Answers</th><th>Duel</th><th>Shape</th><th>Final uncertainty</th></tr>
+  <tr><td>Sub-bass</td><td>15%</td><td>33%</td><td>35%</td><td>9%</td><td>9%</td><td>±1.2 dB (from ±3)</td></tr>
+  <tr><td>Treble</td><td>16%</td><td>34%</td><td>37%</td><td>7%</td><td>6%</td><td>±1.0 dB (from ±2.5)</td></tr>
+  <tr><td>Vocals</td><td>18%</td><td>38%</td><td>41%</td><td>1%</td><td>3%</td><td>±0.6 dB (from ±1.5)</td></tr>
+</table>
+<p>With a measured device the duel rises to about 15% for bass (shape about 13%). Music and answers carry roughly 70% together. The duel is light because 8 trials are spread over six dimensions.</p>
+<h2>Two more rules</h2>
+<ul>
+  <li><strong>Treble sensitivity cap.</strong> If your answers say bright treble bothers you, lower treble is capped at your tolerance level whatever the other evidence says (a labelled heuristic).</li>
+  <li><strong>Agreement is reported.</strong> The page shows whether your music and answers agree, refine each other or differ — in words, never as a percentage (the certainty is a model's, not a measured probability).</li>
+</ul>
+<p>The output is a <strong>preference curve</strong>: nine band offsets in dB relative to the reference target, with an 80&nbsp;% credible range — the line you see drawn as "your sound".</p>
+
+<!-- ================================================================== 6 -->
+<h1 class="flow"><span class="num">SECTION 6</span>How earphones are ranked</h1>
+<p class="lede">Recommender <code>harman-personal/1</code>: content-based — it compares each earphone's measured sound with your target. It does not learn from other users, so there is no cold-start problem and no popularity bias.</p>
+<h2>Step by step</h2>
+<ol>
+  <li><strong>Eligible earphones (787).</strong> In-ears measured on the reference coupler (IEC 60318-4), or converted into it, covering at least 80% of 20 Hz–10 kHz. Headphones and unknown rigs are not ranked. With a budget, known prices outside it are dropped; unknown prices are kept and flagged, never silently dropped.</li>
+  <li><strong>Your personal target</strong> = Harman in-ear 2019 + your nine band offsets, interpolated smoothly in log-frequency.</li>
+  <li><strong>Error curve</strong> = the earphone's measured response − your target, both aligned at 500 Hz, on a 1/40-decade grid (R40) from 20 Hz to 10 kHz.</li>
+  <li><strong>Predicted preference</strong> from the Olive, Welti &amp; Khonsaripour (2017) in-ear model:</li>
+</ol>
+<div class="formula">Score = 100.08 − 8.5 × SD − 6.8 × |slope| − 3.5 × AAE</div>
+<table>
+  <tr><th style="width:14%">Term</th><th>What it measures</th><th style="width:30%">Cost</th></tr>
+  <tr><td>SD</td><td>Standard deviation of the error curve: how bumpy it is — peaks and dips.</td><td>8.5 points per dB — the heaviest.</td></tr>
+  <tr><td>slope</td><td>Slope of the error against log-frequency: an overall tilt (too much bass overall, too bright overall).</td><td>6.8 points per unit of slope.</td></tr>
+  <tr><td>AAE</td><td>Average absolute error from 40 Hz to 10 kHz after aligning at 500 Hz.</td><td>3.5 points per dB.</td></tr>
+</table>
+<ol start="5">
+  <li><strong>Your uncertainty.</strong> Your profile is a distribution, so each earphone is scored against <strong>256 draws</strong> of your curve (seeded, so results are reproducible). The ranking uses the <em>expected</em> score; the 10th–90th percentile is shown as the range.</li>
+  <li><strong>Converted measurements.</strong> 584 of the 787 were measured on "711 clone" couplers (Super Review, Hi End Portable, squig.link). They are converted to the reference rig by the median difference over <strong>60 earphones measured on both rigs</strong>. The conversion's own error (those 60 residuals) widens the range, but does not lower the expected score — otherwise every converted earphone would be marked down for noise that directly measured ones also carry.</li>
+  <li><strong>Ranked purely by expected score.</strong> Labels: 80+ close, 62+ good, 45+ partial, below that poor (after Olive et al.'s quality categories). Price, brand, popularity, photos, reviews and listening context never change the order.</li>
+  <li><strong>Reasons</strong> are written from the same error curve, region by region (bass, lower mids, vocals, treble, air), compared with how sure your target is there. Above 10 kHz is reported as unreliable: couplers are specified to 10 kHz and the model stops there.</li>
+</ol>
+<div class="box warn"><h3>The honest caveat</h3>The Olive model was fitted to average listeners against the reference target. Using it against a <em>personal</em> target is an extension — reasonable, but not what the paper validated. The code labels it as such, and an alternative ranking (<code>band-rms/1</code>, reliability-weighted RMS band error) exists to check that results are not an artefact of one model.</div>
+
+<!-- ================================================================== 7 -->
+<h1 class="flow"><span class="num">SECTION 7</span>Hearing an earphone on your own music</h1>
+<p class="lede">New: from the store or your matches, press <em>Listen</em> and your music plays through that earphone's measured tuning.</p>
+<ol>
+  <li><strong>The curve (server).</strong> <code>GET /api/store/products/{slug}/listen</code> returns a gain curve: the earphone's measured response <strong>minus a baseline</strong>. The baseline is <em>your own earphones</em> if you told AURALS what you wear and they are measured on the same rig — then what you hear approximates swapping one for the other. Otherwise it is the reference target, and you hear the earphone's difference from neutral through whatever you are wearing.</li>
+  <li><strong>Made safe and honest.</strong> Smoothed (1/6 octave in the mids, 1/3 octave above 6 kHz), softened above 8 kHz (halved by 16 kHz — couplers say less about your own ears up there), faded outside 20 Hz–20 kHz and limited to ±12 dB. Only earphones measured on, or converted to, the reference rig have a curve — nothing is invented for the rest.</li>
+  <li><strong>The filter (browser).</strong> The curve becomes a <strong>linear-phase FIR filter</strong> (8,192 taps, built directly from the curve by an inverse cosine transform with a Blackman window), applied with a Web Audio <code>ConvolverNode</code> in an <code>OfflineAudioContext</code>. The filter's delay is removed so the shaped clip lines up sample-for-sample with the original.</li>
+  <li><strong>Level-matched</strong> by K-weighted loudness, peaks held under full scale — so the earphone can't win by being louder.</li>
+  <li><strong>The listening bar.</strong> One bar at the foot of the screen: the earphone, the song, an <em>As it is / Through it</em> switch, and the shape being applied drawn as a line. Switching earphones or on/off happens at the same playhead with a 60 ms cross-fade. The song defaults to a reference loop synthesised in the browser; your own song (from your playlist or a file) is one tap away. A notes panel says exactly what it is and what it can't be: <em>frequency response only — fit, seal, distortion and imaging are not in it</em>.</li>
+</ol>
+
+<!-- ================================================================== 8 -->
+<h1 class="flow"><span class="num">SECTION 8</span>The data and where it came from</h1>
+<table>
+  <tr><th style="width:42%">Quantity</th><th>Value (15 Nov 2026)</th></tr>
+  <tr><td>Products in the catalogue</td><td>2,541 (earphones and headphones)</td></tr>
+  <tr><td>Frequency-response measurements</td><td>4,052, covering 2,510 products</td></tr>
+  <tr><td>Matching pool (ranked in-ears)</td><td>787 = 203 on IEC 60318-4 (oratory1990) + 584 converted from clone couplers (Super Review 393, Hi End Portable 181, squig.link 10)</td></tr>
+  <tr><td>Rig conversion basis</td><td>60 earphones measured on both rigs</td></tr>
+  <tr><td>Products with verified photos</td><td>1,848</td></tr>
+  <tr><td>Price observations</td><td>833; 460 products with a rupee price</td></tr>
+  <tr><td>Indian retailers</td><td>Headphone Zone, Amazon India, ConceptKart, The Audio Store, Flipkart, AVStore, HiFiNage, Pro Audio Brands, Reliance Digital, Ooberpad, Sony Center, ProHiFi</td></tr>
+  <tr><td>Targets</td><td>Harman in-ear 2019 (and a no-bass variant), on IEC 60318-4</td></tr>
+  <tr><td>Review evidence</td><td>5 publication reviews (hand-gathered) and 40 Reddit discussions</td></tr>
+  <tr><td>Song analyses cached</td><td>1,488</td></tr>
+</table>
+<h2>Sources</h2>
+<ul>
+  <li><strong>Measurements:</strong> the AutoEq project (code under the MIT licence), pinned to one commit so every import is reproducible; it redistributes measurements made by oratory1990, Super Review, Hi End Portable, RTINGS and others, each credited. Plus squig.link databases, with their rig recorded (or stored as unknown, and then not ranked).</li>
+  <li><strong>Photos:</strong> manufacturer and retailer product pages, each stored with its source URL and credit; a product without one says "No photograph yet" rather than showing a stand-in.</li>
+  <li><strong>Prices:</strong> observations, not properties — each has a source, a URL and the date it was seen. A price without a source is refused.</li>
+</ul>
+<h2>Rules the data follows</h2>
+<ul>
+  <li>Raw measurement points are stored unchanged forever; derived curves are separate rows keyed by processor version.</li>
+  <li>Unknown stays unknown: an unmeasured band is omitted, never filled; a product with no measurement is listed but not scored.</li>
+  <li>Measurements and opinions never mix: reviews live in their own tables.</li>
+</ul>
+
+<!-- ================================================================== 9 -->
+<h1 class="flow"><span class="num">SECTION 9</span>The Blender films</h1>
+<p class="lede">Both films — the homepage sea and the departure ascent — are rendered from one Blender scene built entirely by script (<code>design/film/sea/build_sea.py</code>), so every choice is in code and reproducible.</p>
+<h2>The scene</h2>
+<table>
+  <tr><th style="width:22%">Element</th><th>How it is made</th></tr>
+  <tr><td>Sky</td><td><strong>Physical Atmosphere²</strong>: a physically based atmosphere (Rayleigh and aerosol scattering with a maritime-tropical aerosol profile, clean air), three ray-marched volumetric cloud layers (low cumulus, mid altocumulus, high cirrus) at 50% coverage, stars and the Milky Way, and a moon. The sun's elevation is keyed from +6° (golden hour) to −16° (night).</td></tr>
+  <tr><td>Sea</td><td><strong>Physical Open Waters</strong>: waves from a physical spectrum — wavelengths 0.15–70 m, height 2.4 m, wind 9.5 m/s, choppiness 0.28, waves from a spread of directions — plus faint capillary ripples, deep navy water and a few whitecaps.</td></tr>
+  <tr><td>Coast</td><td>Small emissive quads 12–16 km away, clustered into towns, fading in after sunset — a line of warm lights on the horizon.</td></tr>
+  <tr><td>Camera</td><td>50 mm lens at f/2, 3.6–4.4 m above the water, a slow drift forward; the ascent adds motion blur and rises to about 48 m into the sun.</td></tr>
+  <tr><td>Colour</td><td>AgX view transform, "Medium High Contrast" look.</td></tr>
+</table>
+<h2>Rendering</h2>
+<ul>
+  <li><strong>Cycles</strong>, Blender's path tracer, on the GPU through NVIDIA OptiX, with adaptive sampling and denoising; 1920×1080, 16-bit PNG.</li>
+  <li>About 20–25 s per frame for the sea (144 frames), about 33 s for the ascent (96 frames, motion blur).</li>
+  <li>Rendered in resumable chunks (8–24 frames per Blender process, skipping frames already on disk), because the machine powered off several times under long full-GPU load.</li>
+  <li>An add-on quirk worth knowing: the sky's exposure is set <em>per frame by a handler</em>, not keyframed — keyframes don't trigger the add-on's own exposure compensation.</li>
+</ul>
+<h2>Finishing (<code>grade.py</code>) and playback</h2>
+<ul>
+  <li><strong>Sky de-streak:</strong> the sky add-on bakes faint horizontal streaks into close clouds; a vertical-only blur over the sky (above the detected horizon, never the sea) removes them, fading out by night so the stars stay points.</li>
+  <li><strong>Bloom</strong> (the sun and glitter glow into the air), <strong>split-toning</strong> (cool shadows, warm highlights), <strong>vignette</strong>, and <strong>dithering</strong> to 8 bits so long sky gradients don't band.</li>
+  <li>Saved as WebP at quality 90 (about 200 KB a frame) and played by <code>FilmCanvas</code> (section 3).</li>
+</ul>
+
+<!-- ================================================================== 10 -->
+<h1 class="flow"><span class="num">SECTION 10</span>Glossary of animation techniques</h1>
+<p class="lede">The names to use when someone asks "how did you do that?"</p>
+<table>
+  <tr><th style="width:30%">Technique</th><th>What it is</th><th style="width:22%">Where</th></tr>
+  <tr><td>Scroll-scrubbed image sequence</td><td>A pre-rendered film whose frame is chosen by scroll position and drawn to a canvas.</td><td>Home</td></tr>
+  <tr><td>Spring smoothing</td><td>A value follows its target like a damped spring, giving motion inertia (Motion <code>useSpring</code>).</td><td>Home, everywhere</td></tr>
+  <tr><td>Path tracing</td><td>Rendering by simulating light paths; physically correct reflections and sky light (Blender Cycles).</td><td>Films</td></tr>
+  <tr><td>Volumetric ray marching</td><td>Stepping through a cloud's volume along each ray to accumulate light and density.</td><td>Film clouds</td></tr>
+  <tr><td>Spectral ocean</td><td>Waves summed from a physical wave spectrum set by wind and wavelength.</td><td>Film sea</td></tr>
+  <tr><td>Colour grading</td><td>AgX tone mapping, bloom, split-toning, vignette, dithering.</td><td>Films</td></tr>
+  <tr><td>Fragment shader (GLSL)</td><td>A small GPU program that computes the colour of every pixel, every frame.</td><td>Afterglow, evening sky</td></tr>
+  <tr><td>GPU particles + curl noise</td><td>Thousands of points moved on the GPU along a divergence-free noise field, so they swirl like ink without bunching.</td><td>Analysis "Arrival"</td></tr>
+  <tr><td>Real-time 3D (three.js / React Three Fiber)</td><td>A scene graph rendered with WebGL, declared as React components; <code>frameloop="demand"</code> draws only when something changes.</td><td>Sound Card, book</td></tr>
+  <tr><td>Custom shader materials</td><td>Materials whose look is computed by our own shader code (engraving, foil).</td><td>Sound Card</td></tr>
+  <tr><td>Baked global illumination</td><td>Light bounced around a scene computed offline in Blender and stored in textures.</td><td>Book terrace</td></tr>
+  <tr><td>Clock-driven (scrubbable) animation</td><td>Every frame's state is a pure function of time, so replay, pause and skip are trivial.</td><td>Book, card</td></tr>
+  <tr><td>Shared-element / layout animation (FLIP)</td><td>An element moves smoothly between two layouts; Motion's <code>layoutId</code>.</td><td>Match, store, tune, header</td></tr>
+  <tr><td>SVG path drawing</td><td>A stroke drawn progressively (<code>pathLength</code> / dash offset).</td><td>Wordmark, name transition, charts</td></tr>
+  <tr><td>SVG path morphing</td><td>Interpolating between two shapes with the same number of points.</td><td>Name transition</td></tr>
+  <tr><td>Staggered reveal</td><td>Items (letters, lines) animate in with a small delay each.</td><td>Name, headings</td></tr>
+  <tr><td>Cross-fade at the playhead</td><td>Audio switches between versions in 40–60 ms without restarting.</td><td>Duel, listening bar</td></tr>
+  <tr><td>Linear-phase FIR filter</td><td>An audio filter that shapes frequency without phase distortion, built from a target curve.</td><td>Listening bar</td></tr>
+</table>
+
+<!-- ================================================================== 11 -->
+<h1 class="flow"><span class="num">SECTION 11</span>Privacy and security</h1>
+<table>
+  <tr><th style="width:28%">Concern</th><th>What AURALS does</th></tr>
+  <tr><td>Accounts</td><td>Anonymous-first: a display name only. A random 256-bit token in an HttpOnly, SameSite=Lax cookie (Secure in production); only its SHA-256 hash is stored, so a database leak doesn't leak sessions.</td></tr>
+  <tr><td>CSRF</td><td>State-changing requests must carry a custom header (<code>x-auralis-client: web</code>); with SameSite=Lax cookies that closes CSRF without token plumbing.</td></tr>
+  <tr><td>Audio</td><td>Downloaded temporarily, measured, deleted. Only numbers are stored. Files chosen from your device are decoded in your browser and never uploaded.</td></tr>
+  <tr><td>URL input (SSRF)</td><td>User input is reduced to a (kind, id) pair; only URLs AURALS constructs reach yt-dlp, and extraction is restricted to YouTube extractors.</td></tr>
+  <tr><td>Secrets</td><td>Environment variables only (<code>AURALIS_*</code>), held as <code>SecretStr</code>, never sent to the browser.</td></tr>
+  <tr><td>Deletion</td><td>One action deletes the profile and everything that hangs off it (cascade).</td></tr>
+  <tr><td>Sound Card QR</td><td>Holds only an address; the card page needs your session, so a stranger scanning it reaches the start of AURALS.</td></tr>
+  <tr><td>Evaluation data</td><td>Real libraries appear only as anonymous aggregates.</td></tr>
+  <tr><td>External AI and scraping</td><td>Off by default. The LLM only labels quoted text; Reddit retrieval needs explicit opt-in.</td></tr>
+</table>
+
+<!-- ================================================================== 12 -->
+<h1 class="flow"><span class="num">SECTION 12</span>Testing and quality</h1>
+<ul>
+  <li><strong>259 backend tests</strong> (pytest) against a real PostgreSQL, rebuilt with Alembic each run, so migrations are exercised too. Examples: the listening curve follows a bass shelf and is limited; rig families are never compared; budgets flag rather than drop unknown prices.</li>
+  <li><strong>101 frontend unit tests</strong> (Vitest), e.g. the FIR filter follows the curve within 0.5 dB and is symmetric (linear phase).</li>
+  <li><strong>Playwright end-to-end tests</strong> on desktop Chrome and a Pixel 7 profile, plus capture specs that walk the real journey with a throwaway listener and delete it afterwards.</li>
+  <li><strong>Static checks:</strong> ruff, mypy, ESLint (including React's hooks rules), Prettier, TypeScript — all clean.</li>
+  <li><strong>Model checks:</strong> <code>auralis evaluate</code> sweeps every documented assumption (prior spreads, answer reliability, ρ…) to show how much rankings depend on each; a simulation checks that the tuning duel recovers a simulated listener's preference before any claim is made.</li>
+</ul>
+
+<!-- ================================================================== 13 -->
+<h1 class="flow"><span class="num">SECTION 13</span>Questions you will likely be asked</h1>
+<div class="qa">
+<p class="q">Is this machine learning / AI?</p>
+<p>Mostly classical and statistical, deliberately. Signal processing measures the music; a Bayesian model (closed-form Gaussian updates, a probit model for A/B choices) builds the profile; a published regression model (Olive et al.) scores earphones; k-means finds listening modes. An LLM is used only to label review quotes. There is no labelled dataset of "listener → favourite earphone" to train a supervised recommender on, and pretending otherwise would be overfitting to nothing.</p>
+<p class="q">Why should music predict what earphones I like?</p>
+<p>It is a stated hypothesis (ρ), not a fact: people who listen to bass-heavy music may want more bass. That is why music never decides alone — it is weighed against your answers and your own listening, and the strength of the link is a single documented parameter that the evaluation sweeps (including ρ = 0, "music says nothing").</p>
+<p class="q">How do you combine music, answers and listening — what are the weights?</p>
+<p>No fixed weights. Each source is a Gaussian with a variance; the posterior is the precision-weighted combination. For a typical listener that works out at about a third each for music and answers, the rest prior and listening (section 5's table).</p>
+<p class="q">What is the Harman target?</p>
+<p>A frequency response that most listeners preferred in controlled blind tests by Sean Olive and colleagues at Harman. AURALS uses it as the "average listener" reference and moves it by your preferences.</p>
+<p class="q">How is the score calculated?</p>
+<p>Score = 100.08 − 8.5·SD − 6.8·|slope| − 3.5·AAE of the error between the earphone and your target (Olive, Welti &amp; Khonsaripour 2017), computed 256 times across your uncertainty and averaged.</p>
+<p class="q">Many earphones were measured on different equipment. Isn't that comparing apples and oranges?</p>
+<p>Yes, which is why they are converted: the median difference between rigs is learned from 60 earphones measured on both, and the conversion's error widens each converted earphone's range. Earphones on rigs with no conversion are not ranked at all.</p>
+<p class="q">Do you store my music?</p>
+<p>No. Audio is downloaded temporarily, measured and deleted; files from your device never leave your browser. Only the numbers are stored, and you can delete everything.</p>
+<p class="q">How does "listen through an earphone" work? Is it accurate?</p>
+<p>Your music is filtered by the earphone's measured response minus a baseline (your own earphones if measured, otherwise neutral), with a linear-phase FIR filter, level-matched. It reproduces tonal balance only — not fit, seal, distortion or soundstage — and the page says so.</p>
+<p class="q">Why not WebSockets for progress?</p>
+<p>Each step commits its own state; polling is simpler, survives refreshes and needs no extra infrastructure. The work is seconds-to-minutes, so 0.4–1.5 s polling is invisible.</p>
+<p class="q">How did you make the homepage animation?</p>
+<p>A path-traced film of a procedural ocean and a physical sky, rendered in Blender with Cycles on an RTX 3090, graded in Python, saved as WebP frames, and played on a canvas by scroll position with spring smoothing — a scroll-scrubbed image sequence.</p>
+<p class="q">Why pre-render instead of real-time WebGL?</p>
+<p>Path-traced water and volumetric clouds take 20–30 seconds per frame on a high-end GPU; no browser can do that 60 times a second. Pre-rendering gives cinema quality on any laptop for the cost of downloading about 30 MB of frames.</p>
+<p class="q">What is the Sound Card made with?</p>
+<p>React Three Fiber (three.js) with custom shaders: the artwork is painted into textures and engraved into one of 14 materials; the finish is chosen from your music's measured character.</p>
+<p class="q">How do you stop a louder option winning the A/B test?</p>
+<p>Every version is rendered offline and matched by K-weighted loudness (the BS.1770 measure) before you hear it.</p>
+<p class="q">What happens if a playlist is huge or contains junk?</p>
+<p>Up to 120 songs, sampled evenly; live streams, long mixes and altered uploads are set aside before download; duplicates count once; outliers are detected; a small or inconsistent library automatically counts for less (its bootstrap standard error is larger).</p>
+<p class="q">Where do prices come from?</p>
+<p>Observed listings from 12 Indian retailers, each with its source URL and the date it was seen; rupees first, cheapest first. Unknown prices are shown as unknown.</p>
+<p class="q">Is the Reddit data legal?</p>
+<p>The Reddit provider is off by default; it is an explicit opt-in recorded in the code, using a third-party scraper. For a public launch it should move to Reddit's official Data API. Quotes are short, attributed and linked.</p>
+</div>
+
+<!-- ================================================================== 14 -->
+<h1 class="flow"><span class="num">SECTION 14</span>Honest limitations</h1>
+<p class="lede">Say these before someone else finds them.</p>
+<ul>
+  <li><strong>Not yet validated with listeners.</strong> The next phase is a listening study: do people actually prefer what AURALS ranks first? Until then the ranking rests on published research plus documented assumptions.</li>
+  <li><strong>ρ, the link between music and preference, is a hypothesis.</strong> Its value was chosen so a large library counts like one direct answer; the evaluation shows what happens if it is wrong.</li>
+  <li><strong>The Olive model on a personal target is an extension</strong> of what the paper validated.</li>
+  <li><strong>Couplers are not ears.</strong> Above about 8–10 kHz a measurement says little about any one person's ears; AURALS reports that region as unreliable.</li>
+  <li><strong>Converted measurements are estimates</strong> (with their error carried as a wider range).</li>
+  <li><strong>The listening duel carries little weight</strong> with only 8 trials over six dimensions; more trials would let your own ears count for more.</li>
+  <li><strong>Listening through an earphone</strong> is tonal balance only, and still heard through your own earphones unless those are measured.</li>
+  <li><strong>Development build.</strong> The two Blender add-ons are commercial products whose licences must be in order before any public use; the Reddit scraper should be replaced by the official API for a launch.</li>
+</ul>
+<div class="box say" style="margin-top:8mm">
+  <h3>If you only remember one line</h3>
+  "AURALS measures your music, asks your ears and asks you, combines all three by how informative each is, and ranks 787 measured earphones with a published preference model — and everything it shows can be traced back to a measurement."
+</div>
+
+</body>
+</html>

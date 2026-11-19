@@ -1,0 +1,21 @@
+# PostgreSQL for local development, if you have Docker.
+# Without Docker, `python scripts/devdb.py init` does the same with local binaries.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: auralis
+      POSTGRES_PASSWORD: auralis
+      POSTGRES_DB: auralis
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./scripts/create-test-db.sql:/docker-entrypoint-initdb.d/10-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U auralis"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  pgdata:

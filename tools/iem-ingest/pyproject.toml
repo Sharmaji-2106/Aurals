@@ -1,0 +1,5 @@
+[project]
+name = "auralis-iem-ingest"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = ["httpx>=0.28", "selectolax>=0.3", "pillow>=11", "imagehash>=4.3"]

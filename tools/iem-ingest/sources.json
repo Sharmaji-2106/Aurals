@@ -1,0 +1,40 @@
+{
+  "autoeq_super_review": {
+    "url": "https://github.com/jaakkopasanen/AutoEq/tree/7ae0f56d53074872b028649617a22bbb4232feb7/measurements/Super%20Review",
+    "adapter": "intake.py measurements (pilot); phase2b_bulk_superreview.py and phase2b_bulk_superreview_variants.py (bulk)",
+    "rigs": ["711", "KB006x + 711"],
+    "rig_family": "iec60318-4-clone",
+    "terms": "AutoEq repository is MIT licensed; underlying Super Review numerical measurement redistribution terms unconfirmed. Attribute both; do not claim the source measurements are MIT licensed."
+  },
+  "linsoul_shopify": {
+    "url": "https://www.linsoul.com/products.json",
+    "adapter": "intake.py catalogue/images; catalogue_pilot.py",
+    "terms": "Public product JSON. Retailer claims are unverified claims; product photos remain copyrighted, reuse permission unconfirmed."
+  },
+  "autoeq_crinacle_index": {
+    "url": "https://github.com/jaakkopasanen/AutoEq/tree/7ae0f56d53074872b028649617a22bbb4232feb7/measurements/crinacle",
+    "adapter": "phase2b_bulk_other.py rtings; numeric CSV import completed in Phase 2B",
+    "rigs": ["711", "Bruel & Kjaer 4620"],
+    "rig_family": "unknown pending source-specific validation",
+    "terms": "Underlying measurement and commercial-use terms unconfirmed; index used for discovery only."
+  },
+  "autoeq_rtings_index": {
+    "url": "https://github.com/jaakkopasanen/AutoEq/tree/7ae0f56d53074872b028649617a22bbb4232feb7/measurements/Rtings",
+    "adapter": "coverage.py index only",
+    "rigs": ["HMS II.3", "Bruel & Kjaer 5128"],
+    "rig_family": "hms-ii-3 for HMS II.3; bk-5128 for Bruel & Kjaer 5128; both unranked",
+    "terms": "Underlying RTINGS numerical data reuse terms unconfirmed/restrictive; owner must clear rights before public release."
+  },
+  "autoeq_hi_end_portable": {
+    "url": "https://github.com/jaakkopasanen/AutoEq/tree/7ae0f56d53074872b028649617a22bbb4232feb7/measurements/Hi%20End%20Portable",
+    "adapter": "phase2b_bulk_other.py hiend; numeric CSV import completed in Phase 2B",
+    "rigs": ["711"],
+    "rig_family": "iec60318-4-clone; unranked",
+    "terms": "Underlying Hi End Portable numerical measurement redistribution terms unconfirmed; owner must clear rights before public release."
+  },
+  "retailer_images_phase2b": {
+    "url": "public products.json endpoints for Linsoul, HiFiGo, ShenzhenAudio, Apos, Headphones.com, Audio46, Bloom Audio, MusicTeck, Etymotic, Westone Audio, Final Audio and Thieaudio",
+    "adapter": "phase2_images.py, phase2_stage_library.py, phase2_mattes.py, phase2_publish_mattes.py",
+    "terms": "Authentic product photographs copyrighted by respective owners; reuse permission unconfirmed; each image records exact source page, CDN original, credit and retrieval date."
+  }
+}

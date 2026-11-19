@@ -1,0 +1,79 @@
+{
+  "id": "corpus-2026-09",
+  "description": "Provisional calibration from 30 commercially released tracks across 21 genres (corpus-2026-09.tsv). Small and hand-picked: treat descriptor values as relative indications, not population percentiles.",
+  "track_count": 30,
+  "metrics": {
+    "band:sub_bass": [
+      -0.1508,
+      13.6361
+    ],
+    "band:mid_bass": [
+      3.3799,
+      3.6613
+    ],
+    "band:lower_mids": [
+      0.8623,
+      2.5269
+    ],
+    "band:mids": [
+      0.8612,
+      0.7136
+    ],
+    "band:upper_mids": [
+      -2.8447,
+      1.8111
+    ],
+    "band:presence": [
+      -6.3681,
+      3.6484
+    ],
+    "band:lower_treble": [
+      -8.1611,
+      6.563
+    ],
+    "band:upper_treble": [
+      -11.4185,
+      6.3641
+    ],
+    "band:air": [
+      -20.6613,
+      6.9169
+    ],
+    "log2_centroid": [
+      11.4806,
+      0.5165
+    ],
+    "tilt_db": [
+      5.7209,
+      3.4402
+    ],
+    "onset_rate_hz": [
+      3.3395,
+      1.0143
+    ],
+    "percussive_ratio": [
+      0.2782,
+      0.1442
+    ],
+    "integrated_lufs": [
+      -9.9017,
+      4.2725
+    ],
+    "loudness_range_lu": [
+      5.5701,
+      4.2707
+    ],
+    "peak_to_loudness_db": [
+      11.0909,
+      2.4181
+    ],
+    "side_to_mid_db": [
+      -8.1316,
+      4.2705
+    ],
+    "log10_flatness": [
+      -2.855,
+      0.8782
+    ]
+  }
+}

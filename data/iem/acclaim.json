@@ -1,0 +1,79 @@
+{
+  "about": "Earphones named as recommendations in published roundups and reviews. Read 2026-11-16. Each entry is what the page itself says; products are matched to the catalogue only on an exact model match (a 'Pro X' is not a 'Pro'; a DSP edition is not the plain one). Used by auralis.recommend.standing as one part of 'community standing', which can add at most a few points to a ranking and is always shown. Store blogs carry half weight.",
+  "retrieved_on": "2026-11-16",
+  "sources": [
+    {
+      "id": "geekman-2026",
+      "publisher": "Geekman",
+      "title": "Best IEM in India (2026): All Budget!",
+      "url": "https://www.geekman.in/best-iem-in-india/",
+      "published_on": "2026-11-09",
+      "weight": 1.0,
+      "picks": {
+        "twistura-d-minor": "bass-forward budget pick",
+        "aful-explorer": "highest-rated on the list; warm, bass-tilted hybrid",
+        "simgot-ew300": "punchy, detailed V-shape",
+        "truthear-hexa": "neutral hybrid, clean vocals",
+        "kz-duonic": "budget dynamic + planar hybrid",
+        "truthear-x-crinacle-zero-red": "neutral with a bass shelf",
+        "kz-phantom": "tunable gaming IEM",
+        "moondrop-aria-2": "smooth, mid-centric vocals",
+        "7hz-salnotes-zero": "neutral-bright, vocal-forward",
+        "kz-edx-pro": "the cheapest way to try an IEM"
+      }
+    },
+    {
+      "id": "sportskeeda-2025",
+      "publisher": "Sportskeeda",
+      "title": "5 best IEMs under Rs 10,000",
+      "url": "https://tech.sportskeeda.com/wearables/best-iems-rs-10-000",
+      "published_on": "2025-11-09",
+      "weight": 1.0,
+      "picks": {
+        "simgot-ew300": "balanced, refined sound; tunable",
+        "sennheiser-ie-200": "warm, balanced, natural sound",
+        "truthear-pure": "bass-heavy music and EDM"
+      }
+    },
+    {
+      "id": "headphonezone-under-5000",
+      "publisher": "Headphone Zone",
+      "title": "Comparing the Best Earphones under ₹5000 (2024 Updated)",
+      "url": "https://www.headphonezone.in/blogs/audiophile-101/comparing-the-best-earphones-under-5000-updated-2024",
+      "published_on": "2024",
+      "weight": 0.5,
+      "picks": {
+        "truthear-x-crinacle-zero-red": "balanced sound with just enough bass",
+        "kiwi-ears-cadenza": "budget upgrade, extra bass",
+        "simgot-ew200": "livelier, crisper sound",
+        "kz-zs10-pro-x": "energetic V-shape",
+        "fiio-fh11": "smoother V-shape",
+        "final-vr2000": "wide soundstage and imaging, gaming",
+        "qkz-x-hbb-hades": "for maximum low-end quantity"
+      }
+    },
+    {
+      "id": "voltray-bass-2026",
+      "publisher": "The Voltray Vault (store blog)",
+      "title": "Best Budget Bass IEMs for Hip-Hop & EDM (2026)",
+      "url": "https://voltrayvault.com/blogs/news/best-bass-budget-iems-hip-hop-edm",
+      "published_on": "2026-09-24",
+      "weight": 0.5,
+      "picks": {
+        "kz-zsn-pro-2": "sub-bass-forward, vibrant",
+        "kiwi-ears-cadenza": "smooth, warm, non-fatiguing bass"
+      }
+    },
+    {
+      "id": "creativebloq-defiant",
+      "publisher": "Creative Bloq",
+      "title": "Budget earphones have come a long way: The Juzear Defiant shows us just how far",
+      "url": "https://www.creativebloq.com/tech/headphones-earbuds/usd120-earphones-have-come-a-long-way-the-juzear-defiant-shows-us-just-how-far",
+      "published_on": null,
+      "weight": 1.0,
+      "picks": {
+        "juzear-x-z-reviews-defiant": "exciting sound, excellent accessories, exceptional value"
+      }
+    }
+  ]
+}
