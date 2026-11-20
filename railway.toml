@@ -1,9 +1,9 @@
 [build]
-# Only build the backend directory
+builder = "DOCKERFILE"
 dockerfilePath = "backend/Dockerfile"
+watchPatterns = ["backend/**"]
 
 [deploy]
-startCommand = ""
 healthcheckPath = "/api/health"
 healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"

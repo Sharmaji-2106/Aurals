@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Install system dependencies for audio processing (librosa, av, soxr)
+# Install system dependencies for audio processing (librosa, av, soxr, yt-dlp)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ffmpeg \
     libsndfile1 \
@@ -11,20 +11,18 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /app
 
-# Copy dependency files first for caching
+# Copy the whole backend directory (dependency files + source)
 COPY backend/pyproject.toml backend/uv.lock ./
-
-# Install dependencies (no dev deps in production)
-RUN uv sync --frozen --no-dev
-
-# Copy backend source code
 COPY backend/src ./src
 COPY backend/migrations ./migrations
 COPY backend/alembic.ini ./
 COPY backend/run_prod.py ./
 
+# Install dependencies (production only) and the project itself
+RUN uv sync --frozen --no-dev
+
 # Expose the port Railway provides
 EXPOSE ${PORT:-8080}
 
-# Run the production launcher
+# Run the production launcher (uv run ensures venv is active)
 CMD ["uv", "run", "python", "run_prod.py"]
