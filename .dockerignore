@@ -1,0 +1,12 @@
+# Ignore everything not needed for backend build
+web/
+data/
+scripts/
+.github/
+*.md
+.git/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+backend/.venv/
+backend/tests/
