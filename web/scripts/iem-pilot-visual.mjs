@@ -14,15 +14,22 @@ const headers = { "x-auralis-client": "web" };
 let created = false;
 try {
   const session = await context.request.post(`${base}/api/session`, {
-    headers, data: { display_name: "IEM Pilot QA" },
+    headers,
+    data: { display_name: "IEM Pilot QA" },
   });
   if (!session.ok()) throw new Error(`session: ${session.status()} ${await session.text()}`);
   created = true;
   const answers = await context.request.post(`${base}/api/questionnaire/responses`, {
     headers,
-    data: { version: "perceptual/1", answers: {
-      bass_amount: "4", tone: "3", vocals: "3", treble_feel: "fine",
-    } },
+    data: {
+      version: "perceptual/1",
+      answers: {
+        bass_amount: "4",
+        tone: "3",
+        vocals: "3",
+        treble_feel: "fine",
+      },
+    },
   });
   if (!answers.ok()) throw new Error(`questionnaire: ${answers.status()} ${await answers.text()}`);
   const recommendations = await context.request.get(`${base}/api/recommendations?limit=9`);
@@ -43,9 +50,11 @@ try {
   const image = page.locator('img[alt="Moondrop Variations"]:visible').first();
   await image.waitFor({ timeout: 30000 });
   await page.waitForTimeout(1000);
-  const decoded = await page.evaluate(() => [...document.images].some(
-    (element) => element.alt === "Moondrop Variations" && element.complete && element.naturalWidth > 0,
-  ));
+  const decoded = await page.evaluate(() =>
+    [...document.images].some(
+      (element) => element.alt === "Moondrop Variations" && element.complete && element.naturalWidth > 0,
+    ),
+  );
   if (!decoded) {
     throw new Error("Variations photograph did not decode on /match");
   }
