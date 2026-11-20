@@ -42,8 +42,13 @@ class Timestamped:
 
 @lru_cache
 def get_engine() -> Engine:
+    raw_url = get_settings().database_url.get_secret_value()
+    if raw_url.startswith("postgres://"):
+        raw_url = "postgresql+psycopg://" + raw_url[len("postgres://") :]
+    elif raw_url.startswith("postgresql://"):
+        raw_url = "postgresql+psycopg://" + raw_url[len("postgresql://") :]
     return create_engine(
-        get_settings().database_url.get_secret_value(),
+        raw_url,
         pool_pre_ping=True,
         pool_size=10,
         max_overflow=10,

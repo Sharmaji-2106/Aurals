@@ -8,7 +8,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import Field, SecretStr
+from pydantic import AliasChoices, Field, SecretStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -18,9 +18,24 @@ class Settings(BaseSettings):
     )
 
     env: Literal["development", "test", "production"] = "development"
-    database_url: SecretStr = SecretStr(
-        "postgresql+psycopg://auralis:auralis@localhost:5432/auralis"
+    database_url: SecretStr = Field(
+        default=SecretStr(
+            "postgresql+psycopg://auralis:auralis@localhost:5432/auralis"
+        ),
+        validation_alias=AliasChoices("AURALIS_DATABASE_URL", "DATABASE_URL"),
     )
+
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def _normalize_database_url(cls, v: object) -> object:
+        if isinstance(v, SecretStr):
+            v = v.get_secret_value()
+        if isinstance(v, str):
+            if v.startswith("postgres://"):
+                v = "postgresql+psycopg://" + v[len("postgres://") :]
+            elif v.startswith("postgresql://"):
+                v = "postgresql+psycopg://" + v[len("postgresql://") :]
+        return v
 
     # Review evidence. "curated" reads only the gathering loaded by
     # `auralis seed-reviews`; "curated+reddit" also serves what community

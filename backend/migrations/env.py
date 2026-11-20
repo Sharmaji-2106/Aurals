@@ -17,6 +17,10 @@ url = (
     context.get_x_argument(as_dictionary=True).get("url")
     or get_settings().database_url.get_secret_value()
 )
+if url.startswith("postgres://"):
+    url = "postgresql+psycopg://" + url[len("postgres://") :]
+elif url.startswith("postgresql://"):
+    url = "postgresql+psycopg://" + url[len("postgresql://") :]
 config.set_main_option("sqlalchemy.url", url.replace("%", "%%"))
 target_metadata = Base.metadata
 
