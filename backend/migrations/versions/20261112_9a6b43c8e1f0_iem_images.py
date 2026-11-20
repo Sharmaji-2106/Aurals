@@ -44,7 +44,10 @@ def upgrade() -> None:
     )
     op.create_index("ix_iem_images_iem_id", "iem_images", ["iem_id"])
     op.create_index(
-        "uq_iem_images_primary", "iem_images", ["iem_id"], unique=True,
+        "uq_iem_images_primary",
+        "iem_images",
+        ["iem_id"],
+        unique=True,
         postgresql_where=sa.text("role = 'primary'"),
     )
 

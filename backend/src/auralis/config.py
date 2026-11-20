@@ -19,9 +19,7 @@ class Settings(BaseSettings):
 
     env: Literal["development", "test", "production"] = "development"
     database_url: SecretStr = Field(
-        default=SecretStr(
-            "postgresql+psycopg://auralis:auralis@localhost:5432/auralis"
-        ),
+        default=SecretStr("postgresql+psycopg://auralis:auralis@localhost:5432/auralis"),
         validation_alias=AliasChoices("AURALIS_DATABASE_URL", "DATABASE_URL"),
     )
 
