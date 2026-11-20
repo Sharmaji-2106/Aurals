@@ -85,6 +85,7 @@ def _base_options() -> dict[str, Any]:
         "retries": 3,
         "extractor_retries": 2,
         "cachedir": str(settings.work_dir / "yt-dlp-cache"),
+        "extractor_args": {"youtube": {"player_client": ["android", "ios", "mweb"]}},
     }
     runtime = settings.resolved_js_runtime()
     if runtime:
@@ -184,16 +185,21 @@ def resolve(ref: YouTubeRef) -> ResolvedSource:
 # answer, which is how tracks were lost; asking as a different client usually
 # gets a stream that downloads. `None` is yt-dlp's own default choice.
 _FALLBACK_CLIENTS: tuple[tuple[str, ...] | None, ...] = (
-    None,
-    ("android_vr",),
-    ("tv_simply",),
+    ("android",),
+    ("ios",),
     ("mweb",),
+    None,
 )
 
 
 def _forbidden(exc: DownloadError) -> bool:
     text = str(exc).lower()
-    return "http error 403" in text or "requested format is not available" in text
+    return (
+        "http error 403" in text
+        or "requested format is not available" in text
+        or "not a bot" in text
+        or "sign in to confirm" in text
+    )
 
 
 def download_audio(
